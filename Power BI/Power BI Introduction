@@ -6,3 +6,7 @@ Power BI consists of several elements that all work together, starting with thes
 A Windows desktop application called Power BI Desktop.
 An online software as a service (SaaS) service called the Power BI service.
 Power BI Mobile apps for Windows, iOS, and Android devices.
+
+Beyond those three, Power BI also features two other elements:
+Power BI Report Builder, for creating paginated reports to share in the Power BI service. 
+Power BI Report Server, an on-premises report server where you can publish your Power BI reports, after creating them in Power BI Desktop. 
