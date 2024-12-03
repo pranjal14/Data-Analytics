@@ -12,3 +12,8 @@ Power BI Report Builder, for creating paginated reports to share in the Power BI
 Power BI Report Server, an on-premises report server where you can publish your Power BI reports, after creating them in Power BI Desktop. 
 
 How Power BI matches your role
+How you use Power BI depends on your role in a project or on a team. Other people, in other roles, might use Power BI differently.
+For example, you might primarily use the Power BI service to view reports and dashboards. Your number-crunching, business-report-creating coworker might make extensive use of Power BI Desktop or Power BI Report Builder to create reports, then publish those reports to the Power BI service, where you view them. Another coworker, in sales, might mainly use the Power BI Mobile app to monitor progress on sales quotas, and to drill into new sales lead details.
+If you're a developer, you might use Power BI APIs to push data into semantic models or to embed dashboards and reports into your own custom applications. Have an idea for a new visual? Build it yourself and share it with others.
+You also might use each element of Power BI at different times, depending on what you're trying to achieve or your role for a given project.
+How you use Power BI can be based on which feature or service of Power BI is the best tool for your situation. For example, you can use Power BI Desktop to create reports for your own team about customer engagement statistics and you can view inventory and manufacturing progress in a real-time dashboard in the Power BI service. You can create a paginated report of mailable invoices, based on a Power BI semantic model. Each part of Power BI is available to you, which is why it's so flexible and compelling.
