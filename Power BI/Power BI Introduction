@@ -19,3 +19,5 @@ You also might use each element of Power BI at different times, depending on wha
 How you use Power BI can be based on which feature or service of Power BI is the best tool for your situation. For example, you can use Power BI Desktop to create reports for your own team about customer engagement statistics and you can view inventory and manufacturing progress in a real-time dashboard in the Power BI service. You can create a paginated report of mailable invoices, based on a Power BI semantic model. Each part of Power BI is available to you, which is why it's so flexible and compelling.
 
 The flow of work in Power BI
+One common workflow in Power BI begins by connecting to data sources in Power BI Desktop and building a report. You then publish that report from Power BI Desktop to the Power BI service, and share it so business users in the Power BI service and on mobile devices can view and interact with the report.
+This workflow is common, and shows how the three main Power BI elements complement one another.
