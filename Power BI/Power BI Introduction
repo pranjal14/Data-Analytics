@@ -32,3 +32,7 @@ Administration of Power BI is now handled by Microsoft Fabric, but your favorite
 Paginated reports in the Power BI service
 Another workflow involves paginated reports in the Power BI service. Enterprise report creators design paginated reports to be printed or shared. They can also share these reports in the Power BI service. They're called paginated because they're formatted to fit well on a page. They're often used for operational reports, or for printing forms such as invoices or transcripts. They display all the data in a table, even if the table spans multiple pages. Power BI Report Builder is the standalone tool for authoring paginated reports.
 
+On-premises reporting with Power BI Report Server
+What if you need to keep your reports on premises, say, behind a firewall? Read on.
+You can create, deploy, and manage Power BI reports in Power BI Desktop, and paginated reports in Report Builder, with the ready-to-use tools and services that Power BI Report Server provides.
+Power BI Report Server is a solution that you deploy behind your firewall and then deliver your reports to the right users in different ways, whether that's viewing them in a web browser, on a mobile device, or as an email. And because Power BI Report Server is compatible with Power BI in the cloud, you can move to the cloud when you're ready.
