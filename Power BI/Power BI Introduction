@@ -28,3 +28,7 @@ In the Power BI service, you can use the deployment pipeline tool to test your c
 How Microsoft Fabric works with Power BI
 Microsoft Fabric is an offering that combines data + services in a unified environment, making it easier to perform analysis and analytics on various sets of data. Power BI is an example of one of the services that's integrated with Microsoft Fabric, and your organization's OneLake data store is an example of the data that can be used, analyzed, or visualized. Large organizations find Microsoft Fabric particularly useful, since it can corral and then bring greater value to large stores of data, then using services (like Power BI) to bring such data to business life.
 Administration of Power BI is now handled by Microsoft Fabric, but your favorite tools like the Power BI service and Power BI Desktop still operate like they always have - as a service that can turn your data, whether in OneLake or in Excel, into powerful business intelligence insights.
+
+Paginated reports in the Power BI service
+Another workflow involves paginated reports in the Power BI service. Enterprise report creators design paginated reports to be printed or shared. They can also share these reports in the Power BI service. They're called paginated because they're formatted to fit well on a page. They're often used for operational reports, or for printing forms such as invoices or transcripts. They display all the data in a table, even if the table spans multiple pages. Power BI Report Builder is the standalone tool for authoring paginated reports.
+
