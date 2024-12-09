@@ -1,1 +1,9 @@
 Power BI Desktop is a free application you install on your local computer that lets you connect to, transform, and visualize your data. With Power BI Desktop, you can connect to multiple different sources of data, and combine them (often called modeling) into a data model. This data model lets you build visuals, and collections of visuals you can share as reports, with other people inside your organization. Most users who work on business intelligence projects use Power BI Desktop to create reports, and then use the Power BI service to share their reports with others.
+The most common uses for Power BI Desktop are as follows:
+
+Connect to data.
+Transform and clean data to create a data model.
+Create visuals, such as charts or graphs that provide visual representations of the data.
+Create reports that are collections of visuals on one or more report pages.
+Share reports with others by using the Power BI service.
+People who are responsible for such tasks are often considered data analysts (sometimes referred to as analysts) or business intelligence professionals (often referred to as report creators). Many people who don't consider themselves an analyst or a report creator use Power BI Desktop to create compelling reports, or to pull data from various sources. They can build data models, and then share the reports with their coworkers and organizations.
