@@ -12,3 +12,5 @@ There are three views available in Power BI Desktop, which you select on the lef
 Report: You create reports and visuals, where most of your creation time is spent.
 Data: You see the tables, measures, and other data used in the data model associated with your report, and transform the data for best use in the report's model.
 Model: You see and manage the relationships among tables in your data model.
+
+Connect to data
