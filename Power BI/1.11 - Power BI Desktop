@@ -18,4 +18,6 @@ To get started with Power BI Desktop, the first step is to connect to data. Ther
 To connect to data:
 From the Home ribbon, select Get Data > More.
 The Get Data window appears, showing the many categories to which Power BI Desktop can connect.
+When you select a data type, you're prompted for information, such as the URL and credentials, necessary for Power BI Desktop to connect to the data source on your behalf.
+
 
