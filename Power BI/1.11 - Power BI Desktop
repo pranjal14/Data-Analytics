@@ -22,3 +22,7 @@ When you select a data type, you're prompted for information, such as the URL an
 After you connect to one or more data sources, you may want to transform the data so it's useful for you.
 
 Transform and clean data, create a model
+In Power BI Desktop, you can clean and transform data using the built-in Power Query Editor. With Power Query Editor, you make changes to your data, such as changing a data type, removing columns, or combining data from multiple sources. It's like sculpting: you start with a large block of clay (or data), then shave off pieces or add others as needed, until the shape of the data is how you want it.
+To start Power Query Editor:
+On the Home ribbon, in the Queries section, select Transform data.
+The Power Query Editor window appears.
