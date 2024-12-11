@@ -21,3 +21,4 @@ The Get Data window appears, showing the many categories to which Power BI Deskt
 When you select a data type, you're prompted for information, such as the URL and credentials, necessary for Power BI Desktop to connect to the data source on your behalf.
 After you connect to one or more data sources, you may want to transform the data so it's useful for you.
 
+Transform and clean data, create a model
