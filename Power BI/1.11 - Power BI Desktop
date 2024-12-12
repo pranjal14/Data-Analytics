@@ -30,3 +30,4 @@ Each step you take in transforming data (such as renaming a table, transforming 
 Once your data is how you want it, you can create visuals.
 
 Create visuals
+After you have a data model, you can drag fields onto the report canvas to create visuals. A visual is a graphic representation of the data in your model. There are many different types of visuals to choose from in Power BI Desktop. The following visual shows a simple column chart.
