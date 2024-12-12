@@ -28,3 +28,5 @@ On the Home ribbon, in the Queries section, select Transform data.
 The Power Query Editor window appears.
 Each step you take in transforming data (such as renaming a table, transforming a data type, or deleting a column) is recorded by Power Query Editor. Every time this query connects to the data source, those steps are carried out so that the data is always shaped the way you specify.
 Once your data is how you want it, you can create visuals.
+
+Create visuals
