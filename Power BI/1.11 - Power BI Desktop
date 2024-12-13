@@ -37,3 +37,7 @@ If you already have a visual selected on the report canvas, the selected visual 
 If no visual is selected on the canvas, a new visual is created based on your selection.
 
 Create reports
+More often, you'll want to create a collection of visuals that show various aspects of the data you've used to create your model in Power BI Desktop. A collection of visuals, in one Power BI Desktop file, is called a report. A report can have one or more pages, just like an Excel file can have one or more worksheets.
+With Power BI Desktop you can create complex and visually rich reports, using data from multiple sources, all in one report that you can share with others in your organization.
+In the following image, you see the first page of a Power BI Desktop report, named Overview, as seen on the tab near the bottom of the image.
+
