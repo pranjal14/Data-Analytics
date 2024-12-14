@@ -42,3 +42,6 @@ With Power BI Desktop you can create complex and visually rich reports, using da
 In the following image, you see the first page of a Power BI Desktop report, named Overview, as seen on the tab near the bottom of the image.
 
 Share reports
+After a report is ready to share with others, you can publish the report to the Power BI service, and make it available to anyone in your organization who has a Power BI license.
+To publish a Power BI Desktop report:
+Select Publish from the Home ribbon.
