@@ -45,3 +45,7 @@ Share reports
 After a report is ready to share with others, you can publish the report to the Power BI service, and make it available to anyone in your organization who has a Power BI license.
 To publish a Power BI Desktop report:
 Select Publish from the Home ribbon.
+Power BI Desktop connects you to the Power BI service with your Power BI account.
+
+You're prompted to select where in the Power BI service you'd like to share the report. For example, your workspace, a team workspace, or some other location in the Power BI service.
+You must have a Power BI license to share reports to the Power BI service.
