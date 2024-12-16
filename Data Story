@@ -33,5 +33,11 @@ Step 1: Setting up Environment for Effective Tracking
 ---------------------------------------------------------------------------------------------------------
 
 Step - 2 : Data Enablement
-Data Layer Implementation
+
+Data Layer Implementation: 
+Data layer is a temporary store of data that is used to collect information needed to capture and send web analytics events to Google Analytics.
+When a relevant web user interaction occurs (e.g. page load, card click, modal view, etc), the corresponding information for that event needs to be pushed to the data layer.
+There’s a logic within the GTM that listens to pushes to the data layer and uses the information collected to send web analytics events to Google Analytics.
+In technical terms, the data layer is a global JavaScript array of objects. When a user interaction occurs, the website/web application needs to push an “event” object to the array that includes appropriate data properties for that event.
+
 
