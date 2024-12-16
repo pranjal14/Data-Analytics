@@ -40,4 +40,5 @@ When a relevant web user interaction occurs (e.g. page load, card click, modal v
 There’s a logic within the GTM that listens to pushes to the data layer and uses the information collected to send web analytics events to Google Analytics.
 In technical terms, the data layer is a global JavaScript array of objects. When a user interaction occurs, the website/web application needs to push an “event” object to the array that includes appropriate data properties for that event.
 
+Data Layer in GTM : https://www.analyticsmania.com/post/what-is-data-layer-in-google-tag-manager/
 
