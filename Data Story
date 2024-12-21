@@ -77,3 +77,4 @@ https://www.brfconsulting.com/post/how-to-load-google-analytics-4-data-into-snow
 ----------------------------------------------------------------------------------------------------------
 
 Step 7 - Data Curation :ETL Process
+ETL (Extract, Transform, Load) is a key process for data integration, helping to move data from source systems to a target destination, often for analysis or reporting. Here's how it can apply to GA4 (Google Analytics 4) data:
