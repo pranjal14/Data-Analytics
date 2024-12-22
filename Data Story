@@ -91,3 +91,10 @@ How: Data Cleaning: Remove duplicates, handle missing values, or filter irreleva
 Aggregations and Calculations: Calculate metrics like total users, engagement rates, conversion rates, etc.
 Restructuring: Convert GA4 event-based data into more structured formats for easier querying.
 Tools: SQL in BigQuery, Python, or other ETL tools like dbt, Fivetran, or Stitch.
+
+3. Load
+Purpose: Load the transformed data into a target system, such as a data warehouse or BI tool, for reporting and analysis.
+How: You can store the cleaned data in:
+Data Warehouses: Google BigQuery, Snowflake, AWS.
+BI Tools: Tableau, Looker, Power BI for dashboarding.
+You might load the data back into BigQuery for further analysis or into a visualization tool for insights.
