@@ -82,3 +82,5 @@ ETL (Extract, Transform, Load) is a key process for data integration, helping to
 1. Extract
 Purpose: Pull raw data from the source (GA4 in this case).
 How: GA4 allows you to export raw event data into BigQuery. You can set up an automatic export or extract data manually.
+Data types: This will include user interactions (events), session data, conversion data, etc.
+Tools: BigQuery, Google Analytics API, or third-party connectors.
