@@ -21,4 +21,5 @@ Roles in Data
 The following sections highlight these different roles in data and the specific responsibility in the overall spectrum of data discovery and understanding:
 Business analyst
 While some similarities exist between a data analyst and business analyst, the key differentiator between the two roles is what they do with data. A business analyst is closer to the business and is a specialist in interpreting the data that comes from the visualization. Often, the roles of data analyst and business analyst could be the responsibility of a single person.
-
+Data analyst
+A data analyst enables businesses to maximize the value of their data assets through visualization and reporting tools such as Microsoft Power BI. Data analysts are responsible for profiling, cleaning, and transforming data. Their responsibilities also include designing and building scalable and effective semantic models, and enabling and implementing the advanced analytics capabilities into reports for analysis.
