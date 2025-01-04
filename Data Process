@@ -41,4 +41,6 @@ Data modeling is the process of determining how your tables are related to each 
 An effective semantic model makes reports more accurate, allows the data to be explored faster and efficiently, decreases time for the report writing process, and simplifies future report maintenance.
 3 - Visualize
 The visualization task is where you get to bring your data to life. The ultimate goal of the visualization task is to solve business problems. A well-designed report should tell a compelling story about that data, which will enable business decision makers to quickly gain needed insights. By using appropriate visualizations and interactions, you can provide an effective report that guides the reader through the content quickly and efficiently, therefore allowing the reader to follow a narrative into the data.
+4 - Analyze
+The analyze task is the important step of understanding and interpreting the information that is displayed on the report. In your role as a data analyst, you should understand the analytical capabilities of Power BI and use those capabilities to find insights, identify patterns and trends, predict outcomes, and then communicate those insights in a way that everyone can understand.
 
