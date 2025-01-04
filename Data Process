@@ -36,4 +36,7 @@ A data analyst is one of several critical roles in an organization, who help unc
 Data analysts are essential in helping organizations gain valuable insights into the expanse of data that they have, and they work closely with others in the organization to help reveal valuable information.
 1 - Prepare
 Data preparation is the process of taking raw data and turning it into information that is trusted and understandable. It involves, among other things, ensuring the integrity of the data, correcting wrong or inaccurate data, identifying missing data, converting data from one structure to another or from one type to another, or even a task as simple as making data more readable.
+2 - Model
+Data modeling is the process of determining how your tables are related to each other. This process is done by defining and creating relationships between the tables. From that point, you can enhance the model by defining metrics and adding custom calculations to enrich your data.
+An effective semantic model makes reports more accurate, allows the data to be explored faster and efficiently, decreases time for the report writing process, and simplifies future report maintenance.
 
