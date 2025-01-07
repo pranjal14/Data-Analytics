@@ -29,5 +29,7 @@ Create a semantic model
 A semantic model consists of all connected data, transformations, relationships, and calculations. To follow the flow of Power BI, you first connect to data, transform data, and create relationships and calculations to create a semantic model.
 Create visualizations in a report
 In Power BI Desktop, when you create a visualization (also called visual), you add it to the canvas for a report page. Choose your visualizations to build pages in your report. It's ideal to keep each page simple with related data, so consumers can easily see the insights.
+Create a dashboard
+In the Power BI service, you can also create dashboards after you've published a report. Dashboards consist of a single page made up of tiles. Add tiles to a dashboard by pinning a visual in a report to the dashboard. Tiles aren't interactive like visuals, so when a user interacts with the tile, they go to the underlying report for more information.
 
 
