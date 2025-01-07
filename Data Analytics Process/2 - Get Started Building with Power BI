@@ -27,5 +27,7 @@ Building blocks of Power BI
 The building blocks of Power BI are semantic models and visualizations. Create a semantic model and then use visuals to build a report.
 Create a semantic model
 A semantic model consists of all connected data, transformations, relationships, and calculations. To follow the flow of Power BI, you first connect to data, transform data, and create relationships and calculations to create a semantic model.
+Create visualizations in a report
+In Power BI Desktop, when you create a visualization (also called visual), you add it to the canvas for a report page. Choose your visualizations to build pages in your report. It's ideal to keep each page simple with related data, so consumers can easily see the insights.
 
 
