@@ -22,3 +22,7 @@ Create visualizations and reports with Power BI Desktop.
 Publish report to Power BI service.
 Distribute and manage reports in the Power BI service.
 The Power BI service also allows you to create high-level dashboards that drill down to reports, and apps to easily group related reports to users in a simple format.
+
+Building blocks of Power BI
+The building blocks of Power BI are semantic models and visualizations. Create a semantic model and then use visuals to build a report.
+
