@@ -1,1 +1,13 @@
 In this module, you learn the concepts of using Copilot for Power BI to create reports efficiently, including how to create measures, design visuals, and build entire report pages. 
+Prepare your data for use with Copilot for Power BI
+Microsoft Power BI enables you to develop interactive reports within a single tool. Typical report development consists of the following steps:
+Prepare and model data
+Visualize and analyze data
+Secure and distribute reports
+
+You can reduce the amount of time spent creating reports by using Copilot for Power BI to perform certain tasks, such as:
+Create measures based on natural language.
+Update the semantic model with synonyms for improved user Q&A experience.
+Generate report content, summary visuals, and pages from prepopulated prompts.
+Analyze a summary of the underlying semantic model.
+However, you still perform the initial data cleansing and transformation tasks, which are crucial to ensure accuracy in reporting.
