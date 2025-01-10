@@ -11,3 +11,12 @@ Update the semantic model with synonyms for improved user Q&A experience.
 Generate report content, summary visuals, and pages from prepopulated prompts.
 Analyze a summary of the underlying semantic model.
 However, you still perform the initial data cleansing and transformation tasks, which are crucial to ensure accuracy in reporting.
+
+Use Copilot for Power BI to model your data
+Properly prepared data is the foundation for data insights. Once you clean, transform, and shape your data, you can start to design the semantic model.
+Connect tables with relationships
+Your next step is to create relationships between tables. Relationships allow you to filter and summarize data in report visuals later in the development process. You can use the autodetect relationships feature to get you started, then use Copilot to summarize the initial semantic model to determine if any other relationships are needed.
+Create quick measures
+Once your tables are connected, you might find that you're unable to answer the business requirement questions with the data as is. In this scenario, you can create measures using DAX (Data Analysis Expressions) to create new data calculations to solve your requirements. DAX is versatile and powerful, but also daunting when getting started with Power BI. DAX is described as a functional language. Functional languages, like DAX, focus on using functions to compute results, which can be more counter-intuitive compared to the step-by-step approach of set-based languages.
+Power BI allows you to create quick measures, which allow you to add the data fields you want to calculate.
+
