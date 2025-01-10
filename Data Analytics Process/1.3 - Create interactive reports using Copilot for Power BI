@@ -23,4 +23,20 @@ Suggestions with Copilot
 Quick measures are an excellent solution, but you might need an even simpler option when getting started. If you have access to Copilot for Power BI, you can also use the Suggestions with Copilot option in Quick measures. Copilot allows you to use a Q&A like experience where you can use natural language to describe what calculation you want to see.
 With a single prompt, such as total sales by all products and a prepared semantic model, we can quickly see possible measures to add for new data insights.
 Quick measures and Copilot allow you to create measures and learn DAX with minimal effort, while meeting your report requirements.
+Query with DAX
+There are four views in Power BI Desktop: Report, Table, Model, and DAX Query. In the DAX Query view, you can select Copilot in the ribbon and use natural language to describe what you want.
+Consider the following prompt total sales for all salespeople individually for all items in the accessories category entered into the Copilot feature of DAX Query view.
+This prompt is intending to calculate each individual salesperson's total sales for the accessories category. At AdventureWorks, there are multiple categories with multiple products within. Accessories have low sales, and the business requirement is to understand better who is selling more accessories, in case they can share valuable information.
+Create measures from DAX queries
+Use Copilot in DAX Query View to explore the data and determine which measures you need to create, and then select the Update model with changes to create the measures. The following query was generated from a suggested measures prompt.
+The following screenshot is the result of three simple steps:
+Enter the suggest measures prompt.
+Select Keep query after results return.
+Run the query.
+As a report developer, you can Update model with changes to create the measures best suited to your project.
+
+Summary
+Copilot allows you to explore and design semantic models more efficiently, expanding your data analysis skills and making you a better report developer.
+
+
 
