@@ -19,4 +19,6 @@ Your next step is to create relationships between tables. Relationships allow yo
 Create quick measures
 Once your tables are connected, you might find that you're unable to answer the business requirement questions with the data as is. In this scenario, you can create measures using DAX (Data Analysis Expressions) to create new data calculations to solve your requirements. DAX is versatile and powerful, but also daunting when getting started with Power BI. DAX is described as a functional language. Functional languages, like DAX, focus on using functions to compute results, which can be more counter-intuitive compared to the step-by-step approach of set-based languages.
 Power BI allows you to create quick measures, which allow you to add the data fields you want to calculate.
+Suggestions with Copilot
+Quick measures are an excellent solution, but you might need an even simpler option when getting started. If you have access to Copilot for Power BI, you can also use the Suggestions with Copilot option in Quick measures. Copilot allows you to use a Q&A like experience where you can use natural language to describe what calculation you want to see.
 
