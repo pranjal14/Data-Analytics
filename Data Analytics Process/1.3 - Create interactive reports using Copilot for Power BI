@@ -34,9 +34,19 @@ Enter the suggest measures prompt.
 Select Keep query after results return.
 Run the query.
 As a report developer, you can Update model with changes to create the measures best suited to your project.
-
 Summary
 Copilot allows you to explore and design semantic models more efficiently, expanding your data analysis skills and making you a better report developer.
+
+Create reports with Copilot for Power BI
+
+Create reports with Power BI Desktop
+Power BI Desktop is the primary report development tool. You can connect to, transform, model, and visualize data all from this application. Let's explore how Copilot can assist you in creating visuals and reports in Power BI Desktop.
+The Copilot experience is consistent with other Microsoft Copilot products - select the Copilot button and a new pane opens with suggested prompts and chat capabilities.
+Some of the prompts you can try are:
+Create a new report page.
+Suggest content for a new report page.
+Answer this data question... (then insert your question in the chat).
+
 
 
 
