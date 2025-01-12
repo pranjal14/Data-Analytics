@@ -71,3 +71,20 @@ When using Copilot, you should consider it to be your first draft, which require
 Updates are being made continually, so expect improvements.
 Copilot responses are generated with AI and can make mistakes. Always check your work.
 
+Create summaries with Copilot for Power BI
+
+Summaries keep the audience engaged by providing a clear and concise overview, ensuring the core message is communicated effectively. Summaries also provide context and highlight important aspects, as part of the storytelling process.
+
+Summarize with the Narrative visual
+The Narrative visual allows you to create a custom visual that summarizes and references data within your report visuals. Custom narratives give more control over formatting and text. Copilot created summaries include the following suggested prompts:
+Give an executive summary
+Answer likely questions from leadership
+Create a bulleted list of insights
+
+You can also enter a custom prompt. Choose to reference all visuals on the current page or specific visuals to include in the summary. This visual is available in both Power BI Desktop and service. You can also switch between the custom and Copilot summaries to compare.
+
+
+Summarize in the Copilot pane
+Report developers and consumers can both use the Copilot pane to summarize a report. Developers can use Copilot to generate ideas on how to present the data, while consumers can better understand the data in the report.
+Copilot considers all data, including data hidden behind filters or slicers that aren't currently applied. You can summarize or answer questions across the entire report or for just the current page by indicating the scope in the prompt.
+
