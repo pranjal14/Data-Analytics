@@ -61,4 +61,13 @@ The report is the visual representation you created in the Report view in Power 
 The semantic model is the underlying data, including relationships and measures.
 To create reports through the Power BI service, you start by selecting the ellipsis (...) from the semantic model and then Create report.
 
+Create pages with custom prompts
+You can also provide your own prompt based on your knowledge of the data and business requirements for the report. There might be limitations to what Copilot can create based on your prompt. Some ideas for our model are:
+Create a page that shows the top 10 products by sales.
+Create a visual on a new page that shows the top three colors across all products sold.
+
+Final considerations
+When using Copilot, you should consider it to be your first draft, which requires your review before finalizing. While you might keep visuals as is, you might want to change colors or labels for others. Remember:
+Updates are being made continually, so expect improvements.
+Copilot responses are generated with AI and can make mistakes. Always check your work.
 
