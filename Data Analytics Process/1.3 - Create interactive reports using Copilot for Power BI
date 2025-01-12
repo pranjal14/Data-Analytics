@@ -55,5 +55,10 @@ Column charts evaluating sales, cost, and profit by product.
 A Map visual for sales by region.
 This report and all of the elements were generated in a consistent theme and created quickly.
 
+Create reports with Power BI service
+When you create reports in Power BI Desktop, you can publish them to the Power BI or Fabric service for collaboration and distribution. When you publish the report, two items are created within a workspace: a semantic model and the report.
+The report is the visual representation you created in the Report view in Power BI Desktop.
+The semantic model is the underlying data, including relationships and measures.
+To create reports through the Power BI service, you start by selecting the ellipsis (...) from the semantic model and then Create report.
 
 
