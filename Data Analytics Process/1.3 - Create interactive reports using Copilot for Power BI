@@ -88,3 +88,7 @@ Summarize in the Copilot pane
 Report developers and consumers can both use the Copilot pane to summarize a report. Developers can use Copilot to generate ideas on how to present the data, while consumers can better understand the data in the report.
 Copilot considers all data, including data hidden behind filters or slicers that aren't currently applied. You can summarize or answer questions across the entire report or for just the current page by indicating the scope in the prompt.
 
+Summary
+In this module, we explored Copilot for Power BI features. Power BI helps create interactive reports through data preparation, modeling, visualization, analysis, and secure distribution. Initial data cleansing and transformation are essential for accuracy and Copilot functionality.
+Key takeaways include the importance of data preparation and semantic model design. Copilot for Power BI assists you in connecting, transforming, modeling, and visualizing data. Copilot enhances efficiency in generating report elements and exploring semantic models.
+Remember, Copilot is here to assist you, not replace you. Your expertise is crucial for understanding the data, and Copilot helps you uncover new insights while saving time on simpler, repetitive tasks.
