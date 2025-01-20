@@ -13,3 +13,14 @@ Tailwind Traders has an application that helps with financial projections, so th
 Before you can create reports, you must first extract data from the various data sources. Interacting with SQL Server is different from Excel, so you should learn the nuances of both systems. After gaining understanding of the systems, you can use Power Query to help you clean the data, such as renaming columns, replacing values, removing errors, and combining query results. Power Query is also available in Excel. After the data has been cleaned and organized, you're ready to build reports in Power BI. Finally, you'll publish your combined semantic model and reports to Power BI service. From there, other people can use your semantic model and build their own reports or they can use the reports you’ve already built. Additionally, if someone else built a semantic model you'd like to use, you can build reports from that too!
 This module will focus on the first step of getting the data from the different data sources and importing it into Power BI by using Power Query.
 
+By the end of this module, you’ll be able to:
+
+Identify and connect to a data source
+Get data from a relational database, such as Microsoft SQL Server
+Get data from a file, such as Microsoft Excel
+Get data from applications
+Get data from Azure Analysis Services
+Select a storage mode
+Fix performance issues
+Resolve data import errors
+
