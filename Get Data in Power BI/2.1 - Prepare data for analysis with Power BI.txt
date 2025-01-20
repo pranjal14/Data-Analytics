@@ -1,4 +1,9 @@
 Prepare data for analysis with Power BI
-
 Learn how to use Power Query to extract data from different data sources, choose a storage mode, and connectivity type. You'll also learn to profile, clean, and load data into Power BI before you model your data.
+
+Get Data in Power BI
+
+UNIT 1: Introduction
+Like most of us, you work for a company where you're required to build Microsoft Power BI reports. The data resides in several different databases and files. These data repositories are different from each other, some are in Microsoft SQL Server, some are in Microsoft Excel, but all the data is related
+
 
