@@ -1,0 +1,4 @@
+Prepare data for analysis with Power BI
+
+Learn how to use Power Query to extract data from different data sources, choose a storage mode, and connectivity type. You'll also learn to profile, clean, and load data into Power BI before you model your data.
+
