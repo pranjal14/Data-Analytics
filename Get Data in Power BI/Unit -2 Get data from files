@@ -1,1 +1,5 @@
+Power BI Desktop allows you to get data from many types of files. You can find a list of the available options when you use the Get data feature in Power BI Desktop. The following sections explain how you can import data from an Excel file that is stored on a local computer.
+Scenario
+The Human Resources (HR) team at Tailwind Traders has prepared a flat file that contains some of your organization's employee data, such as employee name, hire date, position, and manager. They've requested that you build Power BI reports by using this data, and data that is located in several other data sources.
+
 
