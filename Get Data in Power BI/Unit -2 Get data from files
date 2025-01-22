@@ -11,3 +11,7 @@ SharePoint - Team Sites - Saving your Power BI Desktop files to SharePoint Team 
 
 Using a cloud option such as OneDrive or SharePoint Team Sites is the most effective way to keep your file and your semantic model, reports, and dashboards in Power BI in-sync. However, if your data doesn't change regularly, saving files on a local computer is a suitable option.
 
+Connect to data in a file
+In Power BI, on the Home tab, select Get data. In the list that displays, select the option that you require, such as Text/CSV or XML. For this example, you'll select Excel.
+Depending on your selection, you need to find and open your data source. You might be prompted to sign into a service, such as OneDrive, to authenticate your request. In this example, you'll open the Employee Data Excel workbook that is stored on the Desktop (Remember, no files are provided for practice, these are hypothetical steps).
+
