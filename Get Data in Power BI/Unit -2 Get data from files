@@ -20,3 +20,11 @@ After the file has connected to Power BI Desktop, the Navigator window opens. Th
 Select the check box(es) of the table(s) that you want to bring into Power BI. This selection activates the Load and Transform Data buttons as shown in the following image.
 Now you can select the Load button to automatically load your data into the Power BI model or select the Transform Data button to launch the Power Query Editor, where you can review and clean your data before loading it into the Power BI model.
 We often recommend that you transform data, but that process will be discussed later in this module. For this example, you can select Load.
+
+Change the source file
+You might have to change the location of a source file for a data source during development, or if a file storage location changes. To keep your reports up to date, you'll need to update your file connection paths in Power BI.
+Power Query provides many ways for you to accomplish this task, so that you can make this type of change when needed.
+Data source settings
+Query settings
+Advanced Editor
+For example, try changing the data source file path in the data source settings. Select Data source settings in Power Query. In the Data source settings window, select your file and then select Change Source. Update the File path or use the Browse option to locate your file, select OK, and then select Close.
