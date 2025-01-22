@@ -15,3 +15,8 @@ Connect to data in a file
 In Power BI, on the Home tab, select Get data. In the list that displays, select the option that you require, such as Text/CSV or XML. For this example, you'll select Excel.
 Depending on your selection, you need to find and open your data source. You might be prompted to sign into a service, such as OneDrive, to authenticate your request. In this example, you'll open the Employee Data Excel workbook that is stored on the Desktop (Remember, no files are provided for practice, these are hypothetical steps).
 
+Select the file data to import
+After the file has connected to Power BI Desktop, the Navigator window opens. This window shows you the data that is available in your data source (the Excel file in this example). You can select a table or entity to preview its contents, to ensure that the correct data is loaded into the Power BI model.
+Select the check box(es) of the table(s) that you want to bring into Power BI. This selection activates the Load and Transform Data buttons as shown in the following image.
+Now you can select the Load button to automatically load your data into the Power BI model or select the Transform Data button to launch the Power Query Editor, where you can review and clean your data before loading it into the Power BI model.
+We often recommend that you transform data, but that process will be discussed later in this module. For this example, you can select Load.
