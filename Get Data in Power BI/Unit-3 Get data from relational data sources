@@ -3,3 +3,12 @@ Connecting Power BI to your database will help you to monitor the progress of yo
 
 Scenario
 The Sales team at Tailwind Traders has requested that you connect to the organization's on-premises SQL Server database and get the sales data into Power BI Desktop so you can build sales reports.
+
+Connect to data in a relational database
+You can use the Get data feature in Power BI Desktop and select the applicable option for your relational database. For this example, you would select the SQL Server option, as shown in the following screenshot.
+Your next step is to enter your database server name and a database name in the SQL Server database window. The two options in data connectivity mode are: Import (selected by default, recommended) and DirectQuery. Mostly, you select Import. Other advanced options are also available in the SQL Server database window, but you can ignore them for now.
+After you've added your server and database names, you'll be prompted to sign in with a username and password. You'll have three sign-in options:
+Windows - Use your Windows account (Azure Active Directory credentials).
+Database - Use your database credentials. For instance, SQL Server has its own sign-in and authentication system that is sometimes used. If the database administrator gave you a unique sign-in to the database, you might need to enter those credentials on the Database tab.
+Microsoft account - Use your Microsoft account credentials. This option is often used for Azure services.
+Select a sign-in option, enter your username and password, and then select Connect.
