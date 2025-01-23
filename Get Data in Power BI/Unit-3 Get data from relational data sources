@@ -18,3 +18,8 @@ After the database has been connected to Power BI Desktop, the Navigator window 
 Select the check box(es) of the table(s) that you want to bring into Power BI Desktop, and then select either the Load or Transform Data option.
 Load - Automatically load your data into a Power BI model in its current state.
 Transform Data - Open your data in Microsoft Power Query, where you can perform actions such as deleting unnecessary rows or columns, grouping your data, removing errors, and many other data quality tasks.
+
+Import data by writing an SQL query
+Another way you can import data is to write an SQL query to specify only the tables and columns that you need.
+To write your SQL query, on the SQL Server database window, enter your server and database names, and then select the arrow next to Advanced options to expand this section and view your options. In the SQL statement box, write your query statement, and then select OK. In this example, you'll use the Select SQL statement to load the ID, NAME and SALESAMOUNT columns from the SALES table.
+
