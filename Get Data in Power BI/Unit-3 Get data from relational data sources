@@ -12,3 +12,9 @@ Windows - Use your Windows account (Azure Active Directory credentials).
 Database - Use your database credentials. For instance, SQL Server has its own sign-in and authentication system that is sometimes used. If the database administrator gave you a unique sign-in to the database, you might need to enter those credentials on the Database tab.
 Microsoft account - Use your Microsoft account credentials. This option is often used for Azure services.
 Select a sign-in option, enter your username and password, and then select Connect.
+
+Select data to import
+After the database has been connected to Power BI Desktop, the Navigator window displays the data that is available in your data source (the SQL database in this example). You can select a table or entity to preview its contents and make sure that the correct data will be loaded into the Power BI model.
+Select the check box(es) of the table(s) that you want to bring into Power BI Desktop, and then select either the Load or Transform Data option.
+Load - Automatically load your data into a Power BI model in its current state.
+Transform Data - Open your data in Microsoft Power Query, where you can perform actions such as deleting unnecessary rows or columns, grouping your data, removing errors, and many other data quality tasks.
