@@ -23,3 +23,9 @@ Import data by writing an SQL query
 Another way you can import data is to write an SQL query to specify only the tables and columns that you need.
 To write your SQL query, on the SQL Server database window, enter your server and database names, and then select the arrow next to Advanced options to expand this section and view your options. In the SQL statement box, write your query statement, and then select OK. In this example, you'll use the Select SQL statement to load the ID, NAME and SALESAMOUNT columns from the SALES table.
 
+Change data source settings
+After you create a data source connection and load data into Power BI Desktop, you can return and change your connection settings at any time. This action is often required due to a security policy within the organization, for example, when the password needs to be updated every 90 days. You can change the data source, edit permissions or clear permissions.
+On the Home tab, select Transform data, and then select the Data source settings option.
+From the list of data sources that displays, select the data source that you want to update. Then, you can right-click that data source to view the available update options or you can use the update option buttons on the lower left of the window. Select the update option that you need, change the settings as required, and then apply your changes.
+You can also change your data source settings from within Power Query. Select the table, and then select the Data source settings option on the Home ribbon. Alternatively, you can go to the Query Settings panel on the right side of the screen and select the settings icon next to Source (or double Select Source). In the window that displays, update the server and database details, and then select OK.
+After you have made the changes, select Close and Apply to apply those changes to your data source settings.
