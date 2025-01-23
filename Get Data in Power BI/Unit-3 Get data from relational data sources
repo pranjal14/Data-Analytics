@@ -1,1 +1,5 @@
+If your organization uses a relational database for sales, you can use Power BI Desktop to connect directly to the database instead of using exported flat files.
+Connecting Power BI to your database will help you to monitor the progress of your business and identify trends, so you can forecast sales figures, plan budgets and set performance indicators and targets. Power BI Desktop can connect to many relational databases that are either in the cloud or on-premises.
 
+Scenario
+The Sales team at Tailwind Traders has requested that you connect to the organization's on-premises SQL Server database and get the sales data into Power BI Desktop so you can build sales reports.
