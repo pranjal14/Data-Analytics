@@ -35,4 +35,21 @@ As previously mentioned, you can import data into your Power BI model by using a
 Consider the scenario where your database has a large table that is comprised of sales data over several years. Sales data from 2009 isn't relevant to the report that you're creating. This situation is where SQL is beneficial because it allows you to load only the required set of data by specifying exact columns and rows in your SQL statement and then importing them into your semantic model. You can also join different tables, run specific calculations, create logical statements, and filter data in your SQL query.
 The following example shows a simple query where the ID, NAME and SALESAMOUNT are selected from the SALES table.
 The SQL query starts with a Select statement, which allows you to choose the specific fields that you want to pull from your database. In this example, you want to load the ID, NAME, and SALESAMOUNT columns.
+SELECT
+ID
+, NAME
+, SALESAMOUNT
+FROM
+FROM specifies the name of the table that you want to pull the data from. In this case, it's the SALES table. The following example is the full SQL query:
+SELECT
+ID
+, NAME
+, SALESAMOUNT
+FROM
+SALES
+When using an SQL query to import data, try to avoid using the wildcard character (*) in your query. If you use the wildcard character (*) in your SELECT statement, you import all columns that you don't need from the specified table.
+The following example shows the query using the wildcard character.
+SELECT *
+FROM
+SALES
 
