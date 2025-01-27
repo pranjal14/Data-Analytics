@@ -1,1 +1,4 @@
+Some organizations don't use a relational database but instead use a NoSQL database. A NoSQL database (also referred to as non-SQL, not only SQL or non-relational) is a flexible type of database that doesn't use tables to store data.
+Scenario
+Software developers at Tailwind Traders created an application to manage shipping and tracking products from their warehouses. The application uses Cosmos DB, a NoSQL database, as the data repository. Data is stored as JSON documents, which are open standard file formats that are primarily used to transmit data between a server and web application. You need to import this data into a Power BI semantic model for reporting.
 
