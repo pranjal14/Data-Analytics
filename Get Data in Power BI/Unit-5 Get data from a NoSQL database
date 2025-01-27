@@ -2,3 +2,7 @@ Some organizations don't use a relational database but instead use a NoSQL datab
 Scenario
 Software developers at Tailwind Traders created an application to manage shipping and tracking products from their warehouses. The application uses Cosmos DB, a NoSQL database, as the data repository. Data is stored as JSON documents, which are open standard file formats that are primarily used to transmit data between a server and web application. You need to import this data into a Power BI semantic model for reporting.
 
+Connect to a NoSQL database (Azure Cosmos DB)
+In this scenario, you'll use the Get data feature in Power BI Desktop. However, this time you'll select the More... option to locate and connect to the type of database that you use. In this example, you'll select the Azure category, select Azure Cosmos DB, and then select Connect.
+On the Preview Connector window, select Continue and then enter your database credentials. In this example, on the Azure Cosmos DB window, you can enter the database details. You can specify the Azure Cosmos DB account endpoint URL that you want to get the data from (you can get the URL from the Keys blade of your Azure portal). Alternatively, you can enter the database name, collection name or use the navigator to select the database and collection to identify the data source.
+If you're connecting to an endpoint for the first time, as you are in this example, make sure that you enter your account key. You can find this key in the Primary Key box in the Read-only Keys blade of your Azure portal.
