@@ -7,3 +7,7 @@ Connect to data in an application
 When connecting to data in an application, you would begin in the same way as you would when connecting to the other data sources: by selecting the Get data feature in Power BI Desktop. Then, select the option that you need from the Online Services category. In this example, you select SharePoint Online List.
 After you've selected Connect, you'll be asked for your SharePoint URL. This URL is the one that you use to sign into your SharePoint site through a web browser. You can copy the URL from your SharePoint site and paste it into the connection window in Power BI. You don't need to enter your full URL file path; you only need to load your site URL because, when you're connected, you can select the specific list that you want to load. Depending on the URL that you copied, you might need to delete the last part of your URL, as illustrated in the following image.
 
+Choose the application data to import
+After Power BI has made the connection with SharePoint, the Navigator window appears, as it does when you connect to other data sources. The window displays the tables and entities within your SharePoint site. Select the list that you want to load into Power BI Desktop. Similar to when you import from other data sources, you have the option to automatically load your data into a Power BI model or launch the Power Query Editor to transform your data before loading it.
+
+
