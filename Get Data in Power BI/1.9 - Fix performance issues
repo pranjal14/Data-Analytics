@@ -13,3 +13,12 @@ The benefits to query folding include:
 More efficiency in data refreshes and incremental refreshes. When you import data tables by using query folding, Power BI is better able to allocate resources and refresh the data faster because Power BI doesn't have to run through each transformation locally.
 Automatic compatibility with DirectQuery and Dual storage modes. All DirectQuery and Dual storage mode data sources must have the back-end server processing abilities to create a direct connection, which means that query folding is an automatic capability that you can use. If all transformations can be reduced to a single Select statement, then query folding can occur.
 The following scenario shows query folding in action. In this scenario, you apply a set of queries to multiple tables. After you add a new data source by using Power Query, and you're directed to the Power Query Editor, you go to the Query Settings pane and right-click the last applied step
+If the View Native Query option isn't available (not displayed in bold type), then query folding isn't possible for this step, and you'll have to work backward in the Applied Steps area until you reach the step in which View Native Query is available (displays in bold type). This process will reveal the native query that is used to transform the semantic model.
+Native queries aren't possible for the following transformations:
+Adding an index column
+Merging and appending columns of different tables with two different sources
+Changing the data type of a column
+A good guideline to remember is that if you can translate a transformation into a Select SQL statement, which includes operators and clauses such as GROUP BY, SORT BY, WHERE, UNION ALL, and JOIN, you can use query folding.
+While query folding is one option to optimize performance when retrieving, importing, and preparing data, another option is query diagnostics.
+
+
