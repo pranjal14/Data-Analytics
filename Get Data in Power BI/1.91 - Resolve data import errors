@@ -5,3 +5,5 @@ Other components can cause errors, such as hard drives, networks, software servi
 Data often can't comply with any specific schema.
 The following sections cover some of the more common error messages that you might encounter in Power BI.
 
+Query timeout expired
+Relational source systems often have many people who are concurrently using the same data in the same database. Some relational systems and their administrators seek to limit a user from monopolizing all hardware resources by setting a query timeout. These timeouts can be configured for any timespan, from as little as five seconds to as much as 30 minutes or more.
