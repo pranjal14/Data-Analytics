@@ -1,1 +1,7 @@
+While importing data into Power BI, you may encounter errors resulting from factors such as:
+Power BI imports from numerous data sources.
+Each data source might have dozens (and sometimes hundreds) of different error messages.
+Other components can cause errors, such as hard drives, networks, software services, and operating systems.
+Data often can't comply with any specific schema.
+The following sections cover some of the more common error messages that you might encounter in Power BI.
 
