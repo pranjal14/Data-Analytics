@@ -26,3 +26,14 @@ Open Power Query by selecting the Transform Data button in Power BI.
 Highlight the query that is creating the error.
 On the left, under Query Settings, select the gear icon next to Source.
 Change the file location to the new location.
+
+Data type errors
+Sometimes, when you import data into Power BI, the columns appear blank. This situation happens because of an error in interpreting the data type in Power BI. The resolution to this error is unique to the data source. For instance, if you're importing data from SQL Server and see blank columns, you could try to convert to the correct data type in the query.
+Instead of using this query:
+SELECT CustomerPostalCode FROM Sales.Customers
+
+Use this query:
+SELECT CAST(CustomerPostalCode as varchar(10)) FROM Sales.Customers
+By specifying the correct type at the data source, you eliminate many of these common data source errors.
+You may encounter different types of errors in Power BI that are caused by the diverse data source systems where your data resides.
+If you experience an error not covered, you can search Microsoft documentation for the error message, and the resolution you need.
