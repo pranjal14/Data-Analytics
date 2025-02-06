@@ -1,1 +1,9 @@
 Consider the scenario where you have imported data into Power BI from several different sources and, when you examine the data, it is not prepared for analysis. What could make the data unprepared for analysis?
+
+When examining the data, you discover several issues, including:
+A column called Employment status only contains numerals.
+Several columns contain errors.
+Some columns contain null values.
+The customer ID in some columns appears as if it was duplicated repeatedly.
+A single address column has combined street address, city, state, and zip code.
+
