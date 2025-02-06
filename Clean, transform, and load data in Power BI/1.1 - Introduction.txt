@@ -7,3 +7,7 @@ Some columns contain null values.
 The customer ID in some columns appears as if it was duplicated repeatedly.
 A single address column has combined street address, city, state, and zip code.
 
+You start working with the data, but every time you create visuals on reports, you get bad data, incorrect results, and simple reports about sales totals are wrong.
+Dirty data can be overwhelming and, though you might feel frustrated, you decide to get to work and figure out how to make this semantic model as pristine as possible.
+Fortunately, Power BI and Power Query offer you a powerful environment to clean and prepare the data. Clean data has the following advantages:
+
