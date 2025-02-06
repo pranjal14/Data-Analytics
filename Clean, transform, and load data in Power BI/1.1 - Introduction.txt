@@ -17,3 +17,9 @@ Duplicates are removed, making data navigation simpler. It will also produce col
 A complicated column can be split into two, simpler columns. Multiple columns can be combined into one column for readability.
 Codes and integers can be replaced with human readable values.
 
+In this module, you will learn how to:
+Resolve inconsistencies, unexpected or null values, and data quality issues.
+Apply user-friendly value replacements.
+Profile data so you can learn more about a specific column before using it.
+Evaluate and transform column data types.
+Apply data shape transformations to table structures.
