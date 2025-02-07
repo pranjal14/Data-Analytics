@@ -19,4 +19,10 @@ Promote headers
 When a table is created in Power BI Desktop, Power Query Editor assumes that all data belongs in table rows. However, a data source might have a first row that contains column names, which is what happened in the previous SalesTarget example. To correct this inaccuracy, you need to promote the first table row into column headers.
 You can promote headers in two ways: by selecting the Use First Row as Headers option on the Home tab or by selecting the drop-down button next to Column1 and then selecting Use First Row as Headers.
 
+Rename columns
+The next step in shaping your data is to examine the column headers. You might discover that one or more columns have the wrong headers, a header has a spelling error, or the header naming convention is not consistent or user-friendly.
+Refer to the previous screenshot, which shows the impact of the Use First Row as Headers feature. Notice that the column that contains the subcategory Name data now has Month as its column header. This column header is incorrect, so it needs to be renamed.
+You can rename column headers in two ways. One approach is to right-click the header, select Rename, edit the name, and then press Enter. Alternatively, you can double-click the column header and overwrite the name with the correct name.
+You can also work around this issue by removing (skipping) the first two rows and then renaming the columns to the correct name.
+
 
