@@ -15,4 +15,8 @@ However, you notice that the data did not import as expected.
 Consequently, the data is difficult to read. A problem has occurred with the data in its current state because column headers are in different rows (marked in red), and several columns have undescriptive names, such as Column1, Column2, and so on.
 When you have identified where the column headers and names are located, you can make changes to reorganize the data.
 
+Promote headers
+When a table is created in Power BI Desktop, Power Query Editor assumes that all data belongs in table rows. However, a data source might have a first row that contains column names, which is what happened in the previous SalesTarget example. To correct this inaccuracy, you need to promote the first table row into column headers.
+You can promote headers in two ways: by selecting the Use First Row as Headers option on the Home tab or by selecting the drop-down button next to Column1 and then selecting Use First Row as Headers.
+
 
