@@ -2,5 +2,9 @@ Power Query Editor in Power BI Desktop allows you to shape (transform) your impo
 You have loaded raw sales data from two sources into a Power BI model. Some of the data came from a .csv file that was created manually in Microsoft Excel by the Sales team. The other data was loaded through a connection to your organization's Enterprise Resource Planning (ERP) system. Now, when you look at the data in Power BI Desktop, you notice that it's in disarray; some data that you don't need and some data that you do need are in the wrong format.
 You need to use Power Query Editor to clean up and shape this data before you can start building reports.
 
-
+Get started with Power Query Editor
+To start shaping your data, open Power Query Editor by selecting the Transform data option on the Home tab of Power BI Desktop.
+In Power Query Editor, the data in your selected query displays in the middle of the screen and, on the left side, the Queries pane lists the available queries (tables).
+When you work in Power Query Editor, all steps that you take to shape your data are recorded. Then, each time the query connects to the data source, it automatically applies your steps, so your data is always shaped the way that you specified. Power Query Editor only makes changes to a particular view of your data, so you can feel confident about changes that are being made to your original data source. You can see a list of your steps on the right side of the screen, in the Query Settings pane, along with the query's properties.
+The Power Query Editor ribbon contains many buttons you can use to select, view, and shape your data.
 
