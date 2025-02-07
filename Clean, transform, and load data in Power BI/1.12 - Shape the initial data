@@ -8,3 +8,11 @@ In Power Query Editor, the data in your selected query displays in the middle of
 When you work in Power Query Editor, all steps that you take to shape your data are recorded. Then, each time the query connects to the data source, it automatically applies your steps, so your data is always shaped the way that you specified. Power Query Editor only makes changes to a particular view of your data, so you can feel confident about changes that are being made to your original data source. You can see a list of your steps on the right side of the screen, in the Query Settings pane, along with the query's properties.
 The Power Query Editor ribbon contains many buttons you can use to select, view, and shape your data.
 
+Identify column headers and names
+The first step in shaping your initial data is to identify the column headers and names within the data and then evaluate where they are located to ensure that they are in the right place.
+In the following screenshot, the source data in the csv file for SalesTarget (sample not provided) had a target categorized by products and a subcategory split by months, both of which are organized into columns.
+However, you notice that the data did not import as expected.
+Consequently, the data is difficult to read. A problem has occurred with the data in its current state because column headers are in different rows (marked in red), and several columns have undescriptive names, such as Column1, Column2, and so on.
+When you have identified where the column headers and names are located, you can make changes to reorganize the data.
+
+
