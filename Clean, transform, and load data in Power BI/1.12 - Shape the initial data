@@ -36,6 +36,13 @@ Examine each column and ask yourself if you really need the data that it contain
 You can remove columns in two ways. The first method is to select the columns that you want to remove and then, on the Home tab, select Remove Columns.
 Alternatively, you can select the columns that you want to keep and then, on the Home tab, select Remove Columns > Remove Other Columns.
 
+Unpivot columns
+Unpivoting is a useful feature of Power BI. You can use this feature with data from any data source, but you would most often use it when importing data from Excel. The following example shows a sample Excel document with sales data.
+Though the data might initially make sense, it would be difficult to create a total of all sales combined from 2018 and 2019. Your goal would then be to use this data in Power BI with three columns: Month, Year, and SalesAmount.
+When you import the data into Power Query, it will look like the following image.
+Next, rename the first column to Month. This column was mislabeled because that header in Excel was labeling the 2018 and 2019 columns. Highlight the 2018 and 2019 columns, select the Transform tab in Power Query, and then select Unpivot.
+You can rename the Attribute column to Year and the Value column to SalesAmount.
+Unpivoting streamlines the process of creating DAX measures on the data later. By completing this process, you have now created a simpler way of slicing the data with the Year and Month columns.
 
 
 
