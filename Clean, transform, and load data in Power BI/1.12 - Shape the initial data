@@ -44,5 +44,12 @@ Next, rename the first column to Month. This column was mislabeled because that 
 You can rename the Attribute column to Year and the Value column to SalesAmount.
 Unpivoting streamlines the process of creating DAX measures on the data later. By completing this process, you have now created a simpler way of slicing the data with the Year and Month columns.
 
-
+Pivot columns
+If the data that you are shaping is flat (in other words, it has lot of detail but is not organized or grouped in any way), the lack of structure can complicate your ability to identify patterns in the data.
+You can use the Pivot Column feature to convert your flat data into a table that contains an aggregate value for each unique value in a column. For example, you might want to use this feature to summarize data by using different math functions such as Count, Minimum, Maximum, Median, Average, or Sum.
+In the SalesTarget example, you can pivot the columns to get the quantity of product subcategories in each product category.
+On the Transform tab, select Transform > Pivot Columns.
+On the Pivot Column window that displays, select a column from the Values Column list, such as Subcategory name. Expand the advanced options and select an option from the Aggregate Value Function list, such as Count (All), and then select OK.
+The following image illustrates how the Pivot Column feature changes the way that the data is organized.
+Power Query Editor records all steps that you take to shape your data, and the list of steps are shown in the Query Settings pane. If you have made all the required changes, select Close & Apply to close Power Query Editor and apply your changes to your semantic model. However, before you select Close & Apply, you can take further steps to clean up and transform your data in Power Query Editor. These additional steps are covered later in this module.
 
