@@ -25,4 +25,7 @@ Refer to the previous screenshot, which shows the impact of the Use First Row as
 You can rename column headers in two ways. One approach is to right-click the header, select Rename, edit the name, and then press Enter. Alternatively, you can double-click the column header and overwrite the name with the correct name.
 You can also work around this issue by removing (skipping) the first two rows and then renaming the columns to the correct name.
 
+Remove top rows
+When shaping your data, you might need to remove some of the top rows, for example, if they are blank or if they contain data that you do not need in your reports.
+Continuing with the SalesTarget example, notice that the first row is blank (it has no data) and the second row has data that is no longer required.
 
