@@ -6,3 +6,8 @@ It's good practice to change uncommon or unhelpful query names to names that are
 In this example, you have examined the name of the TargetSales query and realize that this name is unhelpful because you'll have a query with this name for every year. To avoid confusion, you want to add the year to the query name.
 In Power Query Editor, in the Queries pane to the left of your data, select the query that you want to rename. Right-click the query and select Rename. Edit the current name or type a new name, and then press Enter.
 
+Replace values
+You can use the Replace Values feature in Power Query Editor to replace any value with another value in a selected column.
+In this example, you notice that, in the Attribute column, the month December is misspelled. You need to correct this spelling mistake. Select the column that contains the value that you want to replace (Attribute in this case), and then select Replace Values on the Transform tab. 
+In the Value to Find box, enter the name of the value that you want to replace, and then in the Replace With box, enter the correct value name and then select OK. In Power Query, you can't select one cell and change one value, like you might have done in Excel.
+You can review the list of steps that you took to restructure and correct your data in the Query Settings pane. When you have completed all steps that you want to take, you can select Close & Apply to close Power Query Editor and apply your changes to your data model. However, you can take further action to clean and transform your data.
