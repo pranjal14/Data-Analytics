@@ -14,3 +14,9 @@ You can review the list of steps that you took to restructure and correct your d
 
 Replace null values
 Occasionally, you might find that your data sources contain null values. For example, a freight amount on a sales order might have a null value if it's synonymous with zero. If the value stays null, the averages will not be calculated correctly. One solution would be to change the nulls to zero, which will produce a more accurate freight average. In this instance, using the same steps that you followed previously will help you replace the null values with zero.
+
+Remove duplicates
+You can also remove duplicates from columns to only keep unique names in a selected column by using the Remove Duplicates feature in Power Query.
+In this example, notice that the Category Name column contains duplicates for each category. As a result, you want to create a table with unique categories and use it in your semantic model. You can achieve this action by selecting a column, right-clicking on the header of the column, and then selecting the Remove Duplicates option.
+You might consider copying the table before removing the duplicates. The Copy option is at the top of the context menu, as shown in the following screenshot. Copying the table before removing duplicates will give you a comparison of the tables and will let you use both tables, if needed.
+
