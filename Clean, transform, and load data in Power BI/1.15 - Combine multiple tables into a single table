@@ -1,1 +1,9 @@
+The ability to combine queries is powerful because it allows you to append or merge different tables or queries together. You can combine tables into a single table in the following circumstances:
 
+Too many tables exist, making it difficult to navigate an overly complicated semantic model.
+Several tables have a similar role.
+A table has only a column or two that can fit into a different table.
+You want to use several columns from different tables in a custom column.
+
+You can combine the tables in two different ways: merging and appending.
+Assume that you're developing Power BI reports for the Sales and HR teams. They have asked you to create a contact information report that contains the contact information and location of every employee, supplier, and customer. The data is in the HR.Employees, Production.Suppliers, and the Sales.Customers tables, as shown in the following image.
