@@ -20,3 +20,15 @@ After you have added the tables that you want to append, select OK. You'll be ro
 You have now succeeded in creating a master table that contains the information for the employees, suppliers, and customers. You can exit Power Query Editor and build any report elements surrounding this master table.
 However, if you wanted to merge tables instead of appending the data from one table to another, the process would be different.
 
+Merge queries
+When you merge queries, you're combining the data from multiple tables into one based on a column that is common between the tables. This process is similar to the JOIN clause in SQL. Consider a scenario where the Sales team now wants you to consolidate orders and their corresponding details (which are currently in two tables) into a single table. You can accomplish this task by merging the two tables, Orders and OrderDetails, as shown in the following image. The column that is shared between these two tables is OrderID.
+Go to Home on the Power Query Editor ribbon and select the Merge Queries drop-down menu, where you can select Merge Queries as New. This selection will open a new window, where you can choose the tables that you want to merge from the drop-down list, and then select the column that is matching between the tables, which in this case is orderid.
+You can also choose how to join the two tables together, a process that is also similar to JOIN statements in SQL. These join options include:
+
+Left Outer - Displays all rows from the first table and only the matching rows from the second.
+Full Outer - Displays all rows from both tables.
+Inner - Displays the matched rows between the two tables.
+
+For this scenario, you'll choose to use a Left Outer join. Select OK, which will route you to a new window where you can view your merged query.
+Now, you can merge two queries or tables in different ways so that you can view your data in the most appropriate way for your business requirements.
+
