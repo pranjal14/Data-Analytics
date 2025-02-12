@@ -7,3 +7,16 @@ You want to use several columns from different tables in a custom column.
 
 You can combine the tables in two different ways: merging and appending.
 Assume that you're developing Power BI reports for the Sales and HR teams. They have asked you to create a contact information report that contains the contact information and location of every employee, supplier, and customer. The data is in the HR.Employees, Production.Suppliers, and the Sales.Customers tables, as shown in the following image.
+However, this data comes from multiple tables, so the dilemma is determining how you can merge the data in these multiple tables and create one source-of-truth table to create a report from. The inherent functionality of Power BI allows you to combine and merge queries into a single table.
+
+Append queries
+When you append queries, you'll be adding rows of data to another table or query. For example, you could have two tables, one with 300 rows and another with 100 rows, and when you append queries, you'll end up with 400 rows. When you merge queries, you'll be adding columns from one table (or query) into another. To merge two tables, you must have a column that is the key between the two tables.
+For the previously mentioned scenario, you'll append the HR.Employees table with the Production.Suppliers and Sales.Customers tables so that you have one master list of contact information. Because you want to create one table that has all contact information for employees, suppliers, and customers, when you combine the queries, the pertinent columns that you require in your combined table must be named the same in your original data tables to see one consolidated view.
+Before you begin combining queries, you can remove extraneous columns that you don't need for this task from your tables. To complete this task, format each table to have only four columns with your pertinent information, and rename them so they all have the same column headers: ID, company, name, and phone. The following images are snippets of the reformatted Sales.Customers, Production.Suppliers, and HR.Employees tables.
+After you have finished reformatting, you can combine the queries. On the Home tab on the Power Query Editor ribbon, select the drop-down list for Append Queries. You can select Append Queries as New, which means that the output of appending will result in a new query or table, or you can select Append Queries, which will add the rows from an existing table into another.
+
+Your next task is to create a new master table, so you need to select Append Queries as New. This selection will bring you to a window where you can add the tables that you want to append from Available Tables to Tables to Append, as shown in the following image.
+After you have added the tables that you want to append, select OK. You'll be routed to a new query that contains all rows from all three of your tables, as shown in the following image.
+You have now succeeded in creating a master table that contains the information for the employees, suppliers, and customers. You can exit Power Query Editor and build any report elements surrounding this master table.
+However, if you wanted to merge tables instead of appending the data from one table to another, the process would be different.
+
