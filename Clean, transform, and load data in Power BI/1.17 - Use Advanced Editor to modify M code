@@ -4,3 +4,6 @@ After creating steps to clean data, select the View ribbon of Power Query and th
 
 Each Power Query step will roughly align with one or two lines of M code. You don't have to be an expert in M code to be able to read it. You can even experiment with changing it. For instance, if you need to change the name of a database, you could do it right in the code and then select Done.
 You might notice that M code is written top-down. Later steps in the process can refer to previous steps by the variable name to the left of the equal sign. Be careful about reordering these steps because it could ruin the statement dependencies. Write to a query formula step by using the in statement. Generally, the last query step is used as the final data set result.
+
+Summary
+This module explained how you can take data that is difficult to read, build calculations on, and discover and make it simpler for report authors and others to use. Additionally, you learned how to combine queries so that they were fewer in number, which makes data navigation more streamlined. You also replaced renamed columns into a human readable form and reviewed good naming conventions for objects in Power BI.
