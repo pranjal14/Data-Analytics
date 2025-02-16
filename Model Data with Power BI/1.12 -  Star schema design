@@ -11,5 +11,14 @@ Each dimension table must have a unique column, which is referred to as its key 
 Relate star schema tables
 In the model, dimension tables are related to fact tables by using one-to-many relationships. The relationships allow filters and groups that are applied to dimension table columns to propagate to the fact table. This design pattern is common.
 Dimension tables can be used to filter multiple fact tables, and fact tables can be filtered by multiple dimension tables. However, it's not a good practice to relate a fact table directly to another fact table.
-To practice this concept, download the Adventure Works DW 2020 M01.pbix file, open the file, and then switch to the model diagram.
+Notice that the model is comprised of seven tables, one of which is named Sales and is the fact table. The remaining tables are dimension tables, and they have the following names:
+Customer
+Date
+Product
+Reseller
+Sales Order
+Sales Territory
+Notice the relationships between the dimension and fact tables and that each relationship filter direction is pointing toward the fact table. As a result, when filters are applied to dimension table columns (to filter or group by column values), related facts are filtered and summarized.
+
+If you examine the pattern, you might see a star shape.
 
