@@ -1,4 +1,5 @@
 It's unusual for a Power BI semantic model to be composed of a single table. A single-table model can be a simple design, perhaps one that's suitable for a data exploration task or proof of concept, but not one that's an optimal model design. An optimal model adheres to star schema design principles. Star schema refers to a design approach that's commonly used by relational data warehouse designers because it presents a user-friendly structure and it supports high-performance analytic queries.
 This design principle is called a star schema because it classifies model tables as either fact or dimension. In a diagram, a fact table forms the center of a star, while dimension tables, when placed around a fact table, represent the points of the star.
 
-
+Fact tables
+The role of a fact table is to store an accumulation of rows that represent observations or events that record a specific business activity. For example, events that are stored in a sales fact table could be sales orders and the order lines. You could also use a fact table to record stock movements, stock balances, or daily currency exchange rates. Generally, fact tables contain numerous rows. As time passes, fact table rows accumulate. In analytic queries (which will be defined later in this module), fact table data is summarized to produce values like sales and quantity.
