@@ -7,3 +7,9 @@ The role of a fact table is to store an accumulation of rows that represent obse
 Dimension tables
 Dimension tables describe your business entities, which commonly represent people, places, products, or concepts. A date dimension table, which contains one row for each date, is a common example of a concept dimension table. The columns in dimension tables allow filtering and grouping of fact table data.
 Each dimension table must have a unique column, which is referred to as its key column. A unique column doesn't contain duplicate values and it should never have missing values. In a product dimension table, the column could be named ProductKey or ProductID. Likely, additional columns will store descriptive values, like the product name, subcategory, category, color, and so on. In analytic queries, these columns are used to filter and group data.
+
+Relate star schema tables
+In the model, dimension tables are related to fact tables by using one-to-many relationships. The relationships allow filters and groups that are applied to dimension table columns to propagate to the fact table. This design pattern is common.
+Dimension tables can be used to filter multiple fact tables, and fact tables can be filtered by multiple dimension tables. However, it's not a good practice to relate a fact table directly to another fact table.
+To practice this concept, download the Adventure Works DW 2020 M01.pbix file, open the file, and then switch to the model diagram.
+
