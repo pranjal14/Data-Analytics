@@ -10,3 +10,9 @@ Filtering, or slicing, targets the data of relevance. In Power BI reports, filte
 Grouping, or dicing, divides query results into groups.
 
 Summarizing produces a single value result. Typically, numeric columns are summarized by using summarization methods (sum, count, and many others). These methods are simple summarizations. More complex summarizations, like a percent of grand total, can be achieved by defining measures that are written in DAX.
+
+Not all analytic queries need to filter, group, and summarize:
+
+Commonly, report visuals are filtered, perhaps by a time period or geographic location.
+Grouping is optional. For example, a card visual, which is used to display a single value, isn't concerned with grouping.
+Typically, report visuals summarize. One notable exception, however, is the slicer visual, which isn't concerned with summarization.
