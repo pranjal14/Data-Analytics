@@ -1,1 +1,7 @@
+An analytic query is a query that produces a result from a semantic model. Each Power BI visual, in the background, submits an analytic query to Power BI to query the model. The analytic query is written as a Data Analysis Expressions (DAX) query statement. However, you don't need to write a native DAX statement; you only need to configure report visuals by mapping semantic model fields.
+An analytic query has three phases that are implemented in the following order:
+
+Filter
+Group
+Summarize
 
