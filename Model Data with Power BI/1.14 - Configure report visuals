@@ -22,3 +22,6 @@ Each of these resource types can be used to configure a visual, which in the bac
 Columns
 Use columns to filter, group, and summarize column values. Summarizing numeric columns is common, and it can be done by using sum, count, distinct count, minimum, maximum, average, median, standard deviation, or variance. You can also summarize text columns by using first (alphabetic order), last, count, or distinct count. Additionally, you can summarize date columns by using earliest, latest, count, or distinct count.
 At design time, the data modeler can set the column default summarization property. This property can be set to any of the supported summarization types or to Do not summarize. The latter option means that the column, by default, is only to be used to group. If your semantic model has a numeric column that stores year values, it would be appropriate to set its default summarization to Do not summarize because the column will likely be used only for grouping or filtering, and that numeric summarization of years, like an average, doesn't produce a meaningful result.
+
+Hierarchy levels
+While hierarchy levels are based on columns, they can be used to filter and group but not to summarize. Report authors can summarize the column that the hierarchy level is based on, provided that it's visible in the Fields pane.
