@@ -1,1 +1,21 @@
+Report authors produce report designs by adding report visuals and other elements to pages. Other elements include text boxes, buttons, shapes, and images. Each of these elements is configured independently of semantic model fields.
+
+At design time, adding and configuring a report visual involves the following methodology:
+
+Select a visual type, like a bar chart.
+Map semantic model fields, which are displayed in the Fields pane, to the visual field wells. For a bar chart, the wells are Y-axis, X-axis, Legend, Small multiples, and Tooltips.
+Configure mapped fields. It's possible to rename mapped fields or toggle the field to summarize or not summarize. If the field summarizes, you can select the summarization method.
+Apply format options, like axis properties, data labels, and many others.
+The following example shows how to configure the analytic query for a report visual. To begin, open the Adventure Works DW 2020 M01.pbix Power BI Desktop file, and then follow these steps:
+
+Add a stacked column chart visual to the report page.
+Filter the page by using Fiscal Year from the Date table and selecting FY2020.
+Group the visual by adding Month from the Date table to the X-axis well.
+Summarize the visual by adding Sales Amount from the Sales table to the Y-axis well.
+
+Fields is a collective term that is used to describe a model resource that can be used to configure a visual. The three different model resources that are fields include:
+Columns
+Hierarchy levels
+Measures
+Each of these resource types can be used to configure a visual, which in the background configures an analytic query. The following table illustrates how to use each of the model resources.
 
