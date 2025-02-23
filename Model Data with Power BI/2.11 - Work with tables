@@ -1,1 +1,10 @@
+When users see fewer tables, they will enjoy using your semantic model considerably more. For example, suppose you've imported dozens of tables from many data sources and now the visual appears disorderly. In this case, you need to ensure that, before you begin working on building reports, your semantic model and table structure are simplified.
+
+A simple table structure will:
+
+Be simple to navigate because of column and table properties that are specific and user-friendly.
+Have merged or appended tables to simplify the tables within your data structure.
+Have good-quality relationships between tables that make sense.
+
+The following sections further explain how you might work with your tables to ensure a simple and readable table structure.
 
