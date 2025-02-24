@@ -7,3 +7,11 @@ Ways that you can build a common date table are:
 Source data
 DAX
 Power Query
+
+Source data
+Occasionally, source databases and data warehouses already have their own date tables. If the administrator who designed the database did a thorough job, these tables can be used to perform the following tasks:
+Identify company holiday
+Separate calendar and fiscal year
+Identify weekends versus weekdays
+Source data tables are mature and ready for immediate use. If you have a table as such, bring it into your semantic model and don't use any other methods that are outlined in this section. We recommend that you use a source date table because it is likely shared with other tools that you might be using in addition to Power BI.
+If you do not have a source data table, you can use other ways to build a common date table.
