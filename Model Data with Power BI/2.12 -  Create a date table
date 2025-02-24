@@ -2,4 +2,8 @@ During report creation in Power BI, a common business requirement is to make cal
 For example, suppose that you are developing reports for the Sales team at your organization. The database contains tables for sales, orders, products, and more. You notice that many of these tables, including Sales and Orders, contain their own date columns, as shown by the ShipDate and OrderDate columns in the Sales and Orders tables. You are tasked with developing a table of the total sales and orders by year and month. How can you build a visual with multiple tables, each referencing their own date columns?
 To solve this problem, you can create a common date table that can be used by multiple tables. The following section explains how you can accomplish this task in Power BI.
 
-
+Create a common date table
+Ways that you can build a common date table are:
+Source data
+DAX
+Power Query
