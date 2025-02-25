@@ -59,4 +59,8 @@ Complete the same process for months, weeks, and days. After you have finished t
 You have now successfully used Power Query to build a common date table.
 The previous steps show how to get the table into the semantic model. Now, you need to mark your table as the official date table so that Power BI can recognize it for all future values and ensure that formatting is correct.
 
+Mark as the official date table
+Your first task in marking your table as the official date table is to find the new table on the Fields pane. Right-click the name of the table and then select Mark as the date table, as shown in the following figure.
+By marking your table as a date table, Power BI performs validations to ensure that the data contains zero null values, is unique, and contains continuous date values over a period. You can also choose specific columns in your table to mark as the date, which can be useful when you have many columns within your table. Right-click the table, select Mark as date table, and then select Date table settings. The following window will appear, where you can choose which column should be marked as Date.
+Selecting Mark as date table will remove auto generated hierarchies from the Date field in the table that you marked as a date table. For other date fields, the auto hierarchy will still be present until you establish a relationship between that field and the date table or until you turn off the Auto Date/Time feature. You can manually add a hierarchy to your common date table by right-clicking the year, month, week, or day columns in the Fields pane and then selecting New hierarchy. This process is further discussed later in this module.
 
