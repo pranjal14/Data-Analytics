@@ -42,3 +42,21 @@ DayoftheWeek = FORMAT(Dates[Date], "DDDD")
 
 When you have finished, your table will contain the columns that are shown in the following figure.
 You have now created a common date table by using DAX. This process only adds your new table to the semantic model; you will still need to establish relationships between your date table and the Sales and Order tables, and then mark your table as the official date table of your semantic model. However, before you complete those tasks, make sure that you consider another way of building a common date table: by using Power Query.
+
+Power Query
+You can use M-language, the development language that is used to build queries in Power Query, to define a common date table.
+Select Transform Data in Power BI Desktop, which will direct you to Power Query. In the blank space of the left Queries pane, right-click to open the following drop-down menu, where you will select New Query > Blank Query.
+In the resulting New Query view, enter the following M-formula to build a calendar table:
+
+= List.Dates(#date(2011,05,31), 365*10, #duration(1,0,0,0))
+
+For your sales data, you want the start date to reflect the earliest date that you have in your data: May 31, 2011. Additionally, you want to see dates for the next 10 years, including dates in the future. This approach ensures that, as new sales data flows in, you won't have to re-create this table. You can also change duration. In this case, you want a data point for every day, but you can also increment by hours, minutes, and seconds. The following figure shows the result.
+After you have realized success in the process, you notice that you have a list of dates instead of a table of dates. To correct this error, go to the Transform tab on the ribbon and select Convert > To Table. As the name suggests, this feature will convert your list into a table. You can also rename the column to DateCol.
+Next, you want to add columns to your new table to see dates in terms of year, month, week, and day so that you can build a hierarchy in your visual. Your first task is to change the column type by selecting the icon next to the name of the column and, in the resulting drop-down menu, selecting the Date type.
+After you have finished selecting the Date type, you can add columns for year, months, weeks, and days. Go to Add Column, select the drop-down menu under Date, and then select Year, as shown in the following figure.
+Notice that Power BI has added a column of all years that are pulled from DateCol.
+Complete the same process for months, weeks, and days. After you have finished this process, the table will contain the columns that are shown in the following figure.
+You have now successfully used Power Query to build a common date table.
+The previous steps show how to get the table into the semantic model. Now, you need to mark your table as the official date table so that Power BI can recognize it for all future values and ensure that formatting is correct.
+
+
