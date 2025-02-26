@@ -1,3 +1,11 @@
 When building a star schema, you will have dimension and fact tables. Fact tables contain information about events such as sales orders, shipping dates, resellers, and suppliers. Dimension tables store details about business entities, such as products or time, and are connected back to fact tables through a relationship.
 You can use hierarchies as one source to help you find detail in dimension tables. These hierarchies form through natural segments in your data. For instance, you can have a hierarchy of dates in which your dates can be segmented into years, months, weeks, and days. Hierarchies are useful because they allow you to drill down into the specifics of your data instead of only seeing the data at a high level.
 
+Hierarchies
+When you are building visuals, Power BI automatically enters values of the date type as a hierarchy (if the table has not been marked as a date table).
+In the preceding Date column, the date is shown in increasingly finer detail through year, quarters, months, and days. You can also manually create hierarchies.
+For example, consider a situation where you want to create a stacked bar chart of Total Sales by Category and Subcategory. You can accomplish this task by creating a hierarchy in the Product table for categories and subcategories. To create a hierarchy, go to the Fields pane on Power BI and then right-click the column that you want the hierarchy for. Select New hierarchy, as shown in the following figure.
+Next, drag and drop the subcategory column into this new hierarchy that you've created. This column will be added as a sublevel on the hierarchy.
+Now, you can build the visual by selecting a stacked bar chart in the Visualizations pane. Add your Category Name Hierarchy in the Axis field and Total Sales in the Values field.
+You can drill down on the visual to view both Category and Subcategory, depending on what you want to see. Hierarchies allow you to view increasing levels of data on a single view.
+Now that you have learned about hierarchies, you can take a step further and examine parent-child hierarchies and their role in multiple relationships between fact tables and dimension tables.
