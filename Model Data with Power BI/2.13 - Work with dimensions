@@ -9,3 +9,7 @@ Next, drag and drop the subcategory column into this new hierarchy that you've c
 Now, you can build the visual by selecting a stacked bar chart in the Visualizations pane. Add your Category Name Hierarchy in the Axis field and Total Sales in the Values field.
 You can drill down on the visual to view both Category and Subcategory, depending on what you want to see. Hierarchies allow you to view increasing levels of data on a single view.
 Now that you have learned about hierarchies, you can take a step further and examine parent-child hierarchies and their role in multiple relationships between fact tables and dimension tables.
+
+Parent-child hierarchy
+In the following example, you have an Employee table within the database that tells you important information about the employees, their managers, and their IDs. When looking at this table, you notice that Roy F has been repeated multiple times in the Manager column. As the image shows, multiple employees can have the same manager, which indicates a hierarchy between managers and employees.
+The Manager column determines the hierarchy and is therefore the parent, while the "children" are the employees. For this example, you want to be able to see all levels of this hierarchy. Power BI does not default to showing you all levels of the hierarchy, so it is your responsibility to ensure that you see all levels of this hierarchy or "flatten" it so that you can see more data granularity.
