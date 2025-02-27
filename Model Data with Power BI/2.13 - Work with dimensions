@@ -13,3 +13,21 @@ Now that you have learned about hierarchies, you can take a step further and exa
 Parent-child hierarchy
 In the following example, you have an Employee table within the database that tells you important information about the employees, their managers, and their IDs. When looking at this table, you notice that Roy F has been repeated multiple times in the Manager column. As the image shows, multiple employees can have the same manager, which indicates a hierarchy between managers and employees.
 The Manager column determines the hierarchy and is therefore the parent, while the "children" are the employees. For this example, you want to be able to see all levels of this hierarchy. Power BI does not default to showing you all levels of the hierarchy, so it is your responsibility to ensure that you see all levels of this hierarchy or "flatten" it so that you can see more data granularity.
+
+Flatten parent-child hierarchy
+The process of viewing multiple child levels based on a top-level parent is known as flattening the hierarchy. In this process, you are creating multiple columns in a table to show the hierarchical path of the parent to the child in the same record. You will use PATH(), a simple DAX function that returns a text version of the managerial path for each employee, and PATHITEM() to separate this path into each level of managerial hierarchy.
+Important: DAX has not been covered yet; however, it will be in another module. This function is included in this section because it's explaining hierarchies. If use of DAX in this capacity is confusing, refer to the DAX module and then return to this section afterward.
+While on the table, go to the Modeling tab and select New Column. In the resulting formula bar, enter the following function, which creates the text path between the employee and manager. This action creates a calculated column in DAX.
+DAX
+Copy
+Path = PATH(Employee[Employee ID], Employee[Manager ID])
+The completed path between the employee and the manager appears in the new column, as shown in the following screenshot.
+If you look at Roger M, the path of IDs is 1010 | 1011 | 1013, which means that one level above Roger M (ID 1013) is his manager, Pam H (ID 1011), and one level above Pam H is her manager Roy F (ID 1010). In this row, Roger M is on the bottom of the hierarchy, at the child level, and Roy F is at the top of the hierarchy and is at the parent level. This path is created for every employee. To flatten the hierarchy, you can separate each level by using the PATHITEM function.
+To view all three levels of the hierarchy separately, you can create four columns in the same way that you did previously, by entering the following equations. You will use the PATHITEM function to retrieve the value that resides in the corresponding level of your hierarchy.
+Level 1 = PATHITEM(Employee[Path],1)
+Level 2 = PATHITEM(Employee[Path],2)
+Level 3 = PATHITEM(Employee[Path],3)
+After you have finished, notice that you now have each level of hierarchy within your table. Roy F is at the top of the hierarchy and, as you go through Levels 2-3, notice that the managers and employees map with each other.
+Now, you can create a hierarchy on the Fields pane, as you did previously. Right-click Level 1, because this is the first hierarchy level, and then select New Hierarchy. Then, drag and drop Level 2 and Level 3 into this hierarchy.
+You have now successfully flattened a hierarchy so that you can view individual levels.
+Previously, you've considered dimensions that have only one relationship with a fact table. However, situations do occur where your dimension table will have multiple relationships with a fact table.
