@@ -1,1 +1,3 @@
+Data granularity is the detail that is represented within your data, meaning that the more granularity your data has, the greater the level of detail within your data.
+Data granularity is an important topic for all data analysts, regardless of the Power BI tools that you're using. Defining the correct data granularity can have a big impact on the performance and usability of your Power BI reports and visuals.
 
