@@ -7,3 +7,17 @@ How can you change the granularity of the data to make the semantic model more u
 In this scenario, you might want to import the data by using a daily average for each truck. That approach would reduce the records in the database to one record for each truck for each day. If you decide that the approach was acceptable enough for tracking costs and errors, then you could use that data granularity. Alternatively, you could select the last recorded temperature, or you could only import records that are above or below a normal range of temperatures. Any of these methods will reduce the total records that you import, while still bringing in data that is comprehensive and valuable.
 For different scenarios, you could settle on data granularity that is defined weekly, monthly, or quarterly. Generally, the fewer the records that you are working with, the faster your reports and visuals will function. This approach translates to a faster refresh rate for the entire semantic model, which might mean that you can refresh more frequently.
 However, that approach has a drawback. If your users want to drill into every single transaction, summarizing the granularity will prevent them from doing that, which can have a negative impact on the user experience. It is important to negotiate the level of data granularity with report users so they understand the implications of these choices.
+
+Change data granularity to build a relationship between two tables
+Data granularity can also have an impact when you're building relationships between tables in Power BI.
+For example, consider that you're building reports for the Sales team at Tailwind Traders. You've been asked to build a matrix of total sales and budget over time by using the Calendar, Sales, and Budget tables. You notice that the lowest level of time-based detail that the Sales table goes into is by day, for instance 5/1/2020, 6/7/2020, and 6/18/2020. The Budget table only goes to the monthly level, for instance, the budget data is 5/2020 and 6/2020. These tables have different granularities that need to be reconciled before you can build a relationship between tables.
+The following figure shows your current semantic model.
+
+As shown in the preceding figure, a relationship between Budget and Calendar is missing. Therefore, you need to create this relationship before you can build your visual. Notice that if you transform the Year and Month columns in the Calendar table into a new column, and do the same transformation in the Budget table, you can match the format of the Date column in the Calendar table. Then, you can establish a relationship between the two columns. To complete this task, you'll concatenate the Year and Month columns and then change the format.
+Select Transform Data on the ribbon. On Applied Steps, on the right pane, right-click the last step and then select Insert Step After.
+Under Add Column on the Home ribbon, select Custom Column. Enter the following equation, which will concatenate the Year and Month columns, and then add a dash in between the column names.
+
+column = Table.AddColumn(#"Renamed Columns", "Custom", each [Year] & "-" &[Month])
+Change the data type to Date and then rename the column. Your Budget table should resemble the following figure.
+Now, you can create a relationship between the Budget and the Calendar tables.
+
