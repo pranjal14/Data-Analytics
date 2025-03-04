@@ -1,3 +1,24 @@
 Unlike other database management systems, Power BI has the concept of directionality to a relationship. This directionality plays an important role in filtering data between multiple tables. When you load data, Power BI automatically looks for relationships that exist within the data by matching column names. You can also use Manage Relationships to edit these options manually.
 For example, you've retrieved many tables from the Sales database, and the following image is an example of your semantic model. Power BI has autodetected several relationships, but you can't discern what they mean. You want to make sure that the relationships accurately reflect those that exist in your data.
 
+Relationships
+The following are different types of relationships that you'll find in Power BI.
+
+Many-to-one (*:1) or one-to-many (1: *) relationship
+Describes a relationship in which you have many instances of a value in one column that are related to only one unique corresponding instance in another column.
+Describes the directionality between fact and dimension tables.
+Is the most common type of directionality and is the Power BI default when you are automatically creating relationships.
+
+An example of a one-to-many relationship would be between the CountryName and Territory tables, where you can have many territories that are associated with one unique country.
+
+One-to-one (1:1) relationship:
+Describes a relationship in which only one instance of a value is common between two tables.
+Requires unique values in both tables.
+Is not recommended because this relationship stores redundant information and suggests that the model is not designed correctly. It is better practice to combine the tables.
+An example of a one-to-one relationship would be if you had products and product IDs in two different tables. Creating a one-to-one relationship is redundant and these two tables should be combined.
+
+Many-to-many (.) relationship:
+Describes a relationship where many values are in common between two tables
+Does not require unique values in either table in a relationship.
+Is not recommended; a lack of unique values introduces ambiguity and your users might not know which column of values is referring to what.
+For instance, the following figure shows a many-to-many relationship between the Sales and Order tables on the OrderDate column because multiple sales can have multiple orders associated with them. Ambiguity is introduced because both tables can have the same order date.
