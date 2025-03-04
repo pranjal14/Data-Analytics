@@ -1,1 +1,3 @@
+Unlike other database management systems, Power BI has the concept of directionality to a relationship. This directionality plays an important role in filtering data between multiple tables. When you load data, Power BI automatically looks for relationships that exist within the data by matching column names. You can also use Manage Relationships to edit these options manually.
+For example, you've retrieved many tables from the Sales database, and the following image is an example of your semantic model. Power BI has autodetected several relationships, but you can't discern what they mean. You want to make sure that the relationships accurately reflect those that exist in your data.
 
