@@ -22,3 +22,17 @@ Describes a relationship where many values are in common between two tables
 Does not require unique values in either table in a relationship.
 Is not recommended; a lack of unique values introduces ambiguity and your users might not know which column of values is referring to what.
 For instance, the following figure shows a many-to-many relationship between the Sales and Order tables on the OrderDate column because multiple sales can have multiple orders associated with them. Ambiguity is introduced because both tables can have the same order date.
+
+Cross-filter direction
+Data can be filtered on one or both sides of a relationship.
+With a single cross-filter direction:
+
+Only one table in a relationship can be used to filter the data. For instance, Table 1 can be filtered by Table 2, but Table 2 cannot be filtered by Table 1.
+
+Tip
+Follow the direction of the arrow on the relationship between your tables to know which direction the filter will flow. You typically want these arrows to point to your fact table.
+For a one-to-many or many-to-one relationship, the cross-filter direction will be from the "one" side, meaning that the filtering will occur in the table that has many values.
+With both cross-filter directions or bi-directional cross-filtering:
+One table in a relationship can be used to filter the other. For instance, a dimension table can be filtered through the fact table, and the fact tables can be filtered through the dimension table.
+You might have lower performance when using bi-directional cross-filtering with many-to-many relationships.
+A word of caution regarding bi-directional cross-filtering: You should not enable bi-directional cross-filtering relationships unless you fully understand the ramifications of doing so. Enabling it can lead to ambiguity, over-sampling, unexpected results, and potential performance degradation.
