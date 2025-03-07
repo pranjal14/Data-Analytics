@@ -1,2 +1,15 @@
 In this module, you'll learn how to write DAX formulas to create calculated tables, calculated columns, and measures, which are different types of model calculations. Additionally, you'll learn how to write and format DAX formulas, which consist of expressions that use functions, operators, references to model objects, constants, and variables.
 
+Introduction
+By using Data Analysis Expressions (DAX), you can add three types of calculations to your semantic model:
+Calculated tables
+Calculated columns
+Measures
+Calculated tables
+You can write a DAX formula to add a calculated table to your model. The formula can duplicate or transform existing model data, or create a series of data, to produce a new table. Calculated table data is always imported into your model, so it increases the model storage size and can prolong data refresh time.
+Note:A calculated table can't connect to external data; you need to use Power Query to accomplish that task.
+Calculated tables can be useful in various scenarios:
+Date tables
+Role-playing dimensions
+What-if analysis
+
