@@ -13,3 +13,5 @@ Date tables
 Role-playing dimensions
 What-if analysis
 
+Date tables
+Date tables are required to apply special time filters known as time intelligence. DAX time intelligence functions only work correctly when a date table is set up. When your source data doesn't include a date table, you can create one as calculated tables by using the CALENDAR or CALENDARAUTO DAX functions.
