@@ -15,3 +15,6 @@ What-if analysis
 
 Date tables
 Date tables are required to apply special time filters known as time intelligence. DAX time intelligence functions only work correctly when a date table is set up. When your source data doesn't include a date table, you can create one as calculated tables by using the CALENDAR or CALENDARAUTO DAX functions.
+
+Role-playing dimensions
+When two model tables have multiple relationships, it could be because your model has a role-playing dimension. For example, if you have a table named Sales that includes two date columns, OrderDateKey and ShipDateKey, both columns are related to the Date column in the Date table. In this case, the Date table is described as a role-playing dimension because it could play the role of order date or ship date.
