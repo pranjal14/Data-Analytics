@@ -29,3 +29,11 @@ Notably, what-if calculated tables aren't related to other model tables because 
 Calculated columns
 You can write a DAX formula to add a calculated column to any table in your model. The formula is evaluated for each table row and it returns a single value. When added to an Import storage mode table, the formula is evaluated when the semantic model is refreshed, and it increases the storage size of your model. When added to a DirectQuery storage mode table, the formula is evaluated by the underlying source database when the table is queried.
 In the Fields pane, calculated columns are enhanced with a special icon. The following example shows a single calculated column in the Customer table called Age.
+
+Measures
+You can write a DAX formula to add a measure to any table in your model. The formula is concerned with achieving summarization over model data. Similar to a calculated column, the formula must return a single value. Unlike calculated columns, which are evaluated at data refresh time, measures are evaluated at query time. Their results are never stored in the model.
+In the Fields pane, measures are shown with the calculator icon. The following example shows three measures in the Sales table: Cost, Profit, and Revenue.
+
+Occasionally, measures can be described as explicit measures. To be clear, explicit measures are model calculations that are written in DAX and are commonly referred to as simply measures. Yet, the concept of implicit measures exists, too. Implicit measures are columns that can be summarized by visuals in simplistic ways, like count, sum, minimum, maximum, and so on. You can identify implicit measures in the Fields pane because they're shown with the sigma symbol ( ∑ ).
+Additionally, no such concept as a calculated measure exists in tabular modeling. The word calculated is used to describe calculated tables and calculated columns, which distinguishes them from tables and columns that originate from Power Query. Power Query doesn't have the concept of an explicit measure.
+
