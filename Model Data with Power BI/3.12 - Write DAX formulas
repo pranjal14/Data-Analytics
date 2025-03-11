@@ -11,3 +11,7 @@ References to model objects
 Constant values, like the number 24 or the literal text "FY" (abbreviation for fiscal year)
 DAX variables
 Whitespace
+
+DAX functions
+Similar to Microsoft Excel, DAX is a functional language meaning that formulas rely on functions to accomplish specific goals. Typically, DAX functions have arguments that allow passing in variables. Formulas can use many function calls and will often nest functions within other functions.
+In a formula, function names must be followed by parentheses. Within the parentheses, variables are passed in.
