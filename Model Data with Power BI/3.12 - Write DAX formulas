@@ -18,3 +18,6 @@ In a formula, function names must be followed by parentheses. Within the parenth
 
 DAX operators
 Formulas also rely on operators, which can perform arithmetic calculations, compare values, work with strings, or test conditions.
+
+References to model objects
+Formulas can only refer to three types of model objects: tables, columns, or measures. A formula can't refer to a hierarchy or a hierarchy level. (Recall that a hierarchy level is based on a column, so your formula can refer to a hierarchy level's column.)
