@@ -30,3 +30,10 @@ The table name does not include embedded spaces.
 The table name isn't a reserved word that's used by DAX. All DAX function names and operators are reserved words. Date is a DAX function name, which explains why, when you are referencing a table named Date, that you must enclose it within single quotation marks.
 In the following calculated table definition, it's possible to omit the single quotation marks when referencing the Airport table:
 Arrival Airport = Airport
+
+Column references
+When you reference a column in a formula, the column name must be enclosed within square brackets. Optionally, it can be preceded by its table name. For example, the following measure definition refers to the Sales Amount column.
+Revenue = SUM([Sales Amount])
+Because column names are unique within a table but not necessarily unique within the model, you can disambiguate the column reference by preceding it with its table name. This disambiguated column is known as a fully qualified column. Some DAX functions require passing in fully qualified columns.
+The previous example measure definition can be rewritten as:
+Revenue = SUM(Sales[Sales Amount])
