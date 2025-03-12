@@ -43,3 +43,6 @@ When you reference a measure in a formula, like column name references, the meas
 Profit = [Revenue] - [Cost]
 If you're a DAX beginner, the fact that column and measure references are always enclosed within square brackets can cause confusion when you're trying to read a formula. However, as you become proficient with DAX fundamentals, you'll be able to determine which type of object it is because, in DAX formulas, columns, and measures are used in different ways.
 
+DAX variables
+Formulas can declare DAX variables to store results.
+How and when to use DAX variables is described later in this module.
