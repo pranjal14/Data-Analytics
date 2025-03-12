@@ -46,3 +46,36 @@ If you're a DAX beginner, the fact that column and measure references are always
 DAX variables
 Formulas can declare DAX variables to store results.
 How and when to use DAX variables is described later in this module.
+
+Whitespace
+Whitespace refers to characters that you can use to format your formulas in a way that's quick and simple to understand. Whitespace characters include:
+
+Spaces
+Tabs
+Carriage returns
+Whitespace is optional and it doesn't modify your formula logic or negatively impact performance. We strongly recommend that you adopt a format style and apply it consistently, and consider the following recommendations:
+
+Use spaces between operators.
+Use tabs to indent nested function calls.
+Use carriage returns to separate function arguments, especially when it's too long to fit on a single line. Formatting in this way makes it simpler to troubleshoot, especially when the formula is missing a parenthesis.
+Err on the side of too much whitespace than too little.
+
+Consider the following measure definition that's written in a single line and that includes five DAX function calls:
+Revenue YoY % = DIVIDE([Revenue] - CALCULATE([Revenue], SAMEPERIODLASTYEAR('Date'[Date])), CALCULATE([Revenue], SAMEPERIODLASTYEAR('Date'[Date])))
+The following example is the same measure definition but now formatted, which helps make it easier to read and understand:
+
+Revenue YoY % =
+DIVIDE(
+    [Revenue]
+        - CALCULATE(
+            [Revenue],
+            SAMEPERIODLASTYEAR('Date'[Date])
+    ),
+    CALCULATE(
+        [Revenue],
+        SAMEPERIODLASTYEAR('Date'[Date])
+    )
+)
+
+Try formatting the measure on your own. Open the Adventure Works DW 2020 M02.pbix Power BI Desktop file and then, in the Fields pane, expand the Sales table and then select the Revenue YoY % measure. In the formula bar, use tab and carriage return characters to produce the same result as the previous example. When you add a carriage return, remember to press Shift+Enter.
+This measure definition can be further improved for readability and performance, which will be explained later in this module.
