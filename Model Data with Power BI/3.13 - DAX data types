@@ -1,1 +1,3 @@
 
+Semantic model columns have a set data type, which ensures that all column values conform to that data type. Column data types are defined in Power Query, or in the case of calculated columns, it's inferred from the formula. Measure data types, similar to calculated column data types, are inferred from the formula.
+Model data types aren't the same as DAX data types, though a direct relationship exists between them. The following table lists the model data types and DAX data types. Notice the supported range of values for each data type.
