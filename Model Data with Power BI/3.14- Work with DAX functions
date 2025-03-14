@@ -21,3 +21,11 @@ Two useful DAX functions that aren't specific to modeling and that don't origina
 
 DISTINCTCOUNT function
 You can use the DISTINCTCOUNT DAX function to count the number of distinct values in a column. This function is especially powerful in an analytics solution. Consider that the count of customers is different from the count of distinct customers. The latter doesn't count repeat customers, so the difference is "How many customers" compared with "How many different customers."
+
+DIVIDE function
+You can use the DIVIDE DAX function to achieve division. You must pass in numerator and denominator expressions. Optionally, you can pass in a value that represents an alternate result. The DIVIDE function's syntax is:
+DIVIDE(<numerator>, <denominator>[, <alternate_result>])
+The DIVIDE function automatically handles division by zero cases. If an alternate result isn't passed in, and the denominator is zero or BLANK, the function returns BLANK. When an alternate result is passed in, it's returned instead of BLANK.
+This function is convenient because it saves your expression from having to first test the denominator value. The function is also better optimized for testing the denominator value than the IF function. The performance gain is significant because checking for division by zero is expensive. What's more, using the DIVIDE function results in a more concise and elegant expression.
+
+
