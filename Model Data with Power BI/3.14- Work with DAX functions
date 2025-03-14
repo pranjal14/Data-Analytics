@@ -8,3 +8,10 @@ Iterator functions
 Time intelligence functions
 Path functions
 
+Functions that originate from Excel
+The following sections consider several useful functions that you might already be familiar with because they exist in Excel.
+The IF DAX function tests whether a condition that's provided as the first argument is met. It returns one value if the condition is TRUE and returns the other value if the condition is FALSE. The function's syntax is:
+IF(<logical_test>, <value_if_true>[, <value_if_false>])
+If logical_test evaluates to FALSE and value_if_false isn't provided, the function will return BLANK.
+Many Excel summarization functions are available, including SUM, COUNT, AVERAGE, MIN, MAX, and many others. The only difference is that in DAX, you pass in a column reference, whereas in Excel, you pass in a range of cells.
+Many Excel mathematic, text, date and time, information, and logical functions are available as well. For example, a small sample of Excel functions that are available in DAX include ABS, ROUND, SQRT, LEN, LEFT, RIGHT, UPPER, DATE, YEAR, MONTH, NOW, ISNUMBER, TRUE, FALSE, AND, OR, NOT, and IFERROR.
