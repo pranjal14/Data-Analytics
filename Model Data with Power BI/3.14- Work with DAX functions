@@ -18,3 +18,6 @@ Many Excel mathematic, text, date and time, information, and logical functions a
 
 Functions that don't originate from Excel
 Two useful DAX functions that aren't specific to modeling and that don't originate from Excel are DISTINCTCOUNT and DIVIDE.
+
+DISTINCTCOUNT function
+You can use the DISTINCTCOUNT DAX function to count the number of distinct values in a column. This function is especially powerful in an analytics solution. Consider that the count of customers is different from the count of distinct customers. The latter doesn't count repeat customers, so the difference is "How many customers" compared with "How many different customers."
