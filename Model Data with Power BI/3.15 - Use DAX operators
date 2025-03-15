@@ -4,4 +4,6 @@ Arithmetic operators
 The following table lists the arithmetic operators.
 Remember, when you are dividing two expressions, and when the denominator could return zero or BLANK, it's more efficient and safer to use the DIVIDE DAX function.
 
-
+Comparison operators
+The following table lists the comparison operators, which are used to compare two values. The result is either TRUE or FALSE.
+All comparison operators, except strict equal to (==), treat BLANK as equal to the number zero, an empty string (""), the date December 30, 1899, or FALSE. It means that the expression [Revenue] = 0 will be TRUE when the value of [Revenue] is either zero or BLANK. In contrast, [Revenue] == 0 is TRUE only when the value of [Revenue] is zero.
