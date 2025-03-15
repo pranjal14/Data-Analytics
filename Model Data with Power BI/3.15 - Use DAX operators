@@ -1,0 +1,7 @@
+Your DAX formulas can use operators to create expressions that perform arithmetic calculations, compare values, work with strings, or test conditions.
+
+Arithmetic operators
+The following table lists the arithmetic operators.
+Remember, when you are dividing two expressions, and when the denominator could return zero or BLANK, it's more efficient and safer to use the DIVIDE DAX function.
+
+
