@@ -8,3 +8,9 @@ In the following image, notice that the Sales table includes only fields that ca
 As a data modeler, you can control if and how the column summarizes by setting the Summarization property to Don't summarize or to a specific aggregation function. When you set the Summarization property to Don't summarize, the sigma symbol will no longer show next to the column in the Fields pane.
 To observe how report authors can use implicit measures, you can first download and open the Adventure Works DW 2020 M04.pbix file.
 In the report, from the Sales table, add the Sales Amount field to the matrix visual that groups fiscal year and month on its rows.
+
+To determine how the column is summarized, in the visual fields pane, for the Sales Amount field, select the arrow and then review the context menu options.
+Notice that the Sum aggregation function has a check mark next to it. This check mark indicates that the column is summarized by summing column values together. It's also possible to change the aggregation function by selecting any of the other options like average, minimum, and so on.
+Next, add the Unit Price field to the matrix visual.
+The default summarization is now set to Average (the modeler knows that it's inappropriate to sum unit price values together because they're rates, which are non-additive).
+Implicit measures allow the report author to start with a default summarization technique and lets them modify it to suit their visual requirements.
