@@ -14,3 +14,15 @@ Notice that the Sum aggregation function has a check mark next to it. This check
 Next, add the Unit Price field to the matrix visual.
 The default summarization is now set to Average (the modeler knows that it's inappropriate to sum unit price values together because they're rates, which are non-additive).
 Implicit measures allow the report author to start with a default summarization technique and lets them modify it to suit their visual requirements.
+
+Numeric columns support the greatest range of aggregation functions:
+Sum
+Average
+Minimum
+Maximum
+Count (Distinct)
+Count
+Standard deviation
+Variance
+Median
+
