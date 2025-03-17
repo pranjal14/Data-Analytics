@@ -1,0 +1,7 @@
+Measures in Microsoft Power BI models are either implicit or explicit. Implicit measures are automatic behaviors that allow visuals to summarize model column data. Explicit measures, also known simply as measures, are calculations that you can add to your model. This module focuses on how you can use implicit measures.
+
+In the Fields pane, a column that's shown with the sigma symbol ( ∑ ) indicates two facts:
+It's a numeric column.
+It will summarize column values when it is used in a visual (when added to a field well that supports summarization).
+In the following image, notice that the Sales table includes only fields that can be summarized, including the Profit Amount calculated column.
+
