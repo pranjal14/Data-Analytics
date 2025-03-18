@@ -41,3 +41,6 @@ Count
 Boolean columns allow the following aggregations:
 Count (Distinct)
 Count
+
+Benefits of implicit measures
+Several benefits are associated with implicit measures. Implicit measures are simple concepts to learn and use, and they provide flexibility in the way that report authors visualize model data. Additionally, they mean less work for you as a data modeler because you don't have to create explicit calculations.
