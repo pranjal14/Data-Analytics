@@ -26,3 +26,18 @@ Standard deviation
 Variance
 Median
 
+Summarize non-numeric columns
+Non-numeric columns can be summarized. However, the sigma symbol does not show next to non-numeric columns in the Fields pane because they don't summarize by default.
+Text columns allow the following aggregations:
+First (alphabetically)
+Last (alphabetically)
+Count (Distinct)
+Count
+Date columns allow the following aggregations:
+Earliest
+Latest
+Count (Distinct)
+Count
+Boolean columns allow the following aggregations:
+Count (Distinct)
+Count
