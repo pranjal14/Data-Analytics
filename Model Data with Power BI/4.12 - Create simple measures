@@ -4,3 +4,12 @@ Measures don't store values in the model. Instead, they're used at query time to
 A simple measure is one that aggregates the values of a single column; it does what implicit measures do automatically.
 In the next example, you will add a measure to the Sales table. In the Fields pane, select the Sales table. To create a measure, in the Table Tools contextual ribbon, from inside the Calculations group, select New measure.
 
+In the formula bar, enter the following measure definition and then press Enter.
+
+Revenue = SUM(Sales[Sales Amount])
+
+The measure definition adds the Revenue measure to the Sales table. It uses the SUM DAX function to sum the values of the Sales Amount column.
+On the Measure tools contextual ribbon, inside the Formatting group, set the decimal places to 2.
+Now, add the Revenue measure to the matrix visual. Notice that it produces the same result as the Sales Amount implicit measure.
+In the matrix visual, remove Sales Amount and Sum of Unit Price.
+Next, you will create more measures. Create the Cost measure by using the following measure definition, and then set the format with two decimal places.
