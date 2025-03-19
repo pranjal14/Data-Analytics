@@ -13,3 +13,47 @@ On the Measure tools contextual ribbon, inside the Formatting group, set the dec
 Now, add the Revenue measure to the matrix visual. Notice that it produces the same result as the Sales Amount implicit measure.
 In the matrix visual, remove Sales Amount and Sum of Unit Price.
 Next, you will create more measures. Create the Cost measure by using the following measure definition, and then set the format with two decimal places.
+
+DAX
+Cost =
+SUM(Sales[Total Product Cost])
+Create the Profit measure, and then set the format with two decimal places.
+
+DAX
+Profit =
+SUM(Sales[Profit Amount])
+Notice that the Profit Amount column is a calculated column. This topic will be discussed later in this module.
+
+Next, create the Quantity measure and format it as a whole number with the thousands separator.
+
+DAX
+Quantity =
+SUM(Sales[Order Quantity])
+Create three unit price measures and then set the format of each with two decimal places. Notice the different DAX aggregation functions that are used: MIN, MAX, and AVERAGE.
+
+DAX
+Minimum Price =
+MIN(Sales[Unit Price])
+
+DAX
+Maximum Price =
+MAX(Sales[Unit Price])
+
+DAX
+Average Price =
+AVERAGE(Sales[Unit Price])
+Now, hide the Unit Price column, which results in report authors losing their ability to summarize the column except by using your measures.
+
+ 
+
+Tip - Adding measures and hiding columns is how you, the data modeler, can limit summarization options.
+
+Next, create the following two measures, which count the number of orders and order lines. Format both measures with zero decimal places.
+
+DAX
+Order Line Count =
+COUNT(Sales[SalesOrderLineKey])
+
+DAX
+Order Count =
+DISTINCTCOUNT('Sales Order'[Sales Order])
