@@ -57,3 +57,14 @@ COUNT(Sales[SalesOrderLineKey])
 DAX
 Order Count =
 DISTINCTCOUNT('Sales Order'[Sales Order])
+
+The COUNT DAX function counts the number of non-BLANK values in a column, while the DISTINCTCOUNT DAX function counts the number of distinct values in a column. Because an order can have one or more order lines, the Sales Order column will have duplicate values. A distinct count of values in this column will correctly count the number of orders.
+Alternatively, you can choose the better way to write the Order Line Count measure. Instead of counting values in a column, it's semantically clearer to use the COUNTROWS DAX function. Unlike the previously introduced aggregation functions, which aggregate column values, the COUNTROWS function counts the number of rows for a table.
+Modify the Order Line Count measure formula you created above to the following parameters:
+
+DAX
+Order Line Count =
+COUNTROWS(Sales)
+Add each of the measures to the matrix visual.
+
+All measures that you've created are considered simple measures because they aggregate a single column or single table.
