@@ -1,1 +1,4 @@
 
+When a measure references one or more measures, it's known as a compound measure.
+For this example, you will modify the Profit measure by using the following measure definition. Format the measure with two decimal places.
+
