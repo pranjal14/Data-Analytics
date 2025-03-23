@@ -1,1 +1,9 @@
+DAX beginners often experience a degree of confusion about calculated columns and measures. The following section reviews the similarities and differences between both.
+
+Regarding similarities between calculated columns and measures, both are:
+
+Calculations that you can add to your semantic model.
+Defined by using a DAX formula.
+Referenced in DAX formulas by enclosing their names within square brackets.
+The areas where calculated columns and measures differ include:
 
