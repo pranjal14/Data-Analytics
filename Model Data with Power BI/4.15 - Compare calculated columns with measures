@@ -11,3 +11,7 @@ Purpose - Calculated columns extend a table with a new column, while measures de
 Evaluation - Calculated columns are evaluated by using row context at data refresh time, while measures are evaluated by using filter context at query time. Filter context is introduced in a later module; it's an important topic to understand and master so that you can achieve complex summarizations.
 Storage - Calculated columns (in Import storage mode tables) store a value for each row in the table, but a measure never stores values in the model.
 Visual use - Calculated columns (like any column) can be used to filter, group, or summarize (as an implicit measure), whereas measures are designed to summarize.
+
+Summary
+In this module, you learned that Power BI measures are either implicit or explicit. Implicit measures are automatic behaviors that are supported by visuals, while explicit measures use DAX formulas that summarize model data.
+Explicit measures are important because they allow you to create complex DAX formulas to achieve the precise calculations that your report visuals need. While you learned to create simple and compound measures in this module, in later modules you'll learn to create more powerful measures by using filter modification functions and iterator functions.
