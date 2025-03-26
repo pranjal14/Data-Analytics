@@ -56,3 +56,12 @@ Effectively, the CALENDARAUTO function guarantees that the following requirement
 The table must include a column of data type Date.
 The column must contain complete years.
 The column must not have missing dates.
+
+Tip
+You can also create a date table by using the CALENDAR DAX function and passing in two date values, which represent the date range. The function generates one row for each date within the range. You can pass in static date values or pass in expressions that retrieve the earliest/latest dates from specific columns in your model.
+Next, switch to data view, and then in the Fields pane, select the Due Date table. Now, review the column of dates. You might want to order them to see the earliest date in the first row by selecting the arrow inside the Date column header and then sorting in ascending order.
+Now that the Date column is selected, review the message in the status bar (located in the lower-left corner). It describes how many rows that the table stores and how many distinct values are found in the selected column.
+An image shows the status message: TABLE: Due Date (1,461 rows) COLUMN: Date (1,461 distinct values).
+When the table rows and distinct values are the same, it means that the column contains unique values. That factor is important for two reasons: It satisfies the requirements to mark a date table, and it allows this column to be used in a model relationship as the one-side.
+The Due Date calculated table will recalculate each time a table that contains a date column refreshes. In other words, when a row is loaded into the Sales table with an order date of July 1, 2022, the Due Date table will automatically extend to include dates through to the end of the next year: June 30, 2023.
+The Due Date table requires additional columns to support the known filtering and grouping requirements, specifically by year, quarter, and month.
