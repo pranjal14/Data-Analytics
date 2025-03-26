@@ -44,3 +44,15 @@ Ship Month
 Ship Full Date
 Mark the Ship Date table as a date table by using the Ship Date column.
 Calculated tables are useful to work in scenarios when multiple relationships between two tables exist, as previously described. They can also be used to add a date table to your model. Date tables are required to apply special time filters known as time intelligence.
+
+
+Create a date table
+In the next example, a second calculated table will be created, this time by using the CALENDARAUTO DAX function.
+Create the Due Date calculated table by using the following definition.
+Due Date = CALENDARAUTO(6)
+The CALENDARAUTO DAX function takes a single optional argument, which is the last month number of the year, and returns a single-column table. If you don't pass in a month number, it's assumed to be 12 (for December). For example, at Adventure Works, their financial year ends on June 30 of each year, so the value 6 (for June) is passed in.
+The function scans all date and date/time columns in your model to determine the earliest and latest stored date values. It then produces a complete set of dates that span all dates in your model, ensuring that full years of dates are loaded. For example, if the earliest date that is stored in your model is October 15, 2021, then the first date that is returned by the CALENDARAUTO function would be July 1, 2021. If the latest date that is stored in the model is June 15, 2022, then the last date that is returned by the CALENDARAUTO function would be June 30, 2022.
+Effectively, the CALENDARAUTO function guarantees that the following requirements to mark a date table are met:
+The table must include a column of data type Date.
+The column must contain complete years.
+The column must not have missing dates.
