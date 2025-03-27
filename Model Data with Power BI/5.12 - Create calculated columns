@@ -58,3 +58,15 @@ MonthKey =
 The MonthKey calculated column multiplies the due date year by the value 100 and then adds the month number of the due date. It produces a numeric value that can be used to sort the Due Month text values in chronological order.
 
 Verify that the Due Date table has six columns. The first column was added when the calculated table was created, and the other five columns were added as calculated columns.
+
+To complete the design of the Due Date table, you can:
+
+Sort the Due Full Date column by the Due Date column.
+Sort the Due Month column by the MonthKey column.
+Hide the MonthKey column.
+Create a hierarchy named Fiscal with the following levels:
+Due Fiscal Year
+Due Fiscal Quarter
+Due Month
+Due Full Date
+Mark the Due Date table as a date table by using the Due Date column.
