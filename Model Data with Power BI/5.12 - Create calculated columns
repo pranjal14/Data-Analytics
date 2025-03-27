@@ -3,3 +3,58 @@ Calculated columns in import models have a cost: They increase the model storage
 In the data view, in the Fields pane, ensure that the Due Date table is selected. Before you create a calculated column, first rename the Date column to Due Date.
 Now, you can add a calculated column to the Due Date table. To create a calculated column, in the Table tools contextual ribbon, from inside the Calculations group, select New column.
 
+In the formula bar, enter the following calculated column definition and then press Enter.
+
+Due Fiscal Year =
+"FY"
+    & YEAR('Due Date'[Due Date])
+        + IF(
+            MONTH('Due Date'[Due Date]) > 6,
+            1
+        )
+The calculated column definition adds the Due Fiscal Year column to the Due Date table. The following steps describe how Microsoft Power BI evaluates the calculated column formula:
+
+The addition operator (+) is evaluated before the text concatenation operator (&).
+The YEAR DAX function returns the whole number value of the due date year.
+The IF DAX function returns the value when the due date month number is 7-12 (July to December); otherwise, it returns BLANK. (For example, because the Adventure Works financial year is July-June, the last six months of the calendar year will use the next calendar year as their financial year.)
+The year value is added to the value that is returned by the IF function, which is the value one or BLANK. If the value is BLANK, it's implicitly converted to zero (0) to allow the addition to produce the fiscal year value.
+The literal text value "FY" concatenated with the fiscal year value, which is implicitly converted to text.
+Add a second calculated column by using the following definition:
+
+Due Fiscal Quarter =
+'Due Date'[Due Fiscal Year] & " Q"
+    & IF(
+        MONTH('Due Date'[Due Date]) <= 3,
+        3,
+        IF(
+            MONTH('Due Date'[Due Date]) <= 6,
+            4,
+            IF(
+                MONTH('Due Date'[Due Date]) <= 9,
+                1,
+                2
+            )
+        )
+    )
+
+The calculated column definition adds the Due Fiscal Quarter column to the Due Date table. The IF function returns the quarter number (Quarter 1 is July-September), and the result is concatenated to the Due Fiscal Year column value and the literal text Q.
+
+Add a third calculated column by using the following definition:
+Due Month =
+FORMAT('Due Date'[Due Date], "yyyy mmm")
+
+The calculated column definition adds the Due Month column to the Due Date table. The FORMAT DAX function converts the Due Date column value to text by using a format string. In this case, the format string produces a label that describes the year and abbreviated month name.
+Add a fourth calculated column by using the following definition:
+
+DAX
+Due Full Date =
+FORMAT('Due Date'[Due Date], "yyyy mmm, dd")
+Add a fifth calculated column by using the following definition:
+
+DAX
+MonthKey =
+(YEAR('Due Date'[Due Date]) * 100) + MONTH('Due Date'[Due Date])
+
+The MonthKey calculated column multiplies the due date year by the value 100 and then adds the month number of the due date. It produces a numeric value that can be used to sort the Due Month text values in chronological order.
+
+Verify that the Due Date table has six columns. The first column was added when the calculated table was created, and the other five columns were added as calculated columns.
