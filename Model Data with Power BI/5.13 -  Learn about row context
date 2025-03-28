@@ -23,3 +23,7 @@ Discount Amount =
     Sales[Order Quantity]
         * RELATED('Product'[List Price])
 ) - Sales[Sales Amount]
+
+The calculated column definition adds the Discount Amount column to the Sales table. Power BI evaluates the calculated column formula for each row of the Sales table. The values for the Order Quantity and Sales Amount columns are retrieved within row context. However, because the List Price column belongs to the Product table, the RELATED function is required to retrieve the list price value for the sale product.
+Row context is used when calculated column formulas are evaluated. It's also used when a class of functions, known as iterator functions, are used. Iterator functions provide you with flexibility to create sophisticated summarizations. Iterator functions are described in a later module.
+
