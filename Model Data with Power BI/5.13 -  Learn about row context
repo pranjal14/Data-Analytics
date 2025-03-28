@@ -1,3 +1,11 @@
 Now that you've created calculated columns, you can learn how their formulas are evaluated.
 The formula for a calculated column is evaluated for each table row. Furthermore, it's evaluated within row context, which means the current row. Consider the Due Fiscal Year calculated column definition:
 
+DAX
+Due Fiscal Year =
+"FY"
+    & YEAR('Due Date'[Due Date])
+        + IF(
+            MONTH('Due Date'[Due Date]) <= 6,
+            1
+        )
