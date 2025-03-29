@@ -8,3 +8,6 @@ When you need to add a column to a calculated table, make sure that you create a
 
 Depends on summarized model data.
 Needs to use specialized modeling functions that are only available in DAX, such as the RELATED and RELATEDTABLE functions. Specialized functions can also include the DAX parent and child hierarchies, which are designed to naturalize a recursive relationship into columns, for example, in an employee table where each row stores a reference to the row of the manager (who is also an employee).
+
+Summary
+In this module, you learned how to use DAX to extend your model designs with calculated tables and calculated columns. You also learned that calculated columns are evaluated within row context, and you learned how to correctly reference columns that belong to different tables. Finally, you learned that while many ways are available for adding new columns to your model, it's best to create Power Query custom columns whenever possible.
