@@ -6,3 +6,5 @@ Regardless of which technique you use, it results in the same outcome. Report us
 When multiple ways are available to add a column, you can consider using the approach that best fits your skills and that's supported by the language (M or DAX). However, the preference is to add custom columns in Power Query, whenever possible, because they load to the model in a more compact and optimal way.
 When you need to add a column to a calculated table, make sure that you create a calculated column. Otherwise, we recommend that you only use a calculated column when the calculated column formula:
 
+Depends on summarized model data.
+Needs to use specialized modeling functions that are only available in DAX, such as the RELATED and RELATEDTABLE functions. Specialized functions can also include the DAX parent and child hierarchies, which are designed to naturalize a recursive relationship into columns, for example, in an employee table where each row stores a reference to the row of the manager (who is also an employee).
