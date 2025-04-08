@@ -1,1 +1,5 @@
+You can use the CALCULATE DAX function to modify filter context in your formulas. The syntax for the CALCULATE function is as follows:
+
+DAX
+CALCULATE(<expression>, [[<filter1>], <filter2>]…)
 
