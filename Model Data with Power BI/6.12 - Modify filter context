@@ -3,3 +3,6 @@ You can use the CALCULATE DAX function to modify filter context in your formulas
 DAX
 CALCULATE(<expression>, [[<filter1>], <filter2>]…)
 
+The function requires passing in an expression that returns a scalar value and as many filters as you need. The expression can be a measure (which is a named expression) or any expression that can be evaluated in filter context.
+Filters can be Boolean expressions or table expressions. It's also possible to pass in filter modification functions that provide additional control when you're modifying filter context.
+When you have multiple filters, they're evaluated by using the AND logical operator, which means that all conditions must be TRUE at the same time.
