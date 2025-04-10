@@ -26,3 +26,6 @@ In this next example, the following measure filters the Revenue measure by multi
 DAX
 Revenue Red or Blue = CALCULATE([Revenue], 'Product'[Color] IN {"Red", "Blue"})
 The following measure filters the Revenue measure by expensive products. Expensive products are those with a list price greater than USD 1000.
+
+DAX
+Revenue Expensive Products = CALCULATE([Revenue], 'Product'[List Price] > 1000)
