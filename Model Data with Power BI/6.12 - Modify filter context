@@ -27,4 +27,16 @@ DAX
 Revenue Expensive Products = CALCULATE([Revenue], 'Product'[List Price] > 1000)
 
 Apply table expression filters
+A table expression filter applies a table object as a filter. It could be a reference to a model table; however, it's likely a DAX function that returns a table object.
+Commonly, you'll use the FILTER DAX function to apply complex filter conditions, including those that can't be defined by a Boolean filter expression. The FILTER function is classed as an iterator function, and so you would pass in a table, or table expression, and an expression to evaluate for each row of that table.
+The FILTER function returns a table object with exactly the same structure as one that the table passed in. Its rows are a subset of those rows that were passed in, meaning the rows where the expression evaluated as TRUE.
+The following example shows a table filter expression that uses the FILTER function:
+Revenue High Margin Products =
+CALCULATE(
+    [Revenue],
+    FILTER(
+        'Product',
+        'Product'[List Price] > 'Product'[Standard Cost] * 2
+    )
+)
 
