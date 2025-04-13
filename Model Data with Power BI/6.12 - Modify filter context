@@ -50,3 +50,12 @@ CALCULATE(
     )
 )
 
+Filter behavior
+Two possible standard outcomes occur when you add filter expressions to the CALCULATE function:
+If the columns (or tables) aren't in filter context, then new filters will be added to the filter context to evaluate the CALCULATE expression.
+If the columns (or tables) are already in filter context, the existing filters will be overwritten by the new filters to evaluate the CALCULATE expression.
+The following examples show how adding filter expressions to the CALCULATE function works.
+Note
+In each of the examples, no filters are applied to the table visual.
+As in the previous activity, the Revenue Red measure was added to a table visual that groups by region and displays revenue.
+
