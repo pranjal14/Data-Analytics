@@ -59,3 +59,5 @@ Note
 In each of the examples, no filters are applied to the table visual.
 As in the previous activity, the Revenue Red measure was added to a table visual that groups by region and displays revenue.
 
+Because no filter is applied on the Color column in the Product table, the evaluation of the measure adds a new filter to filter context. In the first row, the value of $2,681,324.79 is for red products that were sold in the Australian region.
+Switching the first column of the table visual from Region to Color will produce a different result because the Color column in the Product table is now in filter context.
