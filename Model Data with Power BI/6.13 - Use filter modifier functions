@@ -4,3 +4,7 @@ Use the REMOVEFILTERS DAX function as a CALCULATE filter expression to remove fi
 
 Note
 The REMOVEFILTERS function is relatively new. In previous versions of DAX, you removed filters by using the ALL DAX function or variants including the ALLEXCEPT and the ALLNOBLANKROW DAX functions. These functions behave as both filter modifiers and as functions that return table objects of distinct values. These functions are mentioned now because you're likely to find documentation and formula examples that remove filters by using them.
+
+In the following example, you will add a new measure to the Sales table that evaluates the Revenue measure but does so by removing filters from the Sales Territory table. Format the measure as currency with two decimal places.
+Revenue Total Region = CALCULATE([Revenue], REMOVEFILTERS('Sales Territory'))
+Now, add the Revenue Total Region measure to the matrix visual that is found on Page 2 of the report. The matrix visual will group by three columns from the Sales Territory table on the rows: Group, Country, and Region.
