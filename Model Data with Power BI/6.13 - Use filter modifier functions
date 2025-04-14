@@ -1,1 +1,4 @@
+When using the CALCULATE function, you can pass in filter modification functions, which allow you to accomplish more than adding filters alone.
+Remove filters
+Use the REMOVEFILTERS DAX function as a CALCULATE filter expression to remove filters from filter context. It can remove filters from one or more columns or from all columns of a single table.
 
