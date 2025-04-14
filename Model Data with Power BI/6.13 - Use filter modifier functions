@@ -8,3 +8,22 @@ The REMOVEFILTERS function is relatively new. In previous versions of DAX, you r
 In the following example, you will add a new measure to the Sales table that evaluates the Revenue measure but does so by removing filters from the Sales Territory table. Format the measure as currency with two decimal places.
 Revenue Total Region = CALCULATE([Revenue], REMOVEFILTERS('Sales Territory'))
 Now, add the Revenue Total Region measure to the matrix visual that is found on Page 2 of the report. The matrix visual will group by three columns from the Sales Territory table on the rows: Group, Country, and Region.
+
+Notice that each Revenue Total Region value is the same. It's the value of total revenue.
+
+While this result on its own isn't useful, when it's used as a denominator in a ratio, it calculates a percent of grand total. Therefore, you will now overwrite the Revenue Total Region measure definition with the following definition. (This new definition changes the measure name and declares two variables. Be sure to format the measure as a percentage with two decimal places.)
+
+Revenue % Total Region =
+VAR CurrentRegionRevenue = [Revenue]
+VAR TotalRegionRevenue =
+    CALCULATE(
+        [Revenue],
+        REMOVEFILTERS('Sales Territory')
+    )
+RETURN
+    DIVIDE(
+        CurrentRegionRevenue,
+        TotalRegionRevenue
+    )
+
+Verify that the matrix visual now displays the Revenue % Total Region values.
