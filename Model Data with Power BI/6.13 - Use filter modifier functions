@@ -27,3 +27,5 @@ RETURN
     )
 
 Verify that the matrix visual now displays the Revenue % Total Region values.
+You'll now create another measure, but this time, you will calculate the ratio of revenue for a region divided by its country's or region's revenue.
+Before you complete this task, notice that the Revenue % Total Region value for the Southwest region is 22.95 percent. Investigate the filter context for this cell. Switch to data view and then, in the Fields pane, select the Sales Territory table.
