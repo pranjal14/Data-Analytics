@@ -29,3 +29,24 @@ RETURN
 Verify that the matrix visual now displays the Revenue % Total Region values.
 You'll now create another measure, but this time, you will calculate the ratio of revenue for a region divided by its country's or region's revenue.
 Before you complete this task, notice that the Revenue % Total Region value for the Southwest region is 22.95 percent. Investigate the filter context for this cell. Switch to data view and then, in the Fields pane, select the Sales Territory table.
+
+Apply the following column filters:
+
+Group - North America
+Country - United States
+Region - Southwest
+Notice that the filters reduce the table to only one row. Now, while thinking about your new objective to create a ratio of the region revenue over its country's revenue, clear the filter from the Region column.
+Notice that five rows now exist, each row belonging to the country United States. Accordingly, when you clear the Region column filters, while preserving filters on the Country and Group columns, you will have a new filter context that's for the region's country.
+In the following measure definition, notice how you can clear or remove a filter from a column. In DAX logic, it's a small and subtle change that's made to the Revenue % Total Region measure formula: The REMOVEFILTERS function now removes filters from the Region column instead of all columns of the Sales Territory table.
+Revenue % Total Country =
+VAR CurrentRegionRevenue = [Revenue]
+VAR TotalCountryRevenue =
+    CALCULATE(
+        [Revenue],
+        REMOVEFILTERS('Sales Territory'[Region])
+    )
+RETURN
+    DIVIDE(
+        CurrentRegionRevenue,
+        TotalCountryRevenue
+    )
