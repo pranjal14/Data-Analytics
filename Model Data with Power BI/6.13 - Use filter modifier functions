@@ -50,3 +50,6 @@ RETURN
         CurrentRegionRevenue,
         TotalCountryRevenue
     )
+Add the Revenue % Total Country measure to the Sales table and then format it as a percentage with two decimal places. Add the new measure to the matrix visual.
+Notice that all values, except those values for United States regions, are 100 percent. The reason is because, at the Adventure Works company, the United States has regions, while all other countries/regions do not.
+Note
