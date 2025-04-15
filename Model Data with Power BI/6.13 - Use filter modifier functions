@@ -52,4 +52,25 @@ RETURN
     )
 Add the Revenue % Total Country measure to the Sales table and then format it as a percentage with two decimal places. Add the new measure to the matrix visual.
 Notice that all values, except those values for United States regions, are 100 percent. The reason is because, at the Adventure Works company, the United States has regions, while all other countries/regions do not.
+
 Note
+Tabular models don't support ragged hierarchies, which are hierarchies with variable depths. Therefore, it's a common design approach to repeat parent (or other ancestor) values at lower levels of the hierarchy. For example, Australia doesn't have a region, so the country/region value is repeated as the region name. It's always better to store a meaningful value instead of BLANK.
+The next example is last measure that you will create. Add the Revenue % Total Group measure, and then format it as a percentage with two decimal places. Then, add the new measure to the matrix visual.
+Revenue % Total Group =
+VAR CurrentRegionRevenue = [Revenue]
+VAR TotalGroupRevenue =
+    CALCULATE(
+        [Revenue],
+        REMOVEFILTERS(
+            'Sales Territory'[Region],
+            'Sales Territory'[Country]
+        )
+    )
+RETURN
+    DIVIDE(
+        CurrentRegionRevenue,
+        TotalGroupRevenue
+    )
+
+
+When you remove filters from the Region and Country columns in the Sales Territory table, the measure will calculate the region revenue as a ratio of its group's revenue.
