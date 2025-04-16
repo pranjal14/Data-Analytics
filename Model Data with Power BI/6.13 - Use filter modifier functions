@@ -74,3 +74,7 @@ RETURN
 
 
 When you remove filters from the Region and Country columns in the Sales Territory table, the measure will calculate the region revenue as a ratio of its group's revenue.
+
+Preserve filters
+You can use the KEEPFILTERS DAX function as a filter expression in the CALCULATE function to preserve filters.
+To observe how to accomplish this task, switch to Page 1 of the report. Then, modify the Revenue Red measure definition to use the KEEPFILTERS function.
