@@ -87,4 +87,12 @@ In the table visual, notice that only one Revenue Red value exists. The reason i
 
 Use inactive relationships
 An inactive model relationship can only propagate filters when the USERELATIONSHIP DAX function is passed as a filter expression to the CALCULATE function. When you use this function to engage an inactive relationship, the active relationship will automatically become inactive.
+Review an example of a measure definition that uses an inactive relationship to calculate the Revenue measure by shipped dates:
+
+Revenue Shipped =
+CALCULATE (
+    [Revenue],
+    USERELATIONSHIP('Date'[DateKey], Sales[ShipDateKey])
+)
+
 
