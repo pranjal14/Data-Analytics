@@ -3,3 +3,9 @@ The VALUES function syntax is as follows:
 
 VALUES(<TableNameOrColumnName>
 
+The function requires passing in a table reference or a column reference. When you pass in a table reference, it returns a table object with the same columns that contain rows for what's in filter context. When you pass in a column reference, it returns a single-column table of unique values that are in filter context.
+
+The function always returns a table object and it's possible for a table to contain multiple rows. Therefore, to test whether a specific value is in filter context, your formula must first test that the VALUES function returns a single row. Two functions can help you accomplish this task: the HASONEVALUE and the SELECTEDVALUE DAX functions.
+The HASONEVALUE function returns TRUE when a given column reference has been filtered down to a single value.
+The SELECTEDVALUE function simplifies the task of determining what a single value could be. When the function is passed a column reference, it'll return a single value, or when more than one value is in filter context, it'll return BLANK (or an alternate value that you pass to the function).
+In the following example, you will use the HASONEVALUE function. Add the following measure, which calculates sales commission, to the Sales table. Note that, at Adventure Works, the commission rate is 10 percent of revenue for all countries/regions except the United States. In the United States, salespeople earn 15 percent commission. Format the measure as currency with two decimal places, and then add it to the table that is found on Page 3 of the report.
