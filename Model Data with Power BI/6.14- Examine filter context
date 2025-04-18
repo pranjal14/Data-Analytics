@@ -1,1 +1,5 @@
+The VALUES DAX function lets your formulas determine what values are in filter context.
+The VALUES function syntax is as follows:
+
+VALUES(<TableNameOrColumnName>
 
