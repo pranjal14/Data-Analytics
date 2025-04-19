@@ -26,3 +26,19 @@ ISFILTERED - Returns TRUE when a passed-in column reference is directly filtered
 ISCROSSFILTERED - Returns TRUE when a passed-in column reference is indirectly filtered. A column is cross-filtered when a filter that is applied to another column in the same table, or in a related table, affects the reference column by filtering it.
 ISINSCOPE - Returns TRUE when a passed-in column reference is the level in a hierarchy of levels.
 Return to Page 2 of the report, and then modify the Revenue % Total Country measure definition to test that the Region column in the Sales Territory table is in scope. If it's not in scope, the measure result should be BLANK.
+Revenue % Total Country =
+VAR CurrentRegionRevenue = [Revenue]
+VAR TotalCountryRevenue =
+    CALCULATE(
+        [Revenue],
+        REMOVEFILTERS('Sales Territory'[Region])
+    )
+RETURN
+    IF(
+        ISINSCOPE('Sales Territory'[Region]),
+        DIVIDE(
+            CurrentRegionRevenue,
+            TotalCountryRevenue
+        )
+    )
+In the matrix visual, notice that Revenue % Total Country values are now only displayed when a region is in scope.
