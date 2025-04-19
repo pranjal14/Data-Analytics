@@ -19,3 +19,4 @@ Sales Commission =
             0.1
         )
     )
+Notice that the total Sales Commission result is BLANK. The reason is because multiple values are in filter context for the Country column in the Sales Territory table. In this case, the HASONEVALUE function returns FALSE, which results in the Revenue measure being multiplied by BLANK (a value multiplied by BLANK is BLANK). To produce a total, you will need to use an iterator function, which is explained later in this module.
