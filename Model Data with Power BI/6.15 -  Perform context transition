@@ -1,1 +1,3 @@
+What happens when a measure or measure expression is evaluated within row context? This scenario can happen in a calculated column formula or when an expression in an iterator function is evaluated.
+In the following example, you will add a calculated column to the Customer table to classify customers into a loyalty class. The scenario is simple: When the revenue that is produced by the customer is less than $2500, the customer is classified as Low; otherwise they're classified as High.
 
