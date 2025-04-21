@@ -16,4 +16,5 @@ Customer Segment =
 VAR CustomerRevenue = CALCULATE(SUM(Sales[Sales Amount]))
 RETURN
     IF(CustomerRevenue < 2500, "Low", "High")
+In the pie chart visual add the new calculated column to the Legend well, verify that two pie segments now display.
 
