@@ -25,3 +25,6 @@ Customer Segment =
 VAR CustomerRevenue = [Revenue]
 RETURN
     IF(CustomerRevenue < 2500, "Low", "High")
+
+Now, you can complete the Sales Commission measure formula. To produce a total, you need to use an iterator function to iterate over all regions in filter context. The iterator function expression must use the CALCULATE function to transition the row context to the filter context. Notice that it no longer needs to test whether a single Country column value in the Sales Territory table is in filter context because it's known to be filtering by a single country/region (because it's iterating over the regions in filter context and a region belongs to only one country/region).
+Switch to Page 3 of the report, and then modify the Sales Commission measure definition to use the SUMX iterator function:
