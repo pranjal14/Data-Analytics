@@ -18,3 +18,6 @@ RETURN
     IF(CustomerRevenue < 2500, "Low", "High")
 In the pie chart visual add the new calculated column to the Legend well, verify that two pie segments now display.
 
+In this case, the CALCULATE function applies row context values as filters, known as context transition. To be accurate, the process doesn't quite work that way when a unique column is on the table. When a unique column is on the table, you only need to apply a filter on that column to make the transition happen. In this case, Power BI applies a filter on the CustomerKey column for the value in row context.
+If you reference measures in an expression that's evaluated in row context, context transition is automatic. Thus, you don't need to pass measure references to the CALCULATE function.
+Modify the calculated column definition, which references the Revenue measure, and notice that it continues to produce the correct result.
