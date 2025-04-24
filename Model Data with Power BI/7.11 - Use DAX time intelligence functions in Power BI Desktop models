@@ -1,1 +1,7 @@
+Unit 1 - Introduction
+
+Time intelligence relates to calculations over time. Specifically, it relates to calculations over dates, months, quarters, or years, and possibly time. Rarely would you need to calculate over time in the sense of hours, minutes, or seconds.
+In Data Analysis Expressions (DAX) calculations, time intelligence means modifying the filter context for date filters.
+For example, at the Adventure Works company, their financial year begins on July 1 and ends on June 30 of the following year. They produce a table visual that displays monthly revenue and year-to-date (YTD) revenue.
+
 
