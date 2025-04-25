@@ -1,2 +1,3 @@
 DAX includes several time intelligence functions to simplify the task of modifying date filter context. You could write many of these intelligence formulas by using a CALCULATE function that modifies date filters, but that would create more work.
-
+Note
+Many DAX time intelligence functions are concerned with standard date periods, specifically years, quarters, and months. If you have irregular time periods (for example, financial months that begin mid-way through the calendar month), or you need to work with weeks or time periods (hours, minutes, and so on), the DAX time intelligence functions won't be helpful. Instead, you'll need to use the CALCULATE function and pass in hand-crafted date or time filters.
