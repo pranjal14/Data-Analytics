@@ -1,1 +1,2 @@
+DAX includes several time intelligence functions to simplify the task of modifying date filter context. You could write many of these intelligence formulas by using a CALCULATE function that modifies date filters, but that would create more work.
 
