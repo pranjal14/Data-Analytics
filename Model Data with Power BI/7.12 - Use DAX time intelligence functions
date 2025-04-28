@@ -17,3 +17,6 @@ DATESYTD - Returns a single-column table that contains dates for the year-to-dat
 TOTALYTD - Evaluates an expression for YTD in the current filter context. The equivalent QTD and MTD DAX functions of TOTALQTD and TOTALMTD are also included.
 DATESBETWEEN - Returns a table that contains a column of dates that begins with a given start date and continues until a given end date.
 DATESINPERIOD - Returns a table that contains a column of dates that begins with a given start date and continues for the specified number of intervals.
+
+Note
+While the TOTALYTD function is simple to use, you are limited to passing in one filter expression. If you need to apply multiple filter expressions, use the CALCULATE function and then pass the DATESYTD function in as one of the filter expressions.
