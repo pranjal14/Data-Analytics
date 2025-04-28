@@ -10,3 +10,10 @@ The date column must not contain BLANKs.
 The date column must not have any missing dates.
 The date column must span full years. A year isn't necessarily a calendar year (January-December).
 The date table must be indicated as a date table.
+
+Summarizations over time
+One group of DAX time intelligence functions is concerned with summarizations over time:
+DATESYTD - Returns a single-column table that contains dates for the year-to-date (YTD) in the current filter context. This group also includes the DATESMTD and DATESQTD DAX functions for month-to-date (MTD) and quarter-to-date (QTD). You can pass these functions as filters into the CALCULATE DAX function.
+TOTALYTD - Evaluates an expression for YTD in the current filter context. The equivalent QTD and MTD DAX functions of TOTALQTD and TOTALMTD are also included.
+DATESBETWEEN - Returns a table that contains a column of dates that begins with a given start date and continues until a given end date.
+DATESINPERIOD - Returns a table that contains a column of dates that begins with a given start date and continues for the specified number of intervals.
