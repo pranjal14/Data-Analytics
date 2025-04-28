@@ -20,3 +20,7 @@ DATESINPERIOD - Returns a table that contains a column of dates that begins with
 
 Note
 While the TOTALYTD function is simple to use, you are limited to passing in one filter expression. If you need to apply multiple filter expressions, use the CALCULATE function and then pass the DATESYTD function in as one of the filter expressions.
+
+In the following example, you will create your first time intelligence calculation that will use the TOTALYTD function. The syntax is as follows:
+TOTALYTD(<expression>, <dates>, [, <filter>][, <year_end_date>])
+The function requires an expression and, as is common to all time intelligence functions, a reference to the date column of a marked date table. Optionally, a single filter expression or the year-end date can be passed in (required only when the year doesn't finish on December 31).
