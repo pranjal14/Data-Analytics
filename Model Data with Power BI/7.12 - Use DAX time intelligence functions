@@ -30,3 +30,10 @@ Revenue YTD =
 TOTALYTD([Revenue], 'Date'[Date], "6-30")
 The year-end date value of "6-30" represents June 30.
 On Page 1 of the report, add the Revenue YTD measure to the matrix visual. Notice that it produces a summarization of the revenue amounts from the beginning of the year through to the filtered month.
+
+Comparisons over time
+Another group of DAX time intelligence functions is concerned with shifting time periods:
+DATEADD - Returns a table that contains a column of dates, shifted either forward or backward in time by the specified number of intervals from the dates in the current filter context.
+PARALLELPERIOD - Returns a table that contains a column of dates that represents a period that is parallel to the dates in the specified dates column, in the current filter context, with the dates shifted a number of intervals either forward in time or back in time.
+SAMEPERIODLASTYEAR - Returns a table that contains a column of dates that are shifted one year back in time from the dates in the specified dates column, in the current filter context.
+Many helper DAX functions for navigating backward or forward for specific time periods, all of which returns a table of dates. These helper functions include NEXTDAY, NEXTMONTH, NEXTQUARTER, NEXTYEAR, and PREVIOUSDAY, PREVIOUSMONTH, PREVIOUSQUARTER, and PREVIOUSYEAR.
