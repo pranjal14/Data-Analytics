@@ -55,3 +55,6 @@ RETURN
         RevenuePriorYear
     )
 Notice that the Revenue YoY % measure produces a ratio of change factor over the previous year's monthly revenue. For example, July 2018 represents a 106.53 percent increase over the previous year's monthly revenue, and November 2018 represents a 24.22 percent decrease over the previous year's monthly revenue.
+
+Note
+The Revenue YoY % measure demonstrates a good use of DAX variables. The measure improves the readability of the formula and allows you to unit test part of the measure logic (by returning the RevenuePriorYear variable value). Additionally, the measure is an optimal formula because it doesn't need to retrieve the prior year's revenue value twice. Having stored it once in a variable, the RETURN clause uses to the variable value twice.
