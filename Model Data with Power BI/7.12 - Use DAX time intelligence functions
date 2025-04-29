@@ -45,3 +45,13 @@ RETURN
     RevenuePriorYear
 
 Add the Revenue PY measure to the matrix visual. Notice that it produces results that are similar to the previous year's revenue amounts.
+Next, you will modify the measure by renaming it to Revenue YoY % and then updating the RETURN clause to calculate the change ratio. Be sure to change the format to a percentage with two decimals places.
+
+Revenue YoY % =
+VAR RevenuePriorYear = CALCULATE([Revenue], SAMEPERIODLASTYEAR('Date'[Date]))
+RETURN
+    DIVIDE(
+        [Revenue] - RevenuePriorYear,
+        RevenuePriorYear
+    )
+Notice that the Revenue YoY % measure produces a ratio of change factor over the previous year's monthly revenue. For example, July 2018 represents a 106.53 percent increase over the previous year's monthly revenue, and November 2018 represents a 24.22 percent decrease over the previous year's monthly revenue.
