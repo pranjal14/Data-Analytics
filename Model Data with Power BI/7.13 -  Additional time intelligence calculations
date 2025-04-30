@@ -1,2 +1,3 @@
 Additional time intelligence calculations
-
+Other DAX time intelligence functions exist that are concerned with returning a single date. You'll learn about these functions by applying them in two different scenarios.
+The FIRSTDATE and the LASTDATE DAX functions return the first and last date in the current filter context for the specified column of dates.
