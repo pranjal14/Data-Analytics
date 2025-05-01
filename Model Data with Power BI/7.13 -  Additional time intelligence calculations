@@ -18,3 +18,4 @@ VAR CustomersLTD =
     )
 RETURN
     CustomersLTD
+Add the Customers LTD measure to the matrix visual. Notice that it produces a result of distinct customers LTD until the end of each month.
