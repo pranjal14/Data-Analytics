@@ -5,3 +5,16 @@ The FIRSTDATE and the LASTDATE DAX functions return the first and last date in t
 Calculate new occurrences
 Another use of time intelligence functions is to count new occurrences. The following example shows how you can calculate the number of new customers for a time period. A new customer is counted in the time period in which they made their first purchase.
 Your first task is to add the following measure to the Sales table that counts the number of distinct customers life-to-date (LTD). Life-to-date means from the beginning of time until the last date in filter context. Format the measure as a whole number by using the thousands separator.
+Customers LTD =
+VAR CustomersLTD =
+    CALCULATE(
+        DISTINCTCOUNT(Sales[CustomerKey]),
+        DATESBETWEEN(
+            'Date'[Date],
+            BLANK(),
+            MAX('Date'[Date])
+        ),
+        'Sales Order'[Channel] = "Internet"
+    )
+RETURN
+    CustomersLTD
