@@ -45,3 +45,4 @@ VAR CustomersPrior =
     )
 RETURN
     CustomersLTD - CustomersPrior
+For the CustomersPrior variable, notice that the DATESBETWEEN function includes dates until the first date in filter context minus one. Because Microsoft Power BI internally stores dates as numbers, you can add or subtract numbers to shift a date.
