@@ -48,3 +48,7 @@ RETURN
 For the CustomersPrior variable, notice that the DATESBETWEEN function includes dates until the first date in filter context minus one. Because Microsoft Power BI internally stores dates as numbers, you can add or subtract numbers to shift a date.
 
 Snapshot calculations
+Occasionally, fact data is stored as snapshots in time. Common examples include inventory stock levels or account balances. A snapshot of values is loaded into the table on a periodic basis.
+When summarizing snapshot values (like inventory stock levels), you can summarize values across any dimension except date. Adding stock level counts across product categories produces a meaningful summary, but adding stock level counts across dates does not. Adding yesterday's stock level to today's stock level isn't a useful operation to perform (unless you want to average that result).
+When you are summarizing snapshot tables, measure formulas can rely on DAX time intelligence functions to enforce a single date filter.
+In the following example, you will explore a scenario for the Adventure Works company. Switch to model view and select the Inventory model diagram.
