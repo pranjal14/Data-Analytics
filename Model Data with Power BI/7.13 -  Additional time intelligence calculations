@@ -54,3 +54,6 @@ When you are summarizing snapshot tables, measure formulas can rely on DAX time 
 In the following example, you will explore a scenario for the Adventure Works company. Switch to model view and select the Inventory model diagram.
 Notice that the diagram shows three tables: Product, Date, and Inventory. The Inventory table stores snapshots of unit balances for each date and product. Importantly, the table contains no missing dates and no duplicate entries for any product on the same date. Also, the last snapshot record is stored for the date of June 15, 2020.
 Now, switch to report view and select Page 2 of the report. Add the UnitsBalance column of the Inventory table to the matrix visual. Its default summarization is set to sum values.
+
+This visual configuration is an example of how not to summarize a snapshot value. Adding daily snapshot balances together doesn't produce a meaningful result. Therefore, remove the UnitsBalance field from the matrix visual.
+Now, you'll add a measure to the Inventory table that sums the UnitsBalance value for a single date. The date will be the last date of each time period. It's achieved by using the LASTDATE function. Format the measure as a whole number with the thousands separator.
