@@ -57,3 +57,8 @@ Now, switch to report view and select Page 2 of the report. Add the UnitsBalance
 
 This visual configuration is an example of how not to summarize a snapshot value. Adding daily snapshot balances together doesn't produce a meaningful result. Therefore, remove the UnitsBalance field from the matrix visual.
 Now, you'll add a measure to the Inventory table that sums the UnitsBalance value for a single date. The date will be the last date of each time period. It's achieved by using the LASTDATE function. Format the measure as a whole number with the thousands separator.
+Stock on Hand =
+CALCULATE(
+    SUM(Inventory[UnitsBalance]),
+    LASTDATE('Date'[Date])
+)
