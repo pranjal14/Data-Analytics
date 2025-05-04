@@ -62,3 +62,5 @@ CALCULATE(
     SUM(Inventory[UnitsBalance]),
     LASTDATE('Date'[Date])
 )
+Note
+Notice that the measure formula uses the SUM function. An aggregate function must be used (measures don't allow direct references to columns), but given that only one row exists for each product for each date, the SUM function will only operate over a single row.
