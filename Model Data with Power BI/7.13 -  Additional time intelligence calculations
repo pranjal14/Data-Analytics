@@ -68,3 +68,4 @@ Notice that the measure formula uses the SUM function. An aggregate function mus
 Add the Stock on Hand measure to the matrix visual. The value for each product is now based on the last recorded units balance for each month.
 The measure returns BLANKs for June 2020 because no record exists for the last date in June. According to the data, it hasn't happened yet.
 Filtering by the last date in filter context has inherent problems: A recorded date might not exist because it hasn't yet happened, or perhaps because stock balances aren't recorded on weekends.
+Your next step is to adjust the measure formula to determine the last date that has a non-BLANK result and then filter by that date. You can achieve this task by using the LASTNONBLANK DAX function.
