@@ -82,3 +82,5 @@ CALCULATE(
 In the matrix visual, notice the values for June 2020 and the total (representing the entire year).
 
 The LASTNONBLANK function is an iterator function. It returns the last date that produces a non-BLANK result. It achieves this result by iterating through all dates in filter context in descending chronological order. (Conversely, the FIRSTNONBLANK iterates in ascending chronological order.) For each date, it evaluates the passed in expression. When it encounters a non-BLANK result, the function returns the date. That date is then used to filter the CALCULATE function.
+Note
+The LASTNONBLANK function evaluates its expression in row context. The CALCULATE function must be used to transition the row context to filter context to correctly evaluate the expression.
