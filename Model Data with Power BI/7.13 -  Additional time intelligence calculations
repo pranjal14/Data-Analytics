@@ -85,3 +85,5 @@ The LASTNONBLANK function is an iterator function. It returns the last date that
 Note
 The LASTNONBLANK function evaluates its expression in row context. The CALCULATE function must be used to transition the row context to filter context to correctly evaluate the expression.
 You should now hide the Inventory table UnitsBalance column. It will prevent report authors from inappropriately summarizing snapshot unit balances.
+
+Summary
