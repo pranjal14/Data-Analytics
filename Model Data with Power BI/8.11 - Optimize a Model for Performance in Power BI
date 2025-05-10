@@ -11,3 +11,5 @@ Reducing cardinalities.
 Analyzing model metadata.
 Summarizing data where possible.
 
+In this module, you will be introduced to the steps, processes, and concepts that are necessary to optimize a semantic model for enterprise-level performance. However, keep in mind that, while the basic performance and best practices guidance in Power BI will lead you a long way, to optimize a semantic model for query performance, you will likely have to partner with a data engineer to drive semantic model optimization in the source data sources.
+For example, assume that you work as a Microsoft Power BI developer for Tailwind Traders. You have been given a task to review a semantic model that was built a few years ago by another developer, a person who has since left the organization.
