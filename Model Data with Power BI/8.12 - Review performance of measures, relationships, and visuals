@@ -1,3 +1,4 @@
 If your semantic model has multiple tables, complex relationships, intricate calculations, multiple visuals, or redundant data, a potential exists for poor report performance. The poor performance of a report leads to a negative user experience.
 To optimize performance, you must first identify where the problem is coming from; in other words, find out which elements of your report and semantic model are causing the performance issues. Afterward, you can take action to resolve those issues and, therefore, improve performance.
 
+Identify report performance bottlenecks
