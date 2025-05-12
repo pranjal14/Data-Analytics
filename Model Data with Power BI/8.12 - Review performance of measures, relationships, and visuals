@@ -2,3 +2,4 @@ If your semantic model has multiple tables, complex relationships, intricate cal
 To optimize performance, you must first identify where the problem is coming from; in other words, find out which elements of your report and semantic model are causing the performance issues. Afterward, you can take action to resolve those issues and, therefore, improve performance.
 
 Identify report performance bottlenecks
+To achieve optimal performance in your reports, you need to create an efficient semantic model that has fast running queries and measures. When you have a good foundation, you can improve the model further by analyzing the query plans and dependencies and then making changes to further optimize performance.
