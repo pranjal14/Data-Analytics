@@ -4,3 +4,6 @@ To optimize performance, you must first identify where the problem is coming fro
 Identify report performance bottlenecks
 To achieve optimal performance in your reports, you need to create an efficient semantic model that has fast running queries and measures. When you have a good foundation, you can improve the model further by analyzing the query plans and dependencies and then making changes to further optimize performance.
 You should review the measures and queries in your semantic model to ensure that you are using the most efficient way to get the results that you want. Your starting point should be to identify bottlenecks that exist in the code. When you identify the slowest query in the semantic model, you can focus on the biggest bottleneck first and establish a priority list to work through the other issues.
+
+Analyze performance
+You can use Performance analyzer in Power BI Desktop to help you find out how each of your report elements is performing when users interact with them. For example, you can determine how long it takes for a particular visual to refresh when it is initiated by a user interaction. Performance analyzer will help you identify the elements that are contributing to your performance issues, which can be useful during troubleshooting.
