@@ -7,3 +7,7 @@ You should review the measures and queries in your semantic model to ensure that
 
 Analyze performance
 You can use Performance analyzer in Power BI Desktop to help you find out how each of your report elements is performing when users interact with them. For example, you can determine how long it takes for a particular visual to refresh when it is initiated by a user interaction. Performance analyzer will help you identify the elements that are contributing to your performance issues, which can be useful during troubleshooting.
+Before you run Performance analyzer, to ensure you get the most accurate results in your analysis (test), make sure that you start with a clear visual cache and a clear data engine cache.
+Visual cache - When you load a visual, you can't clear this visual cache without closing Power BI Desktop and opening it again. To avoid any caching in play, you need to start your analysis with a clean visual cache.
+To ensure that you have a clear visual cache, add a blank page to your Power BI Desktop (.pbix) file and then, with that page selected, save and close the file. Reopen the Power BI Desktop (.pbix) file that you want to analyze. It will open on the blank page.
+Data engine cache - When a query is run, the results are cached, so the results of your analysis will be misleading. You need to clear the data cache before rerunning the visual.
