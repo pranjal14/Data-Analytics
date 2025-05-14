@@ -21,3 +21,5 @@ The log information for each visual shows how much time it took (duration) to co
 DAX query - The time it took for the visual to send the query, along with the time it took Analysis Services to return the results.
 Visual display - The time it took for the visual to render on the screen, including the time required to retrieve web images or geocoding.
 Other - The time it took the visual to prepare queries, wait for other visuals to complete, or perform other background processing tasks. If this category displays a long duration, the only real way to reduce this duration is to optimize DAX queries for other visuals, or reduce the number of visuals in the report.
+The results of the analysis test help you to understand the behavior of your semantic model and identify the elements that you need to optimize. You can compare the duration of each element in the report and identify the elements that have a long duration. You should focus on those elements and investigate why it takes them so long to load on the report page.
+To analyze your queries in more detail, you can use DAX Studio, which is a free, open-source tool that is provided by another service.
