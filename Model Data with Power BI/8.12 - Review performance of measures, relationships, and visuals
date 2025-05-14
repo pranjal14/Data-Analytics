@@ -14,3 +14,6 @@ Data engine cache - When a query is run, the results are cached, so the results 
 To clear the data cache, you can either restart Power BI Desktop or connect DAX Studio to the semantic model and then call Clear Cache.
 When you have cleared the caches and opened the Power BI Desktop file on the blank page, go to the View tab and select the Performance analyzer option.
 To begin the analysis process, select Start recording, select the page of the report that you want to analyze, and interact with the elements of the report that you want to measure. You will see the results of your interactions displayed in the Performance analyzer pane as you work. When you are finished, select the Stop button.
+
+Review results
+You can review the results of your performance test in the Performance analyzer pane. To review the tasks in order of duration, longest to shortest, right-click the Sort icon next to the Duration (ms) column header, and then select Total time in Descending order.
