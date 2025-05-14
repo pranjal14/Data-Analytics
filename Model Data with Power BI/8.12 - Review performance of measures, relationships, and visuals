@@ -17,3 +17,7 @@ To begin the analysis process, select Start recording, select the page of the re
 
 Review results
 You can review the results of your performance test in the Performance analyzer pane. To review the tasks in order of duration, longest to shortest, right-click the Sort icon next to the Duration (ms) column header, and then select Total time in Descending order.
+The log information for each visual shows how much time it took (duration) to complete the following categories of tasks:
+DAX query - The time it took for the visual to send the query, along with the time it took Analysis Services to return the results.
+Visual display - The time it took for the visual to render on the screen, including the time required to retrieve web images or geocoding.
+Other - The time it took the visual to prepare queries, wait for other visuals to complete, or perform other background processing tasks. If this category displays a long duration, the only real way to reduce this duration is to optimize DAX queries for other visuals, or reduce the number of visuals in the report.
