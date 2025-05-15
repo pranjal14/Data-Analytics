@@ -26,3 +26,6 @@ To analyze your queries in more detail, you can use DAX Studio, which is a free,
 
 Resolve issues and optimize performance
 The results of your analysis will identify areas for improvement and opportunities for performance optimization. You might find that you need to carry out improvements to the visuals, the DAX query, or other elements in your semantic model. The following information provides guidance on what to look for and the changes that you can make.
+Visuals
+If you identify visuals as the bottleneck leading to poor performance, you should find a way to improve performance with minimal impact to user experience.
+Consider the number of visuals on the report page; fewer visuals means better performance. Ask yourself if a visual is really necessary and if it adds value to the end user. If the answer is no, you should remove that visual. Rather than using multiple visuals on the page, consider other ways to provide additional details, such as drill-through pages and report page tooltips.
