@@ -35,3 +35,10 @@ DAX query
 When you examine the results in the Performance analyzer pane, you can see how long it took the Power BI Desktop engine to evaluate each query (in milliseconds). A good starting point is any DAX query that is taking longer than 120 milliseconds. In this example, you identify one particular query that has a large duration.
 Performance analyzer highlights potential issues but does not tell you what needs to be done to improve them. You might want to conduct further investigation into why this measure takes so long to process. You can use DAX Studio to investigate your queries in more detail.
 For example, select Copy Query to copy the calculation formula onto the clipboard, then paste it into Dax Studio. You can then review the calculation step in more detail. In this example, you are trying to count the total number of products with order quantities greater than or equal to five.
+Count Customers =
+CALCULATE (
+    DISTINCTCOUNT ( Order[ProductID] ),
+    FILTER ( Order, Order[OrderQty] >= 5 )
+)
+After analyzing the query, you can use your own knowledge and experience to identify where the performance issues are. You can also try using different DAX functions to see if they improve performance. In the following example, the FILTER function was replaced with the KEEPFILTER function. When the test was run again in Performance analyzer, the duration was shorter as a result of the KEEPFILTER function.
+
