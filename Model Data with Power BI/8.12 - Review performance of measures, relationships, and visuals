@@ -41,4 +41,10 @@ CALCULATE (
     FILTER ( Order, Order[OrderQty] >= 5 )
 )
 After analyzing the query, you can use your own knowledge and experience to identify where the performance issues are. You can also try using different DAX functions to see if they improve performance. In the following example, the FILTER function was replaced with the KEEPFILTER function. When the test was run again in Performance analyzer, the duration was shorter as a result of the KEEPFILTER function.
+Count Customers =
+CALCULATE (
+    DISTINCTCOUNT ( Order[ProductID] ),
+    KEEPFILTERS (Order[OrderQty] >= 5 )
+)
+In this case, you can replace the FILTER function with the KEEPFILTER function to significantly reduce the evaluation duration time for this query. When you make this change, to check whether the duration time has improved or not, clear the data cache and then rerun the Performance analyzer process.
 
