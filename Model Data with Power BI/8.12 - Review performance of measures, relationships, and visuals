@@ -53,3 +53,5 @@ If the duration of measures and visuals are displaying low values (in other word
 
 Relationships
 You should review the relationships between your tables to ensure that you have established the correct relationships. Check that relationship cardinality properties are correctly configured. For example, a one-side column that contains unique values might be incorrectly configured as a many-side column. You will learn more about how cardinality affects performance later in this module.
+
+Columns
