@@ -77,3 +77,4 @@ Note
 If you are reviewing a large semantic model with more than 1,000 rows, and you want to analyze that whole semantic model, you need to change the default option at the bottom of the window. Select Column profiling based on top 1000 rows > Column profiling based on entire data set.
 Other metadata that you should consider is the information about the semantic model as a whole, such as the file size and data refresh rates. You can find this metadata in the associated Power BI Desktop (.pbix) file. The data that you load into Power BI Desktop is compressed and stored to the disk by the VertiPaq storage engine. The size of your semantic model has a direct impact on its performance; a smaller sized semantic model uses less resources (memory) and achieves faster data refresh, calculations, and rendering of visuals in reports.
 
+Auto date/time feature
