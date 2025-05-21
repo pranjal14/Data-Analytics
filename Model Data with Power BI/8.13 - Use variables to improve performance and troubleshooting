@@ -1,4 +1,9 @@
 You can use variables in your DAX formulas to help you write less complex and more efficient calculations. Variables are underused by developers who are starting out in Power BI Desktop, but they are effective and you should use them by default when you are creating measures.
 Some expressions involve the use of many nested functions and the reuse of expression logic. These expressions take a longer time to process and are difficult to read and, therefore, troubleshoot. If you use variables, you can save query processing time. This change is a step in the right direction toward optimizing the performance of a semantic model.
+The use of variables in your semantic model provides the following advantages:
+Improved performance - Variables can make measures more efficient because they remove the need for Power BI to evaluate the same expression multiple times. You can achieve the same results in a query in about half the original processing time.
+Improved readability - Variables have short, self-describing names and are used in place of an ambiguous, multi-worded expression. You might find it easier to read and understand the formulas when variables are used.
+Simplified debugging - You can use variables to debug a formula and test expressions, which can be helpful during troubleshooting.
+Reduced complexity - Variables do not require the use of EARLIER or EARLIEST DAX functions, which are difficult to understand. These functions were required before variables were introduced, and were written in complex expressions that introduced new filter contexts. Now that you can use variables instead of those functions, you can write fewer complex formulas.
 
 
