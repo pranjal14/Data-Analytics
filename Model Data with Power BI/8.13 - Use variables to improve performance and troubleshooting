@@ -6,4 +6,4 @@ Improved readability - Variables have short, self-describing names and are used 
 Simplified debugging - You can use variables to debug a formula and test expressions, which can be helpful during troubleshooting.
 Reduced complexity - Variables do not require the use of EARLIER or EARLIEST DAX functions, which are difficult to understand. These functions were required before variables were introduced, and were written in complex expressions that introduced new filter contexts. Now that you can use variables instead of those functions, you can write fewer complex formulas.
 
-
+Use variables to improve performance
