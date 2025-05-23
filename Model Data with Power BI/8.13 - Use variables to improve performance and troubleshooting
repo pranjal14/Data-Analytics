@@ -16,3 +16,12 @@ DIVIDE (
     ( [Sales] - CALCULATE ( [Sales], PARALLELPERIOD ( 'Date'[Date], -12, MONTH ) ) ),
     CALCULATE ( [Sales], PARALLELPERIOD ( 'Date'[Date], -12, MONTH ) )
 )
+
+With variable
+Sales YoY Growth =
+VAR SalesPriorYear =
+    CALCULATE ( [Sales], PARALLELPERIOD ( 'Date'[Date], -12, MONTH ) )
+VAR SalesVariance =
+    DIVIDE ( ( [Sales] - SalesPriorYear ), SalesPriorYear )
+RETURN
+    SalesVariance
