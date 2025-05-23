@@ -9,3 +9,10 @@ Reduced complexity - Variables do not require the use of EARLIER or EARLIEST DAX
 Use variables to improve performance
 To illustrate how you can use a variable to make a measure more efficient, the following table displays a measure definition in two different ways. Notice that the formula repeats the expression that calculates "same period last year" but in two different ways: the first instance uses the normal DAX calculation method and the second one uses variables in the calculation.
 The second row of the table shows the improved measure definition. This definition uses the VAR keyword to introduce a variable named SalesPriorYear, and it uses an expression to assign the "same period last year" result to that new variable. It then uses the variable twice in the DIVIDE expression.
+
+Without variable
+Sales YoY Growth =
+DIVIDE (
+    ( [Sales] - CALCULATE ( [Sales], PARALLELPERIOD ( 'Date'[Date], -12, MONTH ) ) ),
+    CALCULATE ( [Sales], PARALLELPERIOD ( 'Date'[Date], -12, MONTH ) )
+)
