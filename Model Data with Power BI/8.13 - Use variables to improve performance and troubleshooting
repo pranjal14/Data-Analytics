@@ -30,3 +30,6 @@ In the first measure definition in the table, the formula is inefficient because
 If your semantic model has multiple queries with multiple measures, the use of variables could cut the overall query processing time in half and improve the overall performance of the semantic model. Furthermore, this solution is a simple one; imagine the savings as the formulas get more complicated, for instance, when you are dealing with percentages and running totals.
 
 Use variables to improve readability
+In addition to improved performance, you might notice how the use of variables makes the code simpler to read.
+When using variables, it is best practice to use descriptive names for the variables. In the previous example, the variable is called SalesPriorYear, which clearly states what the variable is calculating. Consider the outcome of using a variable that was called X, temp or variable1; the purpose of the variable would not be clear at all.
+Using clear, concise, meaningful names will help make it easier for you to understand what you are trying to calculate, and it will be much simpler for other developers to maintain the report in the future.
