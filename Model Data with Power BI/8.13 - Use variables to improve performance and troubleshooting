@@ -37,3 +37,7 @@ Using clear, concise, meaningful names will help make it easier for you to under
 Use variables to troubleshoot multiple steps
 You can use variables to help you debug a formula and identify what the issue is. Variables help simplify the task of troubleshooting your DAX calculation by evaluating each variable separately and by recalling them after the RETURN expression.
 In the following example, you test an expression that is assigned to a variable. In order to debug you temporarily rewrite the RETURN expression to write to the variable. The measure definition returns only the SalesPriorYear variable because that is what comes after the RETURN expression.
+Sales YoY Growth % =
+VAR SalesPriorYear =  CALCULATE([Sales], PARALLELPERIOD('Date'[Date], -12, MONTH))
+VAR SalesPriorYear% = DIVIDE(([Sales] - SalesPriorYear), SalesPriorYear)  
+RETURN  SalesPriorYear%
