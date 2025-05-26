@@ -1,2 +1,9 @@
 Cardinality is a term that is used to describe the uniqueness of the values in a column. Cardinality is also used in the context of the relationships between two tables, where it describes the direction of the relationship.
+Identify cardinality levels in columns
+Previously, when you used Power Query Editor to analyze the metadata, the Column distribution option on the View tab displayed statistics on how many distinct and unique items were in each column in the data.
+
+Distinct values count - The total number of different values found in a given column.
+Unique values count - The total number of values that only appear once in a given column.
+A column that has a lot of repeated values in its range (unique count is low) will have a low level of cardinality. Conversely, a column that has a lot of unique values in its range (unique count is high) will have a high level of cardinality.
+Lower cardinality leads to more optimized performance, so you might need to reduce the number of high cardinality columns in your semantic model.
 
