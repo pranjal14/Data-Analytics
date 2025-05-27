@@ -8,3 +8,5 @@ A column that has a lot of repeated values in its range (unique count is low) wi
 Lower cardinality leads to more optimized performance, so you might need to reduce the number of high cardinality columns in your semantic model.
 
 Reduce relationship cardinality
+When you import multiple tables, it is possible that you'll do some analysis by using data from all those tables. Relationships between those tables are necessary to accurately calculate results and display the correct information in your reports. Power BI Desktop helps make creating those relationships easier. In fact, in most cases, you won't have to do anything, the autodetect feature does it for you. However, you might occasionally have to create relationships or need to make changes to a relationship. Regardless, it's important to understand relationships in Power BI Desktop and how to create and edit them.
+When you create or edit a relationship, you can configure additional options. By default, Power BI Desktop automatically configures additional options based on its best guess, which can be different for each relationship based on the data in the columns.
