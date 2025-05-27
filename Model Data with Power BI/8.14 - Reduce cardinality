@@ -7,3 +7,4 @@ Unique values count - The total number of values that only appear once in a give
 A column that has a lot of repeated values in its range (unique count is low) will have a low level of cardinality. Conversely, a column that has a lot of unique values in its range (unique count is high) will have a high level of cardinality.
 Lower cardinality leads to more optimized performance, so you might need to reduce the number of high cardinality columns in your semantic model.
 
+Reduce relationship cardinality
