@@ -18,4 +18,4 @@ Many-to-many (:) - With composite models, you can establish a many-to-many relat
 During development, you are creating and editing relationships in your model, so when you are building new relationships in your model, regardless of what cardinality you have chosen, always ensure that both of the columns that you are using to participate in a relationship are sharing the same data type. Your model will never work if you try to build a relationship between two columns, where one column has a text data type and another column has an integer data type.
 In the following example, the ProductID field has the data type Whole number in the Product and Sales tables. The columns with data type Integer perform better than columns with data type Text.
 
-
+Improve performance by reducing cardinality levels
