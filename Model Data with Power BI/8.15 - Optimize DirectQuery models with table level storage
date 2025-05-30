@@ -6,3 +6,8 @@ The performance of the data source's server and how many other workloads are on 
 Therefore, using DirectQuery poses a risk to the quality of your model's performance. To optimize performance in this situation, you need to have control over, or access to, the source database.
 
 Implications of using DirectQuery
+It is best practice to import data into Power BI Desktop, but your organization might need to use the DirectQuery data connectivity mode because of one of the following reasons (benefits of DirectQuery):
+It is suitable in cases where data changes frequently and near real-time reporting is required.
+It can handle large data without the need to pre-aggregate.
+It applies data sovereignty restrictions to comply with legal requirements.
+It can be used with a multidimensional data source that contains measures such as SAP Business Warehouse (BW).
