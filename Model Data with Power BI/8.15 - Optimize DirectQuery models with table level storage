@@ -5,3 +5,4 @@ Network latency; faster networks return data quicker.
 The performance of the data source's server and how many other workloads are on that server. For example, consider the implications of a server refresh taking place while hundreds of people are using the same server for different reasons.
 Therefore, using DirectQuery poses a risk to the quality of your model's performance. To optimize performance in this situation, you need to have control over, or access to, the source database.
 
+Implications of using DirectQuery
