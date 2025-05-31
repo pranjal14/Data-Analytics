@@ -12,3 +12,5 @@ It can handle large data without the need to pre-aggregate.
 It applies data sovereignty restrictions to comply with legal requirements.
 It can be used with a multidimensional data source that contains measures such as SAP Business Warehouse (BW).
 If your organization needs to use DirectQuery, you should clearly understand its behavior within Power BI Desktop and be aware of its limitations. You will then be in a good position to take action to optimize the DirectQuery model as much as possible.
+
+Behavior of DirectQuery connections
