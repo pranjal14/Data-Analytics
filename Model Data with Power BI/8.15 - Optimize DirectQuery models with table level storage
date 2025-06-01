@@ -21,3 +21,6 @@ If changes are made to the underlying data, they won't be immediately reflected 
 When you publish the report to the Power BI service, it will result in a semantic model in Power BI service, the same as for import. However, no data is included with that semantic model.
 When you open an existing report in Power BI service, or build a new one, the underlying source is again queried to retrieve the necessary data. Depending on the location of the original source, you might have to configure an on-premises data gateway.
 You can pin visuals, or entire report pages, as dashboard tiles. The tiles are automatically refreshed on a schedule, for example, every hour. You can control the frequency of this refresh to meet your requirements. When you open a dashboard, the tiles reflect the data at the time of the last refresh and might not include the latest changes that are made to the underlying data source. You can always refresh an open dashboard to ensure that it's up-to-date.
+
+Limitations of DirectQuery connections
+The use of DirectQuery can have negative implications. The limitations vary, depending on the specific data source that is being used. You should take the following points into consideration:
