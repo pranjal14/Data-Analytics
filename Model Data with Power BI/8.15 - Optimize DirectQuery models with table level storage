@@ -33,3 +33,5 @@ For more detailed information on the limitations of using DirectQuery, see Impli
 Now that you have a brief understanding of how DirectQuery works and the limitations that it poses, you can take action to improve the performance.
 
 Optimize performance
+Continuing with the Tailwind Traders scenario, during your review of the semantic model, you discover that the query used DirectQuery to connect Power BI Desktop to the source data. This use of DirectQuery is the reason why users are experiencing poor report performance. It's taking too long to load the pages in the report, and tables are not refreshing quickly enough when certain selections are made. You need to take action to optimize the performance of the DirectQuery model.
+You can examine the queries that are being sent to the underlying source and try to identify the reason for the poor query performance. You can then make changes in Power BI Desktop and the underlying data source to optimize overall performance.
