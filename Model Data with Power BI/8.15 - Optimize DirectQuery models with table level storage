@@ -44,3 +44,5 @@ You don't need to use a special approach when optimizing a DirectQuery model; yo
 Optimize the underlying data source (connected database)
 Your first stop is the data source. You need to tune the source database as much as possible because anything you do to improve the performance of that source database will in turn improve Power BI DirectQuery. The actions that you take in the database will do the most good.
 Consider the use of the following standard database practices that apply to most situations:
+Avoid the use of complex calculated columns because the calculation expression will be embedded into the source queries. It is more efficient to push the expression back to the source because it avoids the push down. You could also consider adding surrogate key columns to dimension-type tables.
+Review the indexes and verify that the current indexing is correct. If you need to create new indexes, ensure that they are appropriate.
