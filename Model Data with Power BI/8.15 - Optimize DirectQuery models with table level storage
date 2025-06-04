@@ -40,3 +40,5 @@ Optimize data in Power BI Desktop
 When you have optimized the data source as much as possible, you can take further action within Power BI Desktop by using Performance analyzer, where you can isolate queries to validate query plans.
 You can analyze the duration of the queries that are being sent to the underlying source to identify the queries that are taking a long time to load. In other words, you can identify where the bottlenecks exist.
 You don't need to use a special approach when optimizing a DirectQuery model; you can apply the same optimization techniques that you used on the imported data to tune the data from the DirectQuery source. For example, you can reduce the number of visuals on the report page or reduce the number of fields that are used in a visual. You can also remove unnecessary columns and rows.
+
+Optimize the underlying data source (connected database)
