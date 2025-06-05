@@ -50,3 +50,10 @@ Review the indexes and verify that the current indexing is correct. If you need 
 Customize the Query reduction options
 Power BI Desktop gives you the option to send fewer queries and to disable certain interactions that will result in a poor experience if the resulting queries take a long time to run. Applying these options prevents queries from continuously hitting the data source, which should improve performance.
 In this example, you edit the default settings to apply the available data reduction options to your model. You access the settings by selecting File > Options and settings > Options, scrolling down the page, and then selecting the Query reduction option.
+The following query reduction options are available:
+
+Reduce the number of queries sent by - By default, every visual interacts with every other visual. Selecting this check box disables that default interaction. You can then optionally choose which visuals interact with each other by using the Edit interactions feature.
+Slicers - By default, the Instantly apply slicer changes option is selected. To force the report users to manually apply slicer changes, select the Add an apply button to each slicer to apply changes when you're ready option.
+Filters - By default, the Instantly apply basic filter changes option is selected. To force the report users to manually apply filter changes, select one of the alternative options:
+Add an apply button to all basic filters to apply changes when you're ready
+Add a single apply button to the filter pane to apply changes at once (preview)
