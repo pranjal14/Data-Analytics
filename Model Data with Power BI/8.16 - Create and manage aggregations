@@ -1,2 +1,7 @@
 When aggregating data, you summarize that data and present it in at a higher grain (level). For example, you can summarize all sales data and group it by date, customer, product, and so on. The aggregation process reduces the table sizes in the semantic model, allowing you to focus on important data and helping to improve the query performance.
+Your organization might decide to use aggregations in their semantic models for the following reasons:
+If you are dealing with a large amount of data (big data), aggregations will provide better query performance and help you analyze and reveal the insights of this large data. Aggregated data is cached and, therefore, uses a fraction of the resources that are required for detailed data.
+If you are experiencing a slow refresh, aggregations will help you speed up the refresh process. The smaller cache size reduces the refresh time, so data gets to users faster. Instead of refreshing what could be millions of rows, you would refresh a smaller amount of data instead.
+If you have a large semantic model, aggregations can help you reduce and maintain the size of your model.
+If you anticipate your semantic model growing in size in the future, you can use aggregations as a proactive step toward future proofing your semantic model by lessening the potential for performance and refresh issues and overall query problems.
 
