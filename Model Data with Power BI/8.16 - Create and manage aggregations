@@ -9,3 +9,7 @@ Continuing with the Tailwind Traders scenario, you have taken several steps to o
 Create aggregations
 Before you start creating aggregations, you should decide on the grain (level) on which you want to create them. In this example, you want to aggregate the sales data at the day level.
 When you decide on the grain, the next step is to decide on how you want to create the aggregations. You can create aggregations in different ways and each method will yield the same results, for example:
+If you have access to the database, you could create a table with the aggregation and then import that table into Power BI Desktop.
+If you have access to the database, you could create a view for the aggregation and then import that view into Power BI Desktop.
+In Power BI Desktop, you can use Power Query Editor to create the aggregations step-by-step.
+In this example, you open a query in Power Query Editor and notice that the data has not been aggregated
