@@ -6,3 +6,4 @@ If you have a large semantic model, aggregations can help you reduce and maintai
 If you anticipate your semantic model growing in size in the future, you can use aggregations as a proactive step toward future proofing your semantic model by lessening the potential for performance and refresh issues and overall query problems.
 Continuing with the Tailwind Traders scenario, you have taken several steps to optimize the performance of the semantic model, but the IT team has informed you that the file size is still too large. The file size is currently 1 gigabyte (GB), so you need to reduce it to around 50 megabytes (MB). During your performance review, you identified that the previous developer did not use aggregations in the semantic model, so you now want to create some aggregations for the sales data to reduce the file size and further optimize the performance.
 
+Create aggregations
