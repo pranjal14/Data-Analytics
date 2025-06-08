@@ -13,3 +13,4 @@ If you have access to the database, you could create a table with the aggregatio
 If you have access to the database, you could create a view for the aggregation and then import that view into Power BI Desktop.
 In Power BI Desktop, you can use Power Query Editor to create the aggregations step-by-step.
 In this example, you open a query in Power Query Editor and notice that the data has not been aggregated
+You want to aggregate the data by the OrderDate column and view the OrderQuantity and SalesAmount columns. Start by selecting Choose Columns on the Home tab. On the window that displays, select the columns that you want in the aggregation and then select OK.
