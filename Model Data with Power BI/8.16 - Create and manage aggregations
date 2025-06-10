@@ -20,3 +20,4 @@ It might take a few minutes for your aggregation to display, but when it does, y
 Select the Close and Apply button to close Power Query Editor and apply the changes to your semantic model. Return to the Power BI Desktop page and then select the Refresh button to see the results. Observe the screen because a brief message will display the number of rows that your semantic model now has. This number of rows should be significantly less than the number that you started with. You can also see this number when you open Power Query Editor again, as illustrated in the following screenshot. In this example, the number of rows was reduced to 30.
 Remember, you started with over 999 rows. Using aggregation has significantly reduced the number of rows in your semantic model, which means that Power BI has less data to refresh and your model should perform better.
 
+Manage aggregations
