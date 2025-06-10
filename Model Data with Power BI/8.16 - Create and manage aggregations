@@ -23,3 +23,6 @@ Remember, you started with over 999 rows. Using aggregation has significantly re
 Manage aggregations
 When you have created aggregations, you can manage those aggregations in Power BI Desktop and make changes to their behavior, if required.
 You can open the Manage Aggregations window from any view in Power BI Desktop. In the Fields pane, right-click the table and then select Manage aggregations.
+For each aggregation column, you can select an option from the Summarization drop-down list and make changes to the selected detail table and column. When you are finished managing the aggregations, select Apply All.
+
+
