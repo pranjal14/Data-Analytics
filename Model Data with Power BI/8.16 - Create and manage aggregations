@@ -21,3 +21,5 @@ Select the Close and Apply button to close Power Query Editor and apply the chan
 Remember, you started with over 999 rows. Using aggregation has significantly reduced the number of rows in your semantic model, which means that Power BI has less data to refresh and your model should perform better.
 
 Manage aggregations
+When you have created aggregations, you can manage those aggregations in Power BI Desktop and make changes to their behavior, if required.
+You can open the Manage Aggregations window from any view in Power BI Desktop. In the Fields pane, right-click the table and then select Manage aggregations.
