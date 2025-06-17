@@ -6,3 +6,7 @@ Educational
 Commonly, executives work with dashboards, analysts work with analytical reports, and information workers work with operational reports.
 Each report type has a different approach to the user interface (UI) and user experience (UX) requirements. These requirements are described in more detail later in this module.
 
+Dashboard
+The primary goal of a dashboard is to interpret the story as quickly as possible. User interactions are limited by insights that are highly curated toward the audience. Report visuals are focused, self-explanatory, and clearly labeled. A dashboard directly communicates the meaning behind the data to minimize misinterpretation or confusion.
+A good example of a dashboard is an executive dashboard, which often presents high-level metrics that are displayed on a single page. Dashboards help answer questions such as "How are we doing?" or "Are we there yet?"
+At the Contoso Skateboard Store, a dashboard is a report that allows users to view several analytics values, targets, statuses, and trends.
