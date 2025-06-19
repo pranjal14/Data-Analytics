@@ -12,3 +12,9 @@ A good example of a dashboard is an executive dashboard, which often presents hi
 At the Contoso Skateboard Store, a dashboard is a report that allows users to view several analytics values, targets, statuses, and trends.
 
 Analytical reports
+An analytical report is the most common type of report that can serve various report consumer use cases while providing a structured space for analysis.
+The primary goal of an analytical report is to help report consumers discover answers to a broad array of questions by interacting with the report and its visuals. Analytical reports often have many slicers to filter report data, and they often contain complex visuals that expose in-depth detail of the data.
+Report pages are often expressly designed for interactivity with a focus on UX features. Multiple pathways are often provided for the report consumer to follow, which allows them to explore a topic of interest, share their findings, or return to where they started. Report consumers can remove layers and add context and detail by incorporating interactive features. Common interactive features include drill down, drill through, and tooltips.
+A good example of an analytical report is one that extends beyond the "How are we doing?" type of question to answer the "Why did that happen?" or "What might happen next?" type of questions.
+An example of an analytical report at the Contoso Skateboard Store would be a sales analysis report that allows drilling into sales revenue from year, down to quarter, month, and day.
+
