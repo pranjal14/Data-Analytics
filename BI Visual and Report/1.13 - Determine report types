@@ -19,3 +19,7 @@ A good example of an analytical report is one that extends beyond the "How are w
 An example of an analytical report at the Contoso Skateboard Store would be a sales analysis report that allows drilling into sales revenue from year, down to quarter, month, and day.
 
 Operational reports
+Operational reports are designed to give the report consumer the ability to monitor current or real-time data, make decisions, and act on those decisions. Operational reports can include buttons that allow the report consumer to navigate within the report and also beyond the report to perform actions in external systems. Frequently, operational reports serve as a hub for action that is used by report consumers as part of their daily activity and workload.
+This type of report should minimize the number of analytical features to ensure that focus remains on the operation that it's designed to serve. A streamlined user experience is the primary aim for this report type because excessive clicking or illogical flow can lead to high dissatisfaction.
+A good example of an operational report is one that allows monitoring of a manufacturing production line. When an unexpected event arises, such as equipment malfunction, a button could allow workers to start a maintenance request.
+An example of an operational report at the Contoso Skateboard Store would be an inventory report that informs the report consumer of current stock levels, and highlighting low stock levels or back orders. It also includes a Submit Order button that allows users to create a purchase order.
