@@ -25,3 +25,5 @@ A good example of an operational report is one that allows monitoring of a manuf
 An example of an operational report at the Contoso Skateboard Store would be an inventory report that informs the report consumer of current stock levels, and highlighting low stock levels or back orders. It also includes a Submit Order button that allows users to create a purchase order.
 
 Educational reports
+Educational reports assume that the report consumer is unfamiliar with the data or context. So the reports must provide clear narrative detail and guidance to help with understanding. This type of report is often used in journalism and by governments to disseminate information to large audiences that have varying levels of understanding of the subject.
+A good example of an educational report is one that describes the rollout of COVID-19 vaccination progress and that can be filtered by the home geographic region of the report consumer.
