@@ -1,4 +1,9 @@
 UI requirements relate to how reports are consumed and to the appearance and behavior of reports. Aspects to consider include form factor, input method, style and theme, and accessibility.
 Form factor
 In the context of report design, form factor describes the size of the hardware that is used to open reports, and to page orientation (portrait or landscape).
+Generally, today's computers are accompanied by large-sized monitors and, occasionally, multiple monitors. Large monitor screen sizes are ideal for viewing reports in web browsers, especially when they include several visuals or complex visuals by using landscape orientation.
+Mobile devices, which are typically used when the report consumer is away from their desk, have a smaller form factor. Phones and tablets display content in portrait orientation by default. Smaller form factors demand a different design approach compared to reports that are designed for larger form factors. Accordingly, when you design for a smaller form factor, strive for fewer and less complex visuals. Also, visuals should be large to help ease viewing and interactivity.
+Mobile devices encompass augmented or mixed reality technologies, allowing head-mounted devices to display reports that are superimposed over the reality of the surroundings.
+Occasionally, the design of a report that is intended for a large form factor can be refactored to create a mobile view. The mobile view might contain a subset of visuals from the full-sized report.
+
 
