@@ -7,3 +7,5 @@ Mobile devices encompass augmented or mixed reality technologies, allowing head-
 Occasionally, the design of a report that is intended for a large form factor can be refactored to create a mobile view. The mobile view might contain a subset of visuals from the full-sized report.
 
 Input method
+When defining UI requirements, also consider input methods that are supported by devices or applications.
+While a computer has a keyboard and pointing device (mouse), mobile devices rely on common gestures, such as tap, double-tap, drag, pinch, spread, or press. Report consumers who are using mobile devices can also use on-screen keyboards, voice control, or barcode and QR code readers. Augmented or mixed reality devices rely heavily on hand gestures or body movement.
