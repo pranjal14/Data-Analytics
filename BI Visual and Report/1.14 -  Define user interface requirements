@@ -21,3 +21,10 @@ Text settings, including font selection, sizes, and color.
 To manage style and theme changes effectively and efficiently, design reports that use images and themes that are stored in a central repository. This approach improves change management: Changes that are applied to the repository can automatically cascade through to reports.
 
 Accessibility
+UI requirements should also factor in accessibility. Reports need to communicate to the broadest audience possible. So you should consider how consumers with no-to-low vision or other physical disabilities can fully experience the reports.
+While you might not be aware of report users with accessibility issues today, it's a good idea to design for accessibility from the outset. Accessibility requirements can influence your report designs in terms of form factor, input method, and style and theme.
+To support people with low or no vision, consider using:
+clear and large-sized fonts,
+well-spaced and large visuals,
+sufficiently contrasting colors,
+and intuitive report navigation that can be understood by keyboard and screen readers.
