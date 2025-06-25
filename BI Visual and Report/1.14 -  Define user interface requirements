@@ -28,3 +28,4 @@ clear and large-sized fonts,
 well-spaced and large visuals,
 sufficiently contrasting colors,
 and intuitive report navigation that can be understood by keyboard and screen readers.
+Some physical disabilities can inhibit or prevent report consumers from fully interacting with reports in the way that you intend. When possible, ensure that you offer alternative paths for consumers to follow to achieve the interactive design outcomes. For example, adding alt text to visuals for screen reader support, and setting tab order for keyboard navigation.
