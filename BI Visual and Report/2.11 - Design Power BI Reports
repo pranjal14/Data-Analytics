@@ -1,3 +1,5 @@
 Introduction
 You can design Microsoft Power BI reports in Power BI Desktop or the online Power BI service. Power BI mobile apps don't support report design; they support only the report consumer experience.
+Note
+Power BI Desktop is only supported on Windows operating systems. As a design tool, it also supports the development of reports and semantic models. In this module, the focus is only on report design.
 
