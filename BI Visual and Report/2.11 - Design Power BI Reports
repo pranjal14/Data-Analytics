@@ -5,3 +5,5 @@ Power BI Desktop is only supported on Windows operating systems. As a design too
 
 Report structure
 Structurally, a Power BI report connects to a single semantic model, and it has at least one report page. However, reports commonly have multiple pages. On each page, report objects are laid out. Report objects include:
+Visuals - Visualizations of semantic model data.
+Elements - Provide visual interest but don't use semantic model data. Elements include text boxes, buttons, shapes, and images.
