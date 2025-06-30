@@ -10,3 +10,5 @@ Elements - Provide visual interest but don't use semantic model data. Elements i
 
 Report pages
 Similar to Microsoft Excel worksheets, you can add, rename, reorder, hide, duplicate, or delete Power BI report pages.
+Tip
+Duplicating pages can help expedite report development, especially when you're copying a completed and polished report page. However, take care that you don't over complicate the report design if you can accomplish a duplicated page by filtering a single page. For example, instead of creating one page for each customer, you could use a slicer on a single page to filter by customer.
