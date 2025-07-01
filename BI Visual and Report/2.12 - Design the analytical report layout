@@ -3,4 +3,6 @@ Tip
 Report design is a blend of science and art, and many possible report designs are available that help achieve the audience and interface requirements. What matters most is that the report design effectively communicates the data to meet requirements.
 An analytical report can consist of one or more pages, and pages comprise report objects. Report objects can be data visuals, which represent query results, or decorations like images, background shapes, or text. You can begin to design a report layout by determining the number, sequence, and purpose of the pages. Make sure that you avoid combining subjects or opposing objectives on the same page. Then, design each page layout with specific report objects that are relevant to the requirements.
 Additionally, good report design layouts should consider design principles of placement, balance, contrast, proximity, and repetition.
+Tip
+Always keep in mind that the less is more adage applies; simplicity and clarity lead to good design.
 
