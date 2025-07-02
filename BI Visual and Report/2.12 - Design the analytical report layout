@@ -6,3 +6,6 @@ Additionally, good report design layouts should consider design principles of pl
 Tip
 Always keep in mind that the less is more adage applies; simplicity and clarity lead to good design.
 
+Placement
+Good placement of report objects contributes to an ordered report design. Generally, you should place the most important information in the upper-left corner of the page and arrange the report elements from left to right and top to bottom.
+Arrange report objects so that the vertical and horizontal edges align because it looks ordered and is pleasing to the eye. Organize related report objects into logical groups. An ordered report layout creates a connection between visual elements and avoids clutter that can result from a seemingly random placement of report objects.
