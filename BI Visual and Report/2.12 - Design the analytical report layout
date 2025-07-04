@@ -19,3 +19,5 @@ Consider using the golden ratio as a guide to produce asymmetrical balance. The 
 In the following animated image, notice how the report layout initially draws your eye to the larger charts. After you understand the larger charts, observe that your eye is likely drawn to the bar chart and then to the values in the cards.
 
 Proximity
+In a report layout, proximity is concerned with the nearness of report objects. When a report page consists of multiple groups of related objects, you should use space to visually separate them.
+In the following report design, notice the top-left section labeled key metrics. Related visuals are placed near one another. They're also purposefully and consistently aligned forming a clear section.
