@@ -21,3 +21,5 @@ In the following animated image, notice how the report layout initially draws yo
 Proximity
 In a report layout, proximity is concerned with the nearness of report objects. When a report page consists of multiple groups of related objects, you should use space to visually separate them.
 In the following report design, notice the top-left section labeled key metrics. Related visuals are placed near one another. They're also purposefully and consistently aligned forming a clear section.
+
+Contrast
