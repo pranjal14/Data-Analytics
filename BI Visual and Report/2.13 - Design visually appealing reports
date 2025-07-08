@@ -4,3 +4,5 @@ Space
 Space is essential for an effective report design because it helps reduce clutter and increase readability. Spacing applies to the report page margins and the spacing between report objects.
 
 Margins
+Margins include the border area, or edge, around each page. Having a consistently spaced border area frames the report objects.
+Because there isn't a report page property to set margins, it's up to you to lay out objects in way that results in a consistent border area. Margin sizes should be equal on both sides, with possible variation on the top and bottom. Space across the top or bottom can show branding, titles, slicers, or other information that needs to be separated from the visuals.
