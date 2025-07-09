@@ -9,3 +9,7 @@ Because there isn't a report page property to set margins, it's up to you to lay
 
 Object spacing
 Ensure that you provide sufficient space surrounding, or within, report objects.
+
+Note
+When visual headers are enabled, be sure to test that they don't overlap with nearby objects. Overlapping objects can make interacting with visual header icons difficult. Adequate spacing between visuals helps you avoid this problem.
+Consider using different space depth to visually separate sections of related objects. However, keep in mind that too much space can result in an unbalanced report layout and could draw the attention of the report consumer away from what matters. Moderation is key: Always strive to produce an evenly spaced and balanced report.
