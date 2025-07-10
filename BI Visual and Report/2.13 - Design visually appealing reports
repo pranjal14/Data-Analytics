@@ -22,3 +22,5 @@ You can set the page size to predefined or custom dimensions. Additionally, you 
 
 Visual size
 Generally, the more important the visual, the larger its size. Report consumers quickly focus on larger visuals. When similar visuals are on the page, such as a series of card visuals, they should be equally sized.
+Many visuals are responsive to size, so the visual looks appealing in either a small or large size. However, consider that a line chart visual might appear like a sparkline when small in size. In this case, only a few axis and data labels might appear. When the line chart visual is sized larger, more detail is revealed, including many more axis and data labels.
+While report consumers can use focus mode to enlarge a single visual, the visual should still clearly communicate its data when viewed at actual size on the report page. Focus mode can help consumers better interpret the data or more easily interact with the visual, such as expanding into levels of a matrix or decomposition tree visual.
