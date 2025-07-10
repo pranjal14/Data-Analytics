@@ -19,3 +19,6 @@ Size can relate to page size and visual size.
 
 Page size
 You can set the page size to predefined or custom dimensions. Additionally, you can set custom dimensions that are larger than the available screen size so that the report consumer needs to interact with scrollbars to view the entire page.However, a large page size that is filled with visuals might take time to render, and visuals might not render in a top-to-bottom order.
+
+Visual size
+Generally, the more important the visual, the larger its size. Report consumers quickly focus on larger visuals. When similar visuals are on the page, such as a series of card visuals, they should be equally sized.
