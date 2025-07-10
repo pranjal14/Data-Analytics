@@ -16,3 +16,6 @@ Consider using different space depth to visually separate sections of related ob
 
 Size
 Size can relate to page size and visual size.
+
+Page size
+You can set the page size to predefined or custom dimensions. Additionally, you can set custom dimensions that are larger than the available screen size so that the report consumer needs to interact with scrollbars to view the entire page.However, a large page size that is filled with visuals might take time to render, and visuals might not render in a top-to-bottom order.
