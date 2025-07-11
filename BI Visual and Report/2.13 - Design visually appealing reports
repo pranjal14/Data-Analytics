@@ -26,3 +26,6 @@ Many visuals are responsive to size, so the visual looks appealing in either a s
 While report consumers can use focus mode to enlarge a single visual, the visual should still clearly communicate its data when viewed at actual size on the report page. Focus mode can help consumers better interpret the data or more easily interact with the visual, such as expanding into levels of a matrix or decomposition tree visual.
 
 Alignment
+When multiple visuals are on the report page, ensure that they're properly aligned, meaning that the edges of visuals should be in alignment and the spacings between visuals are consistent.
+Alignment also relates to format options. For example, the alignment of titles and legends within visuals should be consistent.
+Consider laying out the report page with different sections and aligning visuals appropriately within the sections. Sections can be implied or explicit.
