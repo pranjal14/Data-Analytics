@@ -43,3 +43,7 @@ The following example shows several issues that are related to color. The colors
 
 Consistency
 Strive for consistency when you lay out and configure report objects. Consistency should apply to everything in your report design, including spacing, margins, size, alignment, and especially to object format options. Format options include the selection of font, font size, font weight, colors, and many other styling options. Format options also include the enabling of visual features like axis labels and data labels.
+The following example shows many inconsistencies, including mixed fonts, different font sizes, and inconsistent titles. At first glance, the report appears unbalanced.
+The quickest way to enforce consistency is to use a report theme. A report theme applies format settings to your entire report, ensuring consistent application of colors, fonts, pages, and visual format options, including the style of the Filters pane.
+Consider using one of the many built-in themes from the theme gallery. You can use one as a starting point and then customize it to better meet your requirements. Alternatively, you can create a new theme, which can be considerable work initially, but provide you with granular control.
+Be sure to export the report theme, which is a JSON file, and then apply it to other reports to ensure consistency across all your reports.
