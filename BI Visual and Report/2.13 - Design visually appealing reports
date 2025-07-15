@@ -42,3 +42,4 @@ Ensure that colors are sufficiently contrasting. Color contrast is especially im
 The following example shows several issues that are related to color. The colors that are applied on the left side of the page are different from colors that are applied on the right side. Also, the colors are bright and possibly distract the report consumer. Some colors, such as yellow, don't provide sufficient contrast with the white data labels.
 
 Consistency
+Strive for consistency when you lay out and configure report objects. Consistency should apply to everything in your report design, including spacing, margins, size, alignment, and especially to object format options. Format options include the selection of font, font size, font weight, colors, and many other styling options. Format options also include the enabling of visual features like axis labels and data labels.
