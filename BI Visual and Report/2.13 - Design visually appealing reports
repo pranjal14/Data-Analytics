@@ -40,3 +40,5 @@ Color
 Use color sparingly and meaningfully because overuse can be distracting. Stick to a few softer colors as a base, possibly aligned with corporate colors. Softer colors ensure that the data is the focus in your report. Reserve the use of bolder colors to highlight exceptions.
 Ensure that colors are sufficiently contrasting. Color contrast is especially important to create accessible reports for consumers who have low vision.
 The following example shows several issues that are related to color. The colors that are applied on the left side of the page are different from colors that are applied on the right side. Also, the colors are bright and possibly distract the report consumer. Some colors, such as yellow, don't provide sufficient contrast with the white data labels.
+
+Consistency
