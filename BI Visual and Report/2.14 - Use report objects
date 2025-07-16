@@ -1,1 +1,5 @@
+Report objects are laid out on each report page and include:
+Visuals - Visualizations of semantic model data.
+Elements - Provide visual interest but don't use semantic model data. Elements include text boxes, buttons, shapes, and images.
+All report objects have some properties in common, which can be set in various sections of the Format options. Commonly applied settings include general properties (location, size, and alt text), title, and effects (background, border, shadow, and more).
 
