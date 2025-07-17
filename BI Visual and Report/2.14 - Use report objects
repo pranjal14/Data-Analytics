@@ -6,3 +6,11 @@ All report objects have some properties in common, which can be set in various s
 Visuals
 Visuals are visualizations of semantic model data. Power BI includes over 30 core visuals, which are built in and available to all reports. You can access the core visuals in the first section of the Visualizations pane.
 You can also extend the core visuals with custom visuals. Custom visuals are sourced from Microsoft AppSource (an app store for business applications such as Microsoft Office 365, Microsoft Dynamics 365, Power BI, or separate Microsoft Azure web apps) or uploaded as a PBIVIZ file.
+You can use the following general methodology to add and configure a visual:
+Select the visual type in the Visualizations pane and then position and size it on the page.
+Map semantic model fields to populate the visual. Each visual has one or more wells. The number and type of wells differ between visuals. Some visuals, like the slicer, have a single well, but others have more.
+Optionally, apply visual-level filters.
+Modify field mappings, possibly renaming fields, modifying summarization behavior (or restricting summarization), or enabling the Show items with no data option.
+Optionally, modify the sort field and the sort direction (in ascending or descending order).
+Optionally, apply format options to produce the desired result and style.
+Optionally (and when supported), use the Analytics options to overlay supporting data, like minimum or maximum lines, or Artificial Intelligence (AI) results, like anomaly detection and forecasts.
