@@ -14,3 +14,6 @@ Modify field mappings, possibly renaming fields, modifying summarization behavio
 Optionally, modify the sort field and the sort direction (in ascending or descending order).
 Optionally, apply format options to produce the desired result and style.
 Optionally (and when supported), use the Analytics options to overlay supporting data, like minimum or maximum lines, or Artificial Intelligence (AI) results, like anomaly detection and forecasts.
+To gain a better understanding of this general methodology, watch the following video, which demonstrates how to configure a report visual.
+This module doesn't intend to describe each visual in detail. In the next unit, visuals are grouped into visualization requirements together with guidance on when to and when not to use them.
+Additionally, this module doesn't intend to describe each visual format or analytic option.
