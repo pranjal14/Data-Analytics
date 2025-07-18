@@ -17,3 +17,7 @@ Optionally (and when supported), use the Analytics options to overlay supporting
 To gain a better understanding of this general methodology, watch the following video, which demonstrates how to configure a report visual.
 This module doesn't intend to describe each visual in detail. In the next unit, visuals are grouped into visualization requirements together with guidance on when to and when not to use them.
 Additionally, this module doesn't intend to describe each visual format or analytic option.
+
+
+Elements
+Elements provide visual interest but don't use semantic model data (with one exception, which is described later).
