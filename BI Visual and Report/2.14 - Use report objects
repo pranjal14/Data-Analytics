@@ -21,3 +21,8 @@ Additionally, this module doesn't intend to describe each visual format or analy
 
 Elements
 Elements provide visual interest but don't use semantic model data (with one exception, which is described later).
+The four types of elements are:
+Text box - Add rich text, such as the title, to the report page. You can selectively apply font type and font size and then set the color, styling (bold, italics, or underline), and paragraph alignment (right, center, or left). You can insert hyperlinks, too.
+Buttons - Add buttons so that report consumers can interact with the report as they would an app. Buttons can perform different actions, such as return to the previous page, navigate to a specific page, drill through to a page, select a bookmark, open Q&A, or open a web URL in the default web browser.
+Shapes - Add a shape to the report as decoration or to behave like a button to perform an action. Almost any conceivable shape is possible, from basic shapes to arrows and even hearts. Shapes can include text and can be formatted and styled in many different ways.
+Image - Upload an image, such as your company logo, to the report page. Supported image types include BMP, JPEG, GIF, TIFF, and PNG. Similar to the Shapes element, images can behave like buttons to perform an action.
