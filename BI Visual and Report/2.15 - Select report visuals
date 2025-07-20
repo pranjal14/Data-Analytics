@@ -1,3 +1,5 @@
 The primary goal of data visualization is to communicate information clearly and effectively to report consumers. Selecting the most effective visual type and layout to meet requirements is critical. Selecting the wrong visual type could make it difficult for report consumers to understand the data, or worse, it could result in the misrepresentation of the data.
 Visual selection can be challenging because you have so many visuals to choose from. To help you select an appropriate visual, the following sections provide tips and guidance to help you meet specific visualization requirements.
 
+Categorical visuals
+Often, bar or column charts are good choices when you need to show data across multiple categories. Selecting which type depends on the number of categories and the kind of information that you want to visualize. For example, if many category values are available, you should avoid selecting a visual where color is used to split the data, such as a stacked bar chart with a category legend. Instead, use the category dimension on the axis of a bar chart.
