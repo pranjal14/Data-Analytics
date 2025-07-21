@@ -10,4 +10,13 @@ Time series visuals
 Always use a line or column chart to show values over time. The X-axis should present time, sorted from earliest to latest periods (left to right).
 Note
 This placement applies to audiences who predominantly read left to right (LTR). When your audience reads right to left (RTL), as is the case with some written languages, sort the X-axis from right to left.
+In the following example, a line chart shows historical sales. The line chart shows the natural flow of a timeline from left to right, eliminating the time needed to interpret the X-axis.
+You can take the line chart to the next level by adding an analytics option. In this case, it applies a forecast to extend historical sales with projected sales.
+Line charts work well with a consistent flow of data, such as when sales are recorded for every period. If no sales are recorded for some periods, the line chart visual will fill such gaps with a straight line that connects the values of the previous and next periods. If missing values are a possibility, a column chart might be a better visual choice because it helps to avoid the interpretation of a nonexistent trend.
+The first chart is a line chart. The second chart is a column chart. The column chart has missing columns indicating no sales for those time periods.
+Other Power BI core visuals that you can use for time series data include:
+Stacked column chart
+Area chart
+Line and stacked column chart
+Ribbon chart, which has the added benefit of showing rank changes over time
 
