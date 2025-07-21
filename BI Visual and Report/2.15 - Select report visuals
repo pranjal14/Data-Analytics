@@ -8,3 +8,6 @@ In the next example, a bar chart shows sales by product category. Notice that th
 
 Time series visuals
 Always use a line or column chart to show values over time. The X-axis should present time, sorted from earliest to latest periods (left to right).
+Note
+This placement applies to audiences who predominantly read left to right (LTR). When your audience reads right to left (RTL), as is the case with some written languages, sort the X-axis from right to left.
+
