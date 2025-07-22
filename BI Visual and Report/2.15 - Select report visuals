@@ -24,3 +24,10 @@ Proportional visuals
 Proportional visuals show data as part of a whole. They effectively communicate how a value is distributed across a dimension. Column and bar chart visuals work well for visualizing proportions across multiple dimensions.
 Note
 Proportional visuals can't plot a mix of positive and negative values. They should be used when all values are positive or all values are negative.
+In the following example, a 100% Stacked Bar chart visual shows proportional sales across four stores. It lets you compare each store across the six product categories. Notice that the actual sales value isn't shown. Instead, the proportion of sales is shown, allowing report consumers to determine which one is higher. (If necessary, you can reveal the actual values in a tooltip.)
+In the next example, notice that the same information can be expressed vertically as a 100% Stacked Column chart. It yields an equivalent result.
+Other Power BI core visuals that you can use for proportional visualization include:
+100% Stacked Column chart
+Funnel chart
+Treemap
+Pie chart
