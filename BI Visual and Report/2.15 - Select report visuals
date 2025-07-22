@@ -20,3 +20,5 @@ Area chart
 Line and stacked column chart
 Ribbon chart, which has the added benefit of showing rank changes over time
 
+Proportional visuals
+Proportional visuals show data as part of a whole. They effectively communicate how a value is distributed across a dimension. Column and bar chart visuals work well for visualizing proportions across multiple dimensions.
