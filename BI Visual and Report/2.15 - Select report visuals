@@ -33,3 +33,5 @@ Treemap
 Pie chart
 
 Numeric visuals
+Numeric values show high-level callouts that demand immediate attention and can be represented with card visuals. They can be powerful in dashboard and analytical reports because they communicate important data quickly.
+You can also use a multi-row card to display multiple values in a single visual.
