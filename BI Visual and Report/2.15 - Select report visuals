@@ -37,3 +37,5 @@ Numeric values show high-level callouts that demand immediate attention and can 
 You can also use a multi-row card to display multiple values in a single visual.
 
 Grid visuals
+Tables and matrices are often overlooked, yet can effectively convey detailed information. Tables have a fixed number of columns, and each column can express grouped or summarized data. Matrices can have groups on columns and rows. Conditional formatting options, such as background colors, font colors, or icons, can enhance values with visual indicators. This extra context supports simple report consumption and can bring balance to a report page.
+Additionally, matrices provide one of the best experiences for hierarchical navigation. They allow users to drill down, on the columns or rows, to discover detailed data points of interest.
