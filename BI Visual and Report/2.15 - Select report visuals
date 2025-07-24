@@ -42,3 +42,6 @@ Additionally, matrices provide one of the best experiences for hierarchical navi
 The table and matrix Format options provide fine-grained control to format and style grid values.
 In the following example, a table visual shows sales and units sold by product. Showing these metrics together in a single visual can be a challenge because the scale of values for sales and units is different. But by applying conditional formatting, data bars help report consumers quickly understand the distribution of values. Notice that the products are sorted by sales values in descending order, drawing attention to the product with the highest sales.
 In the next example, a matrix visual displays inventory by product and by store. It uses conditional formatting to show indicators, which provide visual cues to understanding the data.
+
+Performance visuals
+Communicating performance involves describing a value and its comparison to a target. Any difference between the value and target is its variance, which can be favorable or unfavorable. Colors or icons can convey status. For example, when the variance is unfavorable, you can display a red color or an exclamation mark (!) icon.
