@@ -45,3 +45,8 @@ In the next example, a matrix visual displays inventory by product and by store.
 
 Performance visuals
 Communicating performance involves describing a value and its comparison to a target. Any difference between the value and target is its variance, which can be favorable or unfavorable. Colors or icons can convey status. For example, when the variance is unfavorable, you can display a red color or an exclamation mark (!) icon.
+Here's an example of a Key Performance Indicator (KPI) visual that displays total sales compared to target, including variance.
+The KPI visual is also a good choice when you want to show progress toward a specific goal over time. To configure a KPI, you need three pieces of information:
+A unit of measurement that you want to track, for instance total sales, number of employee hires, number of loans serviced, or number of students enrolled.
+A goal for the measurement so that you can compare your progress with that goal.
+A time series, for instance daily, monthly, or yearly.
