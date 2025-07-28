@@ -54,3 +54,6 @@ Other Power BI core visuals that you can use to show performance include:
 Gauge
 Table, with conditional formatting
 Matrix, with conditional formatting
+
+Geospatial visuals
+When a semantic model stores geospatial information, it can be conveyed by using map visuals. Power BI includes several core map visuals. Each visual offers various formatting options that, when appropriately applied, can help highlight geospatial data.
