@@ -59,3 +59,6 @@ Geospatial visuals
 When a semantic model stores geospatial information, it can be conveyed by using map visuals. Power BI includes several core map visuals. Each visual offers various formatting options that, when appropriately applied, can help highlight geospatial data.
 In the following example, sales by city are displayed by using a Map visual and a Filled map visual. In this instance, the granularity of the data is at the city level and the perspective is the entire United States. Because a high dispersion is between plot points, the Map visual (which shows a bubble for each city) produces a helpful result. However, the Filled map visual of the United States can't sufficiently convey city sales.
 If you raise the granularity to state level, the Filled map visual produces a better result than the Map visual. In this case, the report consumer can determine relative sales by interpreting the color graduations.
+
+Visual layout
+Often, you can choose between multiple visual types to meet design requirements. To narrow down the selection, you might also consider the visual that best fits the available space on the report page. Use a visual that is aesthetically pleasing while maximizing the use of the available page space.
