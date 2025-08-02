@@ -1,2 +1,10 @@
 Report filtering is a complex topic because many techniques are available for filtering a report. However, with complexity comes control, allowing you to design reports that meet requirements and expectations. This unit introduces filtering capabilities and describes the techniques you can apply to your report at design time.
+Introduction to report filtering
+Filtering can occur at five different levels of a report:
+Semantic model, with row-level security (RLS)
+Report
+Page
+Visual
+Measure
+Report, page, and visual level filters apply to the structure of the report.
 
