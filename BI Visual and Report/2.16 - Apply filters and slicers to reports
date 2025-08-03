@@ -9,4 +9,5 @@ Measure
 Report, page, and visual level filters apply to the structure of the report.
 
 Semantic model
+Every report queries a single semantic model, which must be a semantic model. The semantic model can enforce row-level security (RLS) to restrict access to a subset of data, and different users see different data. A report can't determine whether the semantic model enforces RLS, and it can't override RLS.
 
