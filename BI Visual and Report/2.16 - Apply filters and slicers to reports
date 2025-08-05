@@ -18,3 +18,5 @@ The second level comprises its pages.
 The third level comprises report objects, which consist of visuals and elements.
 In the Filters pane, you can add a filter to any of these levels.
 
+Measure
+Measures are calculations created to summarize data in the semantic model. Measure formulas, which are written in Data Analysis Expressions (DAX), can modify filter context by using the CALCULATE or CALCULATETABLE function. These functions are powerful and provide you with the flexibility to add, remove, or modify filters and relationships. A set of DAX functions, known as time intelligence functions, also modify filter context. These functions can override any filters that are applied to the report structure.
