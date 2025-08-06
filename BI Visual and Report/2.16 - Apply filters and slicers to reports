@@ -23,3 +23,11 @@ Measures are calculations created to summarize data in the semantic model. Measu
 At report design time (only in Power BI Desktop), you can create measures. These measures belong to the report, and so they're called report-level measures.
 A good example of a measure that overrides report filters is a three-month moving average calculation. To compute the result for March, the filter context for month must expand to encompass January, February, and March. The CALCULATE function or a time intelligence function can modify the filter context to produce the desired result.
 To gain a better understanding of report filtering, watch the following video that describes filter techniques at design time and consumption time.
+
+Apply filters to the report structure
+At report design time, use the Filters pane to apply filters to the report structure.
+The Filters pane has three sections:
+Filters on all pages
+Filters on this page
+Filters on this visual
+The Filters on all pages section defines report-level filters, which apply to all report pages and visuals. Consider that report-level filters are global filters.
