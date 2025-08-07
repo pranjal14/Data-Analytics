@@ -53,3 +53,6 @@ At design time, you can modify the slicer layout so that lists become dropdown l
 Note
 To change the slicer style, select Format your visual > Slicer settings > Visual > Options > Style.
 A slicer based on a date field offers other layouts to filter by relative date or time. Relative filters allow the report consumer to filter by past, present, or future time periods based on the current date and time. For example, a relative date slicer could filter by the current date (today).
+Tip
+Dropdown slicer layouts are common; they help minimize the size of the slicer to provide more room on the page for other visuals. Another benefit when using dropdown slicers that might not be immediately apparent is that they only query the semantic model when expanded open. Therefore, they can also help expedite report page rendering.
+List and dropdown slicers support format options to control the selection of items. When you enable the Single select option, the slicer allows only a single item selection. That approach makes sense for a slicer like scenario, where the options are Actual, Budget, or Forecast. In this case, it only makes sense to filter by one scenario at a time.
