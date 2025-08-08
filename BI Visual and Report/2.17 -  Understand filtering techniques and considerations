@@ -1,1 +1,2 @@
+Some report filtering techniques apply at design time, while others are relevant at report consumption time (in reading view). This unit describes filtering techniques that allow report consumers to intuitively narrow down to the data points that interest them.
 
