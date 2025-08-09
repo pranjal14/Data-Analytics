@@ -7,4 +7,6 @@ Report tooltip
 Bookmarks
 Report options
 Query reduction options
+Visual interactions
+By default, when report consumers interact with visuals, filters are propagated to other visuals on the report page. This way, visuals behave like slicers. For example, a report consumer can select a column of a column chart visual to filter other visuals on the page. To remove the cross filters, they can either select the column again or select a different visual.
 
