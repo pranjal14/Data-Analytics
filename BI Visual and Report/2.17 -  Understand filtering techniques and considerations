@@ -9,4 +9,8 @@ Report options
 Query reduction options
 Visual interactions
 By default, when report consumers interact with visuals, filters are propagated to other visuals on the report page. This way, visuals behave like slicers. For example, a report consumer can select a column of a column chart visual to filter other visuals on the page. To remove the cross filters, they can either select the column again or select a different visual.
+Tip
+While cross filtering, you can introduce more cross filters, even from other visuals, by pressing the Ctrl key.
+Cross filtering (and cross highlighting) works between any two visuals. However, at design time, you can edit visual interactions between any pair of visuals and in either direction. Additionally, you can disable cross filtering or modify the interaction to use cross highlighting instead.
+To gain a better understanding of visual interactions, watch the following video that describes a use case and shows how to configure it.
 
