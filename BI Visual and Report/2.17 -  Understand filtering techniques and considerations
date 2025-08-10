@@ -14,3 +14,5 @@ While cross filtering, you can introduce more cross filters, even from other vis
 Cross filtering (and cross highlighting) works between any two visuals. However, at design time, you can edit visual interactions between any pair of visuals and in either direction. Additionally, you can disable cross filtering or modify the interaction to use cross highlighting instead.
 To gain a better understanding of visual interactions, watch the following video that describes a use case and shows how to configure it.
 
+Drillthrough
+Add drillthrough pages to allow report consumers to drill from visuals. By default, the drillthrough action propagates all filters that apply to the visual to the drillthrough page.
