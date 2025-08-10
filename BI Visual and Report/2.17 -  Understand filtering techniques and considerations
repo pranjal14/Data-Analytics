@@ -16,3 +16,6 @@ To gain a better understanding of visual interactions, watch the following video
 
 Drillthrough
 Add drillthrough pages to allow report consumers to drill from visuals. By default, the drillthrough action propagates all filters that apply to the visual to the drillthrough page.
+
+Report tooltip
+Add report tooltips that will appear when report consumers hover the cursor over visuals. By default, the report tooltip receives all filters that apply to the visual.
