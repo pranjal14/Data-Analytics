@@ -19,3 +19,6 @@ Add drillthrough pages to allow report consumers to drill from visuals. By defau
 
 Report tooltip
 Add report tooltips that will appear when report consumers hover the cursor over visuals. By default, the report tooltip receives all filters that apply to the visual.
+
+Bookmarks
+Bookmarks capture a specific view of a report, including filters, slicers, the page selection, and the state of visuals. Report authors and report consumers can create them.
