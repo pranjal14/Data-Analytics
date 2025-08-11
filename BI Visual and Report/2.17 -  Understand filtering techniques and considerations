@@ -22,3 +22,7 @@ Add report tooltips that will appear when report consumers hover the cursor over
 
 Bookmarks
 Bookmarks capture a specific view of a report, including filters, slicers, the page selection, and the state of visuals. Report authors and report consumers can create them.
+Note
+Report consumers can also create bookmarks known as personal bookmarks.
+Because bookmarks can capture filter state and when invoked they apply that filter state. You can invoke bookmarks directly from the Bookmarks pane, or you can invoke them indirectly by selecting a button, image, or shape.
+You can create a bookmark to capture the default state of slicers. A button on the report page could have the text Reset slicers, and when invoked, it uses the bookmark.
