@@ -26,3 +26,12 @@ Note
 Report consumers can also create bookmarks known as personal bookmarks.
 Because bookmarks can capture filter state and when invoked they apply that filter state. You can invoke bookmarks directly from the Bookmarks pane, or you can invoke them indirectly by selecting a button, image, or shape.
 You can create a bookmark to capture the default state of slicers. A button on the report page could have the text Reset slicers, and when invoked, it uses the bookmark.
+
+Other techniques
+Report authors can configure report or visual settings to control filter options and behavior.
+With report options, you can:
+Disable persistent filters. (Persistent filters are covered in Unit 5.)
+Hide visual headers for all visuals or for a specific visual. When the visual header is hidden, report consumers can't hover the cursor over the Filter icon to determine the filters that are applied to the visual. (The Filter icon is covered in Unit 5.)
+Hide the Filter icon for a specific visual.
+Restrict report consumers from changing filter types (for example, basic to advanced) in the Filters pane.
+Remove the search box in the Filters pane.
