@@ -36,3 +36,8 @@ Hide the Filter icon for a specific visual.
 Restrict report consumers from changing filter types (for example, basic to advanced) in the Filters pane.
 Remove the search box in the Filters pane.
 Report authors can also configure report settings to reduce the number of queries that are sent to the semantic model. Fewer queries result in better responsiveness as report consumers update filters or slicers or cross filter report pages.
+
+Select report filter techniques
+Filters and slicers are two different techniques that can achieve the same outcome.
+Typically, the decision to use a filter or slicer is a tradeoff between performance and design. Consider that the Filters pane performs better (because Power BI doesn't need to render slicer visuals), and it doesn't take up space on the report page. However, you should also consider that slicers have the formatting flexibility to seamlessly integrate into the report page, creating the most refined experience possible for report consumption. Many ways are available for you to format a slicer, and the most important consideration is to ensure that it fits into the report design with an intuitive placement and user experience that meets requirements.
+
