@@ -40,4 +40,16 @@ Report authors can also configure report settings to reduce the number of querie
 Select report filter techniques
 Filters and slicers are two different techniques that can achieve the same outcome.
 Typically, the decision to use a filter or slicer is a tradeoff between performance and design. Consider that the Filters pane performs better (because Power BI doesn't need to render slicer visuals), and it doesn't take up space on the report page. However, you should also consider that slicers have the formatting flexibility to seamlessly integrate into the report page, creating the most refined experience possible for report consumption. Many ways are available for you to format a slicer, and the most important consideration is to ensure that it fits into the report design with an intuitive placement and user experience that meets requirements.
+Here are the advantages associated with using the Filters pane:
+The Filters pane is consistently located on the right side of the report.
+It allows you to configure advanced filter types, like Top N, or allows you to use more complex expressions, like "contains," "doesn't contain," "is blank," and others.
+The search box and sort functions (to order filters within the sections) are powerful tools to use when many filters exist.
+Filters result in faster report rendering because no visual rendering is required.
+You can lock and/or hide filters.
+When the Apply button is enabled, you can submit all filter updates at once, resulting in fewer queries.
+You can filter by using measures (only at visual level).
+Here are the disadvantages associated with using the Filters pane:
+The Filters pane offers less design flexibility, though you can style it by using specific fonts and colors.
+Careful consideration should be made to hide certain filters to avoid confusing report consumers.
+It can be easy to lose track of applied visual-level filters.
 
