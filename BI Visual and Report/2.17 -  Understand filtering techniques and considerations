@@ -52,4 +52,19 @@ Here are the disadvantages associated with using the Filters pane:
 The Filters pane offers less design flexibility, though you can style it by using specific fonts and colors.
 Careful consideration should be made to hide certain filters to avoid confusing report consumers.
 It can be easy to lose track of applied visual-level filters.
+Here are the advantages associated with using slicers:
+You can place slicers anywhere on the report page to produce an intuitive layout.
+Slicers are highly configurable to achieve the required functionality and style.
+You can configure hierarchical slicers (based on a hierarchy or by using multiple fields that are sourced from the same table).
+They can display their selection (filter context) directly on the report page.
+They can display images when you're using a field that is categorized as an image URL.
+They can filter only certain visuals by editing visual interactions.
+You can filter slicers as you would any visual. For example, you can apply a filter to a slicer to remove the BLANK item.
+You can sort slicer items.
+Synced slicers can filter other pages in the report.
+Here are the disadvantages associated with using slicers:
+Slicers can affect the report render performance due to the visual render time.
+They occupy space on the page instead of other data visuals.
+Slicer filtering options are less complex than the advanced filter options that are possible in the Filters pane. For example, you can't configure a Top N slicer.
+Bear in mind that you can enable filtering by using visuals. For example, a sales by product bar chart can behave like a slicer when report consumers select a single or multiple bars. However, a downside to this approach is that some report consumers might not know that visuals can cross filter other visuals.
 
