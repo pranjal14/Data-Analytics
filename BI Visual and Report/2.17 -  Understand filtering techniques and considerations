@@ -73,4 +73,6 @@ Here are some filtering tips to help you produce successful report designs:
 Use either filters or slicers. Avoid using both filter techniques because it can create confusion.
 In the Filters pane, consider locking or hiding visual-level filters to avoid confusing report consumers. (Often, report consumers shouldn't modify or see visual-level filters.)
 Create a bookmark to reset all slicers to default values. Then, add a button to the page to invoke the bookmark. For example, the button could be captioned as Reset slicers.
+When a requirement is in place to lay out many slicers, consider creating a page that is dedicated to showing all slicers. For example, the page could be named Slicers. Sync the slicers to other pages and then set the slicers as hidden on those pages. This design technique requires that report consumers should always go to the Slicers page to modify slicer settings. To help them, you can add a page navigation button at a consistent location on each page so that they can easily return to the Slicers page.
+Consider using other visuals in place of slicers. Be sure to report consumers how to cross filter by using these visuals.
 
