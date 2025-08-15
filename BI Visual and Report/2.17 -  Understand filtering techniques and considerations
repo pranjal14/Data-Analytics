@@ -68,3 +68,9 @@ They occupy space on the page instead of other data visuals.
 Slicer filtering options are less complex than the advanced filter options that are possible in the Filters pane. For example, you can't configure a Top N slicer.
 Bear in mind that you can enable filtering by using visuals. For example, a sales by product bar chart can behave like a slicer when report consumers select a single or multiple bars. However, a downside to this approach is that some report consumers might not know that visuals can cross filter other visuals.
 
+Filtering tips
+Here are some filtering tips to help you produce successful report designs:
+Use either filters or slicers. Avoid using both filter techniques because it can create confusion.
+In the Filters pane, consider locking or hiding visual-level filters to avoid confusing report consumers. (Often, report consumers shouldn't modify or see visual-level filters.)
+Create a bookmark to reset all slicers to default values. Then, add a button to the page to invoke the bookmark. For example, the button could be captioned as Reset slicers.
+
