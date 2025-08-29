@@ -13,4 +13,6 @@ Use drillable visuals
 The simplest way to show details is to use drillable visuals. The matrix visual is an excellent choice because it allows drilling on rows and/or columns. Therefore, by assigning hierarchies or multiple fields, report consumers can drill to the level of detail that they want. For example, the matrix rows could show years, and the report consumer could drill down to quarter, month, and date levels.
 
 Add tooltips
+Adding tooltips is a simple way to reveal details or provide supporting metrics. In Power BI service, tooltips appear when the report consumer hovers the cursor over an element of a report object. An element could be a column of a column chart or a bubble or region in a map. In a mobile app, tooltips appear when consumers are using the tap-and-hold gesture.
+Power BI reports support two types of tooltips: visual and page.
 
