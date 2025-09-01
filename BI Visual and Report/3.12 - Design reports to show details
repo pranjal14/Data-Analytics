@@ -21,3 +21,6 @@ Many Power BI visuals include a Tooltips well. Fields that are added to this wel
 
 Page tooltips
 Page tooltips allow your report consumers to gain deeper insights quickly and efficiently from visuals. As its name suggests, a page tooltip is a report page that receives the filter context of the source element. In this way, they're closely related to drillthrough pages, with the difference being that the page tooltip overlays a small page of visuals
+You can associate page tooltips with different report objects, such as:
+Visuals - On a visual-by-visual basis, you can configure which visuals reveal your page tooltip. For each visual, you can have the visual reveal no tooltip, default to the visual tooltips (which is configured in a field well found in the Visualizations pane), or use a specific page tooltip.
+Visual headers - You can configure specific visuals to display a page tooltip. Your report users can reveal the page tooltip when they hover the cursor over the visual header icon. Make sure that you educate your users about this icon.
