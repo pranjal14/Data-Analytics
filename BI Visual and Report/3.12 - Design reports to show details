@@ -24,3 +24,6 @@ Page tooltips allow your report consumers to gain deeper insights quickly and ef
 You can associate page tooltips with different report objects, such as:
 Visuals - On a visual-by-visual basis, you can configure which visuals reveal your page tooltip. For each visual, you can have the visual reveal no tooltip, default to the visual tooltips (which is configured in a field well found in the Visualizations pane), or use a specific page tooltip.
 Visual headers - You can configure specific visuals to display a page tooltip. Your report users can reveal the page tooltip when they hover the cursor over the visual header icon. Make sure that you educate your users about this icon.
+
+Add drillthrough
+Drillthrough navigates the report consumer to a different page, possibly in a different report, and it can show details. The main benefit of drillthrough is that you don't need to clutter a report page with details. Instead, the details are available when required.
