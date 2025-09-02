@@ -27,3 +27,10 @@ Visual headers - You can configure specific visuals to display a page tooltip. Y
 
 Add drillthrough
 Drillthrough navigates the report consumer to a different page, possibly in a different report, and it can show details. The main benefit of drillthrough is that you don't need to clutter a report page with details. Instead, the details are available when required.
+A common use case for drillthrough is to allow report consumers to achieve the following flow:
+View a report page.
+Identify a visual element to analyze in depth.
+Right-click the visual element to drill through.
+Perform complimentary analysis.
+Return to the source report page.
+To enable drillthrough, you can create a report page that provides details. This design approach allows consumers to view supporting transactions and only when needed.
