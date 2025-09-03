@@ -34,3 +34,5 @@ Right-click the visual element to drill through.
 Perform complimentary analysis.
 Return to the source report page.
 To enable drillthrough, you can create a report page that provides details. This design approach allows consumers to view supporting transactions and only when needed.
+
+Embed paginated reports
