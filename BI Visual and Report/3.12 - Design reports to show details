@@ -36,3 +36,5 @@ Return to the source report page.
 To enable drillthrough, you can create a report page that provides details. This design approach allows consumers to view supporting transactions and only when needed.
 
 Embed paginated reports
+Use the Paginated report visual to embed a Power BI paginated report in your report. Paginated reports can connect directly to source databases, providing you with the ability to present transaction-level detail that isn't stored in the Power BI semantic model.
+You can map fields from your Power BI semantic model to report parameter values of your paginated report visual, allowing report consumers to cross filter the paginated report. This way, it can behave like a drillthrough page.
