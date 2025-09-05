@@ -5,4 +5,9 @@ Anomaly detection
 Specialized visuals
 
 Conditional formatting
+You can use conditional formatting to format table and matrix visuals. With this approach, you can apply rules to highlight specific cells by using:
+Background color
+Font color
+Data bars
+Icons
 
