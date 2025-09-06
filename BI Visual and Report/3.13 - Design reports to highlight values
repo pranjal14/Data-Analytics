@@ -12,3 +12,4 @@ Data bars
 Icons
 
 Overlaid analytics
+You can also overlay analytics to highlight values. Certain visuals, like the line chart visual, allow you to add analytic options. Options include trend lines, constant lines, minimum or maximum lines, and many others.
