@@ -13,3 +13,6 @@ Icons
 
 Overlaid analytics
 You can also overlay analytics to highlight values. Certain visuals, like the line chart visual, allow you to add analytic options. Options include trend lines, constant lines, minimum or maximum lines, and many others.
+
+Anomaly detection
+When a time series (date field) is on the X-axis, two other analytic options are available. These options use AI to produce a forecast or find anomalies. The anomaly detection feature can help you highlight exceptional values.
