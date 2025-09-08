@@ -20,3 +20,4 @@ The following example shows a line chart visual. Power BI detected an anomaly on
 Select the anomaly shape to open the Anomalies pane, which lists a series of visuals that provide further possible explanations.
 
 Specialized visuals
+Some specialized visuals can help to highlight values in your reports; specifically, the Key influencers visual and the Decomposition Tree visual
