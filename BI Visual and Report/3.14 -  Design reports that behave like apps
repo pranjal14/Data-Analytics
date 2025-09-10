@@ -3,5 +3,7 @@ When you're inserting a button, many preconfigured buttons are available for you
 
 The Back action navigates to the previous page. It's useful in drillthrough scenarios, allowing the report consumer to quickly return to where they drilled from.
 The Bookmark action activates a selected bookmark. Bookmarks can turn a Power BI report into a guided analytical experience, maximize available page real estate, and provide user-friendly interactions. Bookmarks are covered in the next unit.
+The Drillthrough action is assigned a target drillthrough destination page. The button remains disabled until drillthrough becomes a valid action, which is the case when you're interacting with a visual that can navigate to the drillthrough page. When the Drillthrough action is selected, Power BI navigates to the drillthrough page, propagating appropriate filters.
+The Page navigation action directs the report consumer to a specific report page. The page can be a specific page that is assigned at design time or a measure that returns the page name. Using a measure allows Power BI to dynamically determine the page based on the filter context.
 
 
