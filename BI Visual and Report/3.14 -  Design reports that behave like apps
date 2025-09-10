@@ -1,3 +1,7 @@
 The button element can take your Power BI reports to the next level by making them behave like an app. Buttons support six different actions that take effect when the button is selected.
 When you're inserting a button, many preconfigured buttons are available for you to choose from. Preconfigured buttons include icons and preconfigured actions, such as the Back button, Q&A button, and Bookmark button.
 
+The Back action navigates to the previous page. It's useful in drillthrough scenarios, allowing the report consumer to quickly return to where they drilled from.
+The Bookmark action activates a selected bookmark. Bookmarks can turn a Power BI report into a guided analytical experience, maximize available page real estate, and provide user-friendly interactions. Bookmarks are covered in the next unit.
+
+
