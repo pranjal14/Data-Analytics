@@ -6,4 +6,8 @@ The Bookmark action activates a selected bookmark. Bookmarks can turn a Power BI
 The Drillthrough action is assigned a target drillthrough destination page. The button remains disabled until drillthrough becomes a valid action, which is the case when you're interacting with a visual that can navigate to the drillthrough page. When the Drillthrough action is selected, Power BI navigates to the drillthrough page, propagating appropriate filters.
 The Page navigation action directs the report consumer to a specific report page. The page can be a specific page that is assigned at design time or a measure that returns the page name. Using a measure allows Power BI to dynamically determine the page based on the filter context.
 
+The Q&A action opens a pop-up window that allows the report consumer to explore data by using intuitive, natural language capabilities and receive answers as data visualizations.
+For more information, see Q&A for Power BI business users.
 
+Tip
+Unlike the Q&A visual, a button that's assigned the Q&A action doesn't occupy significant space on the report page.
