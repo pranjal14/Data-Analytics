@@ -1,1 +1,4 @@
+Bookmarks are a powerful way to turn a Power BI report into a guided analytical experience. Bookmarks can also help maximize available page space and provide user-friendly interactions. The possibilities are nearly endless, spanning from simple outcomes, such as resetting filters, to more complex behaviors that swap visuals or navigate visual depth.
+Commonly, you add buttons to a report design and configure their actions to apply a bookmark. Shapes and images can also apply bookmarks.
+To understand what you can achieve with bookmarks, you need to know how to configure them. You can configure the state that they capture and the scope of visuals that they affect.
 
