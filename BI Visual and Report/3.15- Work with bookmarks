@@ -2,3 +2,6 @@ Bookmarks are a powerful way to turn a Power BI report into a guided analytical 
 Commonly, you add buttons to a report design and configure their actions to apply a bookmark. Shapes and images can also apply bookmarks.
 To understand what you can achieve with bookmarks, you need to know how to configure them. You can configure the state that they capture and the scope of visuals that they affect.
 
+Bookmark state
+Bookmarks capture different state, relating to data, display, and the current page. By default, a new bookmark captures all state types, but you can decide to disable any of them.
+
