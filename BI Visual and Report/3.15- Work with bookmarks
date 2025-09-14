@@ -8,3 +8,7 @@ The Data state captures anything that impacts the queries that Power BI sends to
 The Display state is related to the visibility of a report object. Objects consist of visuals and also elements like text boxes, buttons, shapes, and images. By using the Selection pane, you can hide or unhide objects and groups of objects. Additionally, you can swap visuals on a report page by creating bookmarks that capture hidden and unhidden objects.
 The Current page state determines whether the bookmark directs the report consumer to the bookmarked page or apply the current page. Disabling the Current page state is rare, but you should consider some creative use cases. For example, on a page tooltip, a bookmark can change the visuals without navigating from the page that the report consumer selected.
 
+Bookmark scope
+Bookmarks can apply to all page visuals or specific visuals that you select.
+The All visuals scope is turned on by default, meaning that the bookmark applies to all report objects, even if hidden.
+The Selected visuals scope targets only those visuals that are selected when the bookmark was updated.
