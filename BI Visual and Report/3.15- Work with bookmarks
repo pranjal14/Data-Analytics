@@ -14,3 +14,6 @@ The All visuals scope is turned on by default, meaning that the bookmark applies
 The Selected visuals scope targets only those visuals that are selected when the bookmark was updated.
 Tip
 Press the Ctrl key to select multiple visuals. The simplest way to select multiple visuals is to use the Selection pane. Also, when you're creating a selected visuals bookmark that shows/hides several objects, create a group of those objects and configure visibility for the group. That way, you can add or remove objects from the group without the need to update the bookmark.
+
+Reset slicers
+You can provide a simple way for report consumers to quickly reset slicers to a default state by following these steps:
