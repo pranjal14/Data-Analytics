@@ -26,3 +26,8 @@ Assign the bookmark to a button action.
 Swap visuals
 Swapping a visual means replacing it with another visual. For example, your report can allow the report consumer to select the type of visual, perhaps a chart or a table. Alternatively, you might allow the report user to determine the unit system, whether it's metric or imperial.
 Swapping a visual requires two bookmarks, and you can do so by following these steps:
+Configure each bookmark to capture the Display state but not the Data state. These settings preserve any sorting or other filtering.
+Configure each bookmark to use the Selected visuals scope, targeting the initially visible visual and the hidden visual.
+Update the first bookmark, with one visual as visible and the other as hidden.
+Update the second bookmark by using the inverse visibility state.
+Assign the bookmarks to button actions.
