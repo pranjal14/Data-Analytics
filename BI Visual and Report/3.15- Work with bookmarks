@@ -35,3 +35,8 @@ Assign the bookmarks to button actions.
 Drill down multiple visuals and direct depth navigation
 When visuals have many levels of drill depth, buttons and bookmarks can provide report consumers with a quick and simple way to arrive at the required depth.
 In the following example, bookmarks navigate the matrix visual and the area chart visual across year and month.
+You can create a bookmark for each required drill depth with the following steps:
+Configure each bookmark to capture the Data state, which preserves the drill state of visuals.
+Configure each bookmark to use the Selected visuals scope, targeting the visuals to update.
+In the visuals, drill down to the required level, and then update the corresponding bookmark.
+Assign the bookmarks to button actions.
