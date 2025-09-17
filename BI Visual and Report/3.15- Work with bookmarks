@@ -31,3 +31,7 @@ Configure each bookmark to use the Selected visuals scope, targeting the initial
 Update the first bookmark, with one visual as visible and the other as hidden.
 Update the second bookmark by using the inverse visibility state.
 Assign the bookmarks to button actions.
+
+Drill down multiple visuals and direct depth navigation
+When visuals have many levels of drill depth, buttons and bookmarks can provide report consumers with a quick and simple way to arrive at the required depth.
+In the following example, bookmarks navigate the matrix visual and the area chart visual across year and month.
