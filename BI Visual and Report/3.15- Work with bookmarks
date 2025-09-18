@@ -40,3 +40,8 @@ Configure each bookmark to capture the Data state, which preserves the drill sta
 Configure each bookmark to use the Selected visuals scope, targeting the visuals to update.
 In the visuals, drill down to the required level, and then update the corresponding bookmark.
 Assign the bookmarks to button actions.
+
+Pop-up overlays
+Use buttons and bookmarks to overlay an image, shape, or text box. A good example of a pop-up overlay is one that provides built-in assistance. Designing reports with built-in assistance is covered.
+In the following example, when the report consumer selects the Help button in the lower-left corner of the page, a full-page image becomes visible. The image includes many coach marks, which point to the targeted objects on the report page. Also, the image uses transparency so that the underlying report design remains partially visible. When the report consumer selects anywhere on the page, the image becomes hidden (due to an action on the image that uses a bookmark).
+
