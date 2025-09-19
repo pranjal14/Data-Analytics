@@ -1,5 +1,7 @@
 Many different button actions are available to help you configure report navigation experiences. While buttons enable navigation, the report and button layout is critical to ensure that report consumers can efficiently navigate within the report.
 Tip
 To ensure seamless integration into your report design, these UX components should be considered early in the design process. Retrofitting buttons and actions to a report design can lead to an unintuitive and disjointed experience for report consumers.
+Buttons should be placed in relevant and consistent locations. A button is only valuable if it's easy to find. To promote ease of discovery, ensure buttons are placed in a relevant and consistent location on the report page.
+In the following example, buttons that are located along the left side of the report page allow report consumers to navigate between pages. Most importantly, they're placed in the same location and in the same order on all report pages. The button that represents the current page is formatted in a way to highlight the icon.
 
 
