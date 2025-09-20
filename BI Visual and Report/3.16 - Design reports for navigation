@@ -7,3 +7,6 @@ In the following example, buttons that are located along the left side of the re
 When a button only impacts one section of a report, you can place it within that section so that it's clear to report consumers that the action applies only to that section.
 Similarly, if a button action drills through to a page, place it as close as possible to the visual that activates it.
 On the drillthrough page, ensure that a back button provides a simple way for the report consumer to return to where they drilled from. An established convention is to use a left-pointing arrow icon for the button.
+
+Note
+Power BI automatically adds a back button, which it places in the upper-left corner of the page. The button icon is a left-pointing arrow.
