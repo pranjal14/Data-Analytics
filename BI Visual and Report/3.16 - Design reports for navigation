@@ -18,3 +18,6 @@ You can configure buttons to change their state when a hover over is available. 
 
 Descriptive tooltips
 In addition to on-hover formatting, you can configure tooltips to concisely communicate what the button does.
+
+Note
+Enable and enter the tooltip text in the Action section for the button.
