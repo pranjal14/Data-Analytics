@@ -1,1 +1,2 @@
+Visual headers make many interactions available to report authors and consumers. All report objects, including visuals and elements (like buttons), have a visual header. The visual header appears when you hover the cursor over the report object, and they can launch actions like focus mode, drill up, or drill down. You can also access the More options menu by selecting the ellipsis (…) button. The menu includes sorting options, export, spotlight, and many others. By default, visual headers are enabled for all report objects.
 
