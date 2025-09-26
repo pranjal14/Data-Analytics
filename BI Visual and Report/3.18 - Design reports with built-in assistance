@@ -3,4 +3,6 @@ Several design techniques that can provide built-in assistance include:
 Information page
 Visual header tooltip icon
 Button with overlay
+Tip
+Every report consumer approaches a report with a different expectation of how to interact with it. Therefore, to avoid handling support requests, take extra initial effort to ensure that the functionality is as discoverable as possible.
 
