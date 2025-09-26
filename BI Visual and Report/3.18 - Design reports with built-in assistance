@@ -1,1 +1,6 @@
+Training report consumers on how to use and navigate your reports can be difficult because every report that you create is different. Features and functionality that are present in one report might not be present in another. Creating intuitive and simple-to-navigate reports is important. When approaching a report design project, you should always aim to provide "no training required" experiences. Strive to add built-in assistance whenever possible.
+Several design techniques that can provide built-in assistance include:
+Information page
+Visual header tooltip icon
+Button with overlay
 
