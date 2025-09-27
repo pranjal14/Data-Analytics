@@ -6,3 +6,6 @@ Button with overlay
 Tip
 Every report consumer approaches a report with a different expectation of how to interact with it. Therefore, to avoid handling support requests, take extra initial effort to ensure that the functionality is as discoverable as possible.
 
+Information page
+Adding an information page is the most simplistic technique. Dedicate an entire report page that includes instructions and definitions.
+
