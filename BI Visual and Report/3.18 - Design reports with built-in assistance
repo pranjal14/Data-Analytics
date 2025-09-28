@@ -11,3 +11,4 @@ Adding an information page is the most simplistic technique. Dedicate an entire 
 Tip
 Consider adding a back button to the page. Then, add a button in a consistent location to each page that navigates to the information page. Configure these buttons to use the Information or Help icon.
 
+Visual header tooltip icon
