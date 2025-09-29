@@ -13,3 +13,5 @@ Consider adding a back button to the page. Then, add a button in a consistent lo
 
 Visual header tooltip icon
 Within the visual header options, you can enable the visual header tooltip. It adds the Help (?) icon to the visual header. Then, you can assign a page tooltip or text. This technique is beneficial for providing visual-specific guidance, such as more detail that describes definitions, calculation logic, or the source of data.
+
+Button with overlay
