@@ -1,3 +1,5 @@
 When you've finished creating your report, you should give consideration to its performance. Performance relates to how quickly visualizations on the report page can load. You should test your report in the Power BI service to see how it works from the perspective of the user. If you experience poor performance, or if report users have reported issues, you should investigate the cause of those issues and take steps to tune the report for more optimized performance.
+Analyze performance
+To investigate the cause of poor performance, your first step is to use Performance Analyzer. Performance Analyzer is built-in to Power BI Desktop. It allows you to examine how each of your report elements, such as visuals and DAX formulas, perform. It provides you with logs that measure (in time duration) how each of your report elements performs when users interact with them. By examining the durations in the logs, you can identify which report elements are the most (or least) resource intensive. You might also discover where bottlenecks exist, which is a good starting point for making design improvements.
 
 
