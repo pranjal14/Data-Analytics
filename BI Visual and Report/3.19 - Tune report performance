@@ -7,4 +7,7 @@ Interact with your report as you would expect a user to. The results of your int
 The following image shows that all elements on the report take less than two seconds to load, which in this instance is considered acceptable. You can expand any element in the list to view more detailed information and to identify the exact cause of an issue, such as the DAX query, the visual display, or something else.
 If you want to examine a particular DAX query, select Copy query and then paste it into a tool like DAX Studio to conduct further analysis. DAX Studio is a free, open-source tool that you can download and install on your computer.
 
+Tune performance
+The results of your analysis can inform you of areas for improvement and highlight items that you need to optimize.
+A common reason for poor performance is that there too many visuals on the page. The following image shows an example of a busy page that possibly contains too many visuals.
 
