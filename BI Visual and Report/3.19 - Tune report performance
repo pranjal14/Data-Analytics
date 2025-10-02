@@ -11,3 +11,9 @@ Tune performance
 The results of your analysis can inform you of areas for improvement and highlight items that you need to optimize.
 A common reason for poor performance is that there too many visuals on the page. The following image shows an example of a busy page that possibly contains too many visuals.
 
+If you identify that visuals are a bottleneck, consider taking the following steps to tune the report:
+
+Reduce the number of visuals on the report page because fewer visuals means better load performance. If a visual isn't necessary and doesn't add value to the user, you should remove it. Rather than using multiple visuals on the page, consider other ways to show details, like drillthrough pages and tooltips.
+Reduce the number of fields in visuals. Identify fields that aren't valuable and then remove them.
+If you find that the visuals aren't the reason for performance issues, you should investigate whether the DAX queries are the cause of poor performance. For example, you might need to investigate the design of the semantic model, or the DAX logic contained in measures.
+In circumstances where you've made necessary changes to tune report performance and have established that the report is performing well, yet some users still experience poor performance, external factors might be affecting performance. External factors can include network bandwidth, server, firewall, and other external, uncontrollable factors. You might also need to meet with your IT department to determine whether they can explain why users are experiencing poor performance when using your reports.
