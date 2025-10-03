@@ -1,3 +1,8 @@
 Some of your report users might want to view your reports on their mobile phone or tablet. While they can view any Power BI report page in landscape orientation, you might want to create another view that is optimized for mobile devices and displays in portrait orientation. Power BI gives you the power to use visuals that make sense for mobile users and rearrange those visuals in the most effective way.
+When you have finished creating your report for the regular web view, you can then create a version of the report that's optimized for use on phones and tablets.
+To create a mobile-optimized version of your report, you can:
+Design a mobile layout view, where you can drag and drop certain visuals onto a phone emulator canvas.
+Use visuals and slicers that are suitable for use on small, mobile screens.
+To publish a mobile-optimized version of your report, you simply publish the report as you did previously. The web and mobile versions are published together at the same time.
 
 
