@@ -7,3 +7,5 @@ To publish a mobile-optimized version of your report, you simply publish the rep
 
 Design a mobile report layout
 To design the mobile-optimized view of a report page, start by opening the mobile layout view for that page. In Power BI Desktop, open the specific report page, select the View tab, and then select Mobile layout.
+This selection results in showing a scrollable canvas shaped like a phone and a Visualizations pane that lists all visuals on the original report page. Each visual appears with its name (for easy identification) and a visibility indicator that's useful when you're working with bookmarks. The visibility indicator of a visual changes depending on the visibility status of the visual in the current state of the web report view.
+To add a visual to the mobile layout canvas, drag the visual from the Visualizations pane to the phone canvas, or double-click the visual in the Visualization pane. You can then resize and reposition the visual in the same way that you would a report page. Repeat these steps to add other visuals to the mobile layout canvas.
