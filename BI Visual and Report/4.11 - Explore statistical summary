@@ -1,3 +1,4 @@
 Data is often intertwined with statistics because statistics are one way in which you can explore your data. Statistics can show you the distribution of your data, help you to identify key takeaways and trends, and determine whether outliers exist.
 A statistical summary provides a quick and simple description of your data. Power BI has many features that help you conduct a statistical analysis. Exploring the statistical summary gives the user a high-level view of the available data, where they can see clusters, patterns on behavioral data, data averages, and more. They can gain insights about their data that help drive business decisions.
+For example, the Supply Chain team asks you to create a report that shows the frequency of orders for certain products and what the top 10 products are in terms of sales.
 
