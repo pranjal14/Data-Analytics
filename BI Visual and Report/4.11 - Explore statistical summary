@@ -4,3 +4,6 @@ For example, the Supply Chain team asks you to create a report that shows the fr
 
 Statistical functions
 Power BI supports many Data Analytics Expressions (DAX) functions that you can use to get quick statistics based on your data. You can access these quick functions by right-clicking a summarizable field assigned to the well of a visual in the Visualizations pane, as illustrated in the following image.
+However, to avoid performance issues, it's better to create the statistical measures yourself by using an expression written in DAX. For example, to analyze the average order quantity for each product, you could create the following measure:
+Average Qty =
+AVERAGE ( Sales[Order Qty] )
