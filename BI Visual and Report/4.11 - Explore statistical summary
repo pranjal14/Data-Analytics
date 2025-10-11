@@ -13,4 +13,13 @@ Histograms and bell curves are a common way to display statistics about your sem
 A typical bar or column chart visual in Power BI relates two data points: a measure and a dimension. A histogram differs slightly from a standard bar chart in that it only visualizes a single data point.
 In this example, you can use the clustered column chart visual to present a histogram that determines the order quantities by order sizes.
 You start by selecting the clustered column chart icon on the Visualization pane. Next, create a new grouping for the X-axis. We cover grouping and binning later in this module, but for now understand that they're useful in this context also.
+To create the group, in the Data pane, right-click the data field that you want to analyze and then select New Group. In this case, you use the OrderQty field. In the Groups window, configure the bin group as follows:
+Rename the group as Order Bins (Buckets).
+Set the Group type option to Bin and the Bin Type option to Number of bins.
+Set the Bin count to 5, the Min value to 1, and the Max value to 44.
+Next, populate the visual as follows:
+Drag the OrderQty field from the Data pane into the Value well in the Visualizations pane.
+Drag the Order Bins (Buckets) field from the Data pane into the Axis well in the Visualizations pane.
+The visual now shows that the data is grouped into buckets on the X-axis, with the order quantities of that variable on the Y-axis.
+The histogram displays the order quantity by order size buckets for the Supply Chain team.
 
