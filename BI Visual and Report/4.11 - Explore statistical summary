@@ -23,3 +23,5 @@ Drag the Order Bins (Buckets) field from the Data pane into the Axis well in the
 The visual now shows that the data is grouped into buckets on the X-axis, with the order quantities of that variable on the Y-axis.
 The histogram displays the order quantity by order size buckets for the Supply Chain team.
 
+Top N analysis
+The TOPN DAX function returns the top N rows of a specified table. Top N analysis is a common technique to present data that might be important, such as the top 10 selling products, top 10 performers in an organization, or top 10 customers. Alternatively, you can look at it from the other perspective and present the bottom N items in a list. In other words, the worst performers. Depending on the requirements, you might want to use one or both of these techniques.
