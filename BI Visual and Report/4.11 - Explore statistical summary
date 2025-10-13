@@ -26,3 +26,6 @@ The histogram displays the order quantity by order size buckets for the Supply C
 Top N analysis
 The TOPN DAX function returns the top N rows of a specified table. Top N analysis is a common technique to present data that might be important, such as the top 10 selling products, top 10 performers in an organization, or top 10 customers. Alternatively, you can look at it from the other perspective and present the bottom N items in a list. In other words, the worst performers. Depending on the requirements, you might want to use one or both of these techniques.
 Consider a scenario where the Supply Chain team wants to know what the top 10 selling products are. You can accomplish this task by using a Q&A visual, a Top N filter, or creating a DAX measure.
+
+Use the Q&A visual to find the top N
+Assume you created a report for the Supply Chain team, and now the team members have questions about various other views or insights that they're interested in. Power BI has a built-in Q&A visual that allows users to ask their own questions and get answers. That means you don't have to address each individual question with a report visual.
