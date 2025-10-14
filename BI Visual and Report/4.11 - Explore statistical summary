@@ -34,3 +34,4 @@ Add the Q&A visual to your report, and then reposition the visual and customize 
 Now, you can use the visual to get answers. In this case, you want to know what the top 10 selling products are, so you enter a question such as, What are my top 10 products by sales? Power BI automatically displays the result for you.
 
 Use a Top N filter
+Top N is a filtering option that is available in the Filters pane. Select the field that you want to analyze on your report page (in this example, it's the Product Name field). In the Filters pane, expand the Filter type list and select Top N. In the Show items settings, select Top and 10. Then, set the Cost of Sales field as the value that you want to filter by.
