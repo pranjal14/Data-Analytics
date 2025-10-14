@@ -32,3 +32,5 @@ Assume you created a report for the Supply Chain team, and now the team members 
 The Q&A visual is an effective tool because it allows users to quickly and independently get answers about the data. That saves time for everyone involved. The Q&A visual is unique in that it doesn't require prior knowledge of Power BI; users can ask their question.
 Add the Q&A visual to your report, and then reposition the visual and customize its formatting, as required.
 Now, you can use the visual to get answers. In this case, you want to know what the top 10 selling products are, so you enter a question such as, What are my top 10 products by sales? Power BI automatically displays the result for you.
+
+Use a Top N filter
