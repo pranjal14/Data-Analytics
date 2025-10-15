@@ -35,3 +35,6 @@ Now, you can use the visual to get answers. In this case, you want to know what 
 
 Use a Top N filter
 Top N is a filtering option that is available in the Filters pane. Select the field that you want to analyze on your report page (in this example, it's the Product Name field). In the Filters pane, expand the Filter type list and select Top N. In the Show items settings, select Top and 10. Then, set the Cost of Sales field as the value that you want to filter by.
+
+Use a TOPN function
+You can also calculate your top 10 products with DAX by using the TOPN function. This function can be used to present a top 10 list in a different context, such as how much of the top 10 best-selling products contributed toward the overall total sales.
