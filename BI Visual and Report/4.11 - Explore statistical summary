@@ -38,3 +38,13 @@ Top N is a filtering option that is available in the Filters pane. Select the fi
 
 Use a TOPN function
 You can also calculate your top 10 products with DAX by using the TOPN function. This function can be used to present a top 10 list in a different context, such as how much of the top 10 best-selling products contributed toward the overall total sales.
+Start by creating a measure named Top 10 Products. Then, use the TOPN function along with the SUMX function, to calculate the top 10 products by total sales, as follows:
+Top 10 Products =
+SUMX (
+    TOPN (
+        10,
+        'Product',
+        'Product'[Total Sales]
+    ),
+    [Total Sales]
+)
