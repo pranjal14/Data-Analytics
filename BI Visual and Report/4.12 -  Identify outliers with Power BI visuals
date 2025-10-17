@@ -8,3 +8,6 @@ Power BI allows you to identify outliers in your data, but you first need to det
 The process of identifying outliers involves segmenting your data into two groups: one group is the outlier data and the other group isn't. You could use calculated columns to identify outliers, but the results would be static until you refresh the data. A better way to identify outliers is to use a visualization or measures because these methods ensure that your results are dynamic.
 When you identify outliers in your data, you can use slicers or filters to highlight those outliers. You can also add a legend to your visuals so that outliers can be identified among the other data. You can then drill in to the outlier data for more detailed analysis.
 
+Use a visual to identify outliers
+The best visual to use for identifying outliers is the scatter chart. It can show the relationship between two numerical values. Scatter charts display patterns in large sets of data and are, therefore, ideal for displaying outliers.
+
