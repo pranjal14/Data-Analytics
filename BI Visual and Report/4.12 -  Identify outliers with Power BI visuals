@@ -10,4 +10,7 @@ When you identify outliers in your data, you can use slicers or filters to highl
 
 Use a visual to identify outliers
 The best visual to use for identifying outliers is the scatter chart. It can show the relationship between two numerical values. Scatter charts display patterns in large sets of data and are, therefore, ideal for displaying outliers.
+When you add a scatter chart to your report, put the fields of interest into the X Axis and Y Axis wells, respectively. In this case, the Orders Shipped field is on the X-axis, and the Qty Orders field is on the Y-axis.
+The visual updates to show the data based on the selected fields, making it easy to spot outliers, which are the items separated from the main data points.
+Now that you can identify outliers in your data, you can investigate the reasons for their existence and take corrective action.
 
