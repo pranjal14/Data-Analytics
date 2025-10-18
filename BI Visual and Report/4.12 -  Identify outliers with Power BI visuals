@@ -16,3 +16,16 @@ Now that you can identify outliers in your data, you can investigate the reasons
 
 Use measures to identify outliers
 You can create a measure to identify outliers in your data based on specific values. In the following code, Order Qty is a measure in the Sales table, and Min Qty is a measure that determines the lowest order quantity in the Sales table.
+Outliers =
+CALCULATE (
+    [Order Qty],
+    FILTER (
+        VALUES ( 'Product'[Product Name] ),
+        COUNTROWS (
+            FILTER (
+                Sales,
+                [Order Qty] >= [Min Qty]
+            )
+        ) > 0
+    )
+)
