@@ -29,3 +29,4 @@ CALCULATE (
         ) > 0
     )
 )
+After you create the outlier measure, you can group products into categories and then add the measure to a scatter chart visual to analyze and act on outliers.
