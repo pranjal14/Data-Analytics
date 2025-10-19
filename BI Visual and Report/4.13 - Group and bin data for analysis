@@ -1,1 +1,5 @@
+When you create visuals, Power BI filters, groups, and summarizes underlying data. You can refine how those groups are presented. You can also create new groups by grouping two or more data points in a visual or by putting values into equal-sized groups (binning).
+Grouping is a technique for categorizing data. Binning is similar to grouping, but it's a technique for grouping continuous fields, such as numbers and dates.
+You can use the grouping and binning features to display your data according to your preference. These features help you to clearly view, analyze, and explore the data and trends in your data. Additionally, can identify clusters, patterns of behavior, data averages, and more. The results of this analysis provide users with more specific insights on their data, which can help drive business decisions.
+Consider a scenario where the Customer Service team now wants you to further analyze their help ticket data and asks whether you can segment the data into different groups and clusters. In particular, they want to identify the cities with the highest sales.
 
