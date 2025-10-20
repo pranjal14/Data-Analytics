@@ -5,3 +5,7 @@ Consider a scenario where the Customer Service team now wants you to further ana
 
 Create a group
 The following image shows a bar chart where Power BI automatically segmented the data in the way that it found most useful: Total Sales by State. However, you want to group some of the bars (states) together so that you can view them as one category, which helps the Sales team identify the cities with the highest sales.
+To create the group, use Ctrl+Click to multi-select the data points in the visual that you want to group. In this case, it's the states with sales greater than 500,000 dollars. Right-click one of those selected data points and then select Group data.
+When the group is created, notice that the visual updates to show the new group. The following image shows that the other states, which are the states with lower sales (less than 500,000 dollars), are grouped together and highlighted in a different shade.
+The new group field displays in the Legend well of the visual, and is also added to the data model and listed in the Data pane.
+When you create a group, you can change the way that the data is displayed in the visual. For example, you might want to switch the values in each axis. You can also use the group in any of the other visuals in your report. To do so, drag the group field from the Data pane and then drop it into any visual.
