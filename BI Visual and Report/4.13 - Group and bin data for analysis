@@ -3,3 +3,5 @@ Grouping is a technique for categorizing data. Binning is similar to grouping, b
 You can use the grouping and binning features to display your data according to your preference. These features help you to clearly view, analyze, and explore the data and trends in your data. Additionally, can identify clusters, patterns of behavior, data averages, and more. The results of this analysis provide users with more specific insights on their data, which can help drive business decisions.
 Consider a scenario where the Customer Service team now wants you to further analyze their help ticket data and asks whether you can segment the data into different groups and clusters. In particular, they want to identify the cities with the highest sales.
 
+Create a group
+The following image shows a bar chart where Power BI automatically segmented the data in the way that it found most useful: Total Sales by State. However, you want to group some of the bars (states) together so that you can view them as one category, which helps the Sales team identify the cities with the highest sales.
