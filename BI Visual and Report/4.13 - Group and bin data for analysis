@@ -9,3 +9,6 @@ To create the group, use Ctrl+Click to multi-select the data points in the visua
 When the group is created, notice that the visual updates to show the new group. The following image shows that the other states, which are the states with lower sales (less than 500,000 dollars), are grouped together and highlighted in a different shade.
 The new group field displays in the Legend well of the visual, and is also added to the data model and listed in the Data pane.
 When you create a group, you can change the way that the data is displayed in the visual. For example, you might want to switch the values in each axis. You can also use the group in any of the other visuals in your report. To do so, drag the group field from the Data pane and then drop it into any visual.
+
+Edit a group
+Continuing with the previous example, you now want to edit the categories that make up your group. Right-click the group field in either the Legend well or the Data pane, and then select Edit Groups.
