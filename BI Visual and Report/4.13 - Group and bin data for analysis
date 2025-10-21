@@ -12,3 +12,5 @@ When you create a group, you can change the way that the data is displayed in th
 
 Edit a group
 Continuing with the previous example, you now want to edit the categories that make up your group. Right-click the group field in either the Legend well or the Data pane, and then select Edit Groups.
+In the Groups window, you see a list of the groups and the different items within those groups. The following image shows the States with Sales > 500k group and its members, along with the Other group (States with Sales < 500k) that contains all other values that don't belong to the first group. If you refresh your data, new items appear in the ungrouped values list and go into the Other group.
+You can now make changes to the group. You can rename any group by double-clicking the group title in the Groups and members section and entering a new name. You can also add ungrouped values into an existing group, remove values from an existing group, or create a new group.
