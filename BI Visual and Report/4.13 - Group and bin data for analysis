@@ -17,3 +17,5 @@ You can now make changes to the group. You can rename any group by double-clicki
 
 Create bin groups
 The process of binning allows you to group your numerical and time field data into bins of equal size. This approach allows you to visualize and identify trends in your data in more meaningful ways. Binning allows you to right-size the data that Power BI displays.
+In this example, you want to create bins (groups) for the Order Qty field. Start in the Data pane by right-clicking the Order Qty field that you want to create the bins for, and then select New Group. In the Groups window, set the Bin size to the size that you want, adjust other settings as required, and then select OK.
+When you set up the bin group, you see a new field in the Data pane with (bins) appended to its name. You can then add that field to any visual.
