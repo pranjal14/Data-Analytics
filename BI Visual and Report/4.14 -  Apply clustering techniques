@@ -1,1 +1,6 @@
+Clustering allows you to identify a segment (cluster) of data that's similar to each other but dissimilar to the rest of the data. The process of clustering is different to that of grouping, which you learned about in the previous unit.
+The Power BI clustering feature allows you to quickly find groups of similar data points in a subset of your data. It analyzes your semantic model to identify similarities and dissimilarities in the attribute values, and then it separates the data that has similarities into a subset of the data. These subsets of data are referred to as clusters.
+For example, you might want to look for patterns in your sales data, such as the behavior of customers overall. You can segment customers into clusters according to their similarities, such as age or location.
+Start by adding the scatter chart visualization to your report and then add the required fields to the visual. In this example, you add the Order Qty field to the A-axis, the Sales field to the Y-axis, and the Unit Price field to the Values.
+The following image shows considerable data in the scatter chart, so it's difficult to discern any natural groups.
 
