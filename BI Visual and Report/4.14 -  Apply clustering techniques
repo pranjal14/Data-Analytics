@@ -4,3 +4,5 @@ For example, you might want to look for patterns in your sales data, such as the
 Start by adding the scatter chart visualization to your report and then add the required fields to the visual. In this example, you add the Order Qty field to the A-axis, the Sales field to the Y-axis, and the Unit Price field to the Values.
 The following image shows considerable data in the scatter chart, so it's difficult to discern any natural groups.
 
+To apply clustering to your scatter chart, select More options (…) in the upper-right corner of the visual, and then select Automatically find clusters.
+In the Clusters window, you can edit the default name, field, and description, if necessary. However, for this example, you want to change the number of clusters. The following image shows that the Number of clusters box is blank by default, which means that Power BI automatically finds the number of clusters that it determines as making the most sense with your data.
