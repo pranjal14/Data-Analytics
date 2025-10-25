@@ -7,3 +7,5 @@ The following image shows considerable data in the scatter chart, so it's diffic
 To apply clustering to your scatter chart, select More options (…) in the upper-right corner of the visual, and then select Automatically find clusters.
 In the Clusters window, you can edit the default name, field, and description, if necessary. However, for this example, you want to change the number of clusters. The following image shows that the Number of clusters box is blank by default, which means that Power BI automatically finds the number of clusters that it determines as making the most sense with your data.
 Enter the number of clusters that you want (3) into the box and then select OK. Power BI runs the clustering algorithm and creates a new categorical field that contains different cluster groups. Now, when you look at the visual, you can clearly see the clusters that are in your data and proceed to perform analysis on them.
+
+The new cluster field is added to your scatter chart's Legend well, which you can now use as a source of cross-highlighting like any other Legend field. The new cluster field is added to the data model, and you can find it in the Data pane.
