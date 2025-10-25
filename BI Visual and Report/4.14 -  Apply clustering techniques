@@ -9,3 +9,6 @@ In the Clusters window, you can edit the default name, field, and description, i
 Enter the number of clusters that you want (3) into the box and then select OK. Power BI runs the clustering algorithm and creates a new categorical field that contains different cluster groups. Now, when you look at the visual, you can clearly see the clusters that are in your data and proceed to perform analysis on them.
 
 The new cluster field is added to your scatter chart's Legend well, which you can now use as a source of cross-highlighting like any other Legend field. The new cluster field is added to the data model, and you can find it in the Data pane.
+If you want to edit the cluster, right-click the cluster field and select Edit clusters.
+In the preceding example, when you applied clustering to the scatter chart, you could only use two measures. If you want to find clusters by using more than two measures, you can use a table visual instead. In this case, add all the fields you want to use, and then run the clustering algorithm by using the same process.
+
