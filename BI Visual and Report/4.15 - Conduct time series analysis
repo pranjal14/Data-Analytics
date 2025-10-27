@@ -2,3 +2,5 @@ Time series analysis involves analyzing a series of data over time in order to i
 In Power BI, you can use various visuals to observe how your data progresses over time and detect any major events that might have disrupted your data. For example, Gantt charts are useful for project planning, while stock movement semantic models help in tracking stock trends.
 To conduct a time series analysis, use visualization types suited for displaying trends and changes over time, such as line charts, area charts, or scatter charts.
 
+Use the Play Axis visual
+You can also import custom visuals from Microsoft AppSource, like the Play Axis animation visual, which acts as a dynamic slicer to compellingly display time trends and patterns without user interaction.
