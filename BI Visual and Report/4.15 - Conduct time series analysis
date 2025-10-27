@@ -4,3 +4,7 @@ To conduct a time series analysis, use visualization types suited for displaying
 
 Use the Play Axis visual
 You can also import custom visuals from Microsoft AppSource, like the Play Axis animation visual, which acts as a dynamic slicer to compellingly display time trends and patterns without user interaction.
+Note
+Some organizations prefer not to use custom visuals for security or other reasons. Before you import custom visuals, check with your organization to see whether they're allowed. If they're not allowed, you can use the scatter chart visual and its play axis instead.
+Consider a scenario where you're developing a Sales report. The Sales team wants to study the quarterly sales trends and identify which models sell better, depending on the time of the season. You decide to use two visuals: a scatter chart and a line chart, for time series analysis. You then enhance those visuals with animation so the Sales team can learn how the sales data changes over time.
+You start by adding your visuals to the report page to show the sales data and then importing the custom visual.
