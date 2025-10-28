@@ -8,3 +8,8 @@ Note
 Some organizations prefer not to use custom visuals for security or other reasons. Before you import custom visuals, check with your organization to see whether they're allowed. If they're not allowed, you can use the scatter chart visual and its play axis instead.
 Consider a scenario where you're developing a Sales report. The Sales team wants to study the quarterly sales trends and identify which models sell better, depending on the time of the season. You decide to use two visuals: a scatter chart and a line chart, for time series analysis. You then enhance those visuals with animation so the Sales team can learn how the sales data changes over time.
 You start by adding your visuals to the report page to show the sales data and then importing the custom visual.
+
+You can resize, reposition, and customize the visual's formatting to match the other visuals on the page. Key formatting options include:
+Animation Settings: Control play functionality, such as autostart, looping, and animation speed.
+Colors: Adjust overall color or individual control button colors.
+Enable Caption On: Toggle text display next to the visual and adjust its formatting.
