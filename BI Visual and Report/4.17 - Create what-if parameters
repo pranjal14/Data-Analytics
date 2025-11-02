@@ -4,3 +4,10 @@ Consider a scenario where you want to find out how much growth the Sales team ne
 
 Create a what-if parameter
 To create a what-if parameter, follow these steps:
+On the Modeling ribbon tab, select New Parameter.
+In the What-if parameter window, configure the new parameter.
+For this example, change the parameter name to Sales Forecast Percentage.
+Set the Data type to Fixed decimal number because you're using currency in your forecast.
+Set the Minimum value to 1, the Maximum value to 1.50, and the Increment value to 0.05, which is how much the parameter adjusts with report interactions.
+Set the Default value to 1.00.
+Leave the Add slicer to this page checkbox selected so that Power BI automatically adds a slicer with your what-if parameter to the current report page.
