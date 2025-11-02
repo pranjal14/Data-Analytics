@@ -2,3 +2,5 @@ You can use what-if parameters to run scenarios and scenario-type analysis on yo
 You can use what-if parameters in multiple situations. For instance, you can determine the effect of increased sales to deeper discounts, or let sales consultants see their compensation should they meet certain sales goals or percentages.
 Consider a scenario where you want to find out how much growth the Sales team needs to make in order to earn 2 million dollars gross sales each month.
 
+Create a what-if parameter
+To create a what-if parameter, follow these steps:
