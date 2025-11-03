@@ -11,3 +11,8 @@ Set the Data type to Fixed decimal number because you're using currency in your 
 Set the Minimum value to 1, the Maximum value to 1.50, and the Increment value to 0.05, which is how much the parameter adjusts with report interactions.
 Set the Default value to 1.00.
 Leave the Add slicer to this page checkbox selected so that Power BI automatically adds a slicer with your what-if parameter to the current report page.
+
+Note
+For decimal numbers, make sure that you precede the value with a zero (as in 0.50 versus .50).
+
+The new slicer visual appears on the current report page. You can move the slider to see the numbers increase according to the settings that you applied. You should also see a new field for the Sales Forecast Percentage table in the Data pane, and when you expand that field, the what-if parameter should be selected.
