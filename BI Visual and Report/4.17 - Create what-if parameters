@@ -23,4 +23,6 @@ Use a what-if parameter
 You need to create a new measure whose value adjusts with the slider to use the new parameter. You can create complex and unique measures that let your report users visualize the variable of your what-if parameter. However, to keep this example simple, the new measure is the total sales amount, with the forecast percentage applied, as show in the following measure expression.
 Gross Sales Forecast =
 [Gross Sales] * [Sales Forecast Percentage Value]
+Next, you create a clustered column chart with the MonthName field on the axis and the Gross Sales and Gross Sales Forecast measures as its values.
+Initially, the bars are similar; however, as you move the slider, notice that the Gross Sales Forecast column reflects the sales forecast percentage amount.
 
