@@ -26,3 +26,4 @@ Gross Sales Forecast =
 Next, you create a clustered column chart with the MonthName field on the axis and the Gross Sales and Gross Sales Forecast measures as its values.
 Initially, the bars are similar; however, as you move the slider, notice that the Gross Sales Forecast column reflects the sales forecast percentage amount.
 
+Add a constant line
