@@ -27,3 +27,4 @@ Next, you create a clustered column chart with the MonthName field on the axis a
 Initially, the bars are similar; however, as you move the slider, notice that the Gross Sales Forecast column reflects the sales forecast percentage amount.
 
 Add a constant line
+To enhance the visual, you can add a constant line so that you can clearly see how the organization is performing against a particular threshold or target. In this example, we add a constant line with 2 million dollars as the threshold value. Then use the slider to find out by what percentage increase sales must grow to reach the threshold. In the following image, the gross sales need to increase by 1.40 percent to reach the two million dollar threshold.
