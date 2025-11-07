@@ -7,3 +7,6 @@ Q&A
 Tip
 When adding an AI visual to your report, make sure that you size it to become as large as possible. That way, report consumers can fully interact with, and explore, the data in the visual.
 
+Key influencers
+The Key influencers visual helps report consumers understand the factors that drive a particular metric, like sales revenue. By using AI, Power BI analyzes the data, ranks the factors that matter, and then presents them as key influencers.
+
