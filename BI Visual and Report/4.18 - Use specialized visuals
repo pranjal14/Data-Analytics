@@ -9,4 +9,5 @@ When adding an AI visual to your report, make sure that you size it to become as
 
 Key influencers
 The Key influencers visual helps report consumers understand the factors that drive a particular metric, like sales revenue. By using AI, Power BI analyzes the data, ranks the factors that matter, and then presents them as key influencers.
-
+In the following example, the visual helps report consumers understand the important factors that contribute to won sales opportunities. According to the visual, when the discount rate increases by 2 percent, the likelihood of a won sales opportunity increases by a factor of 2.76.
+The Key influencers visual is many visuals inside one frame. When you select a key influencer, an adjacent visual displays a representation of the influencer as a comparison against the remainder of the data. Additionally, the Key influencers visual includes the Top segments view, which shows the highest-ranking segments that contribute to a particular metric.
