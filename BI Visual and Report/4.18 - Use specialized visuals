@@ -11,3 +11,6 @@ Key influencers
 The Key influencers visual helps report consumers understand the factors that drive a particular metric, like sales revenue. By using AI, Power BI analyzes the data, ranks the factors that matter, and then presents them as key influencers.
 In the following example, the visual helps report consumers understand the important factors that contribute to won sales opportunities. According to the visual, when the discount rate increases by 2 percent, the likelihood of a won sales opportunity increases by a factor of 2.76.
 The Key influencers visual is many visuals inside one frame. When you select a key influencer, an adjacent visual displays a representation of the influencer as a comparison against the remainder of the data. Additionally, the Key influencers visual includes the Top segments view, which shows the highest-ranking segments that contribute to a particular metric.
+
+Decomposition tree
+The Decomposition Tree visual helps report consumers visualize data across multiple dimensions. It automatically aggregates data and enables consumers to drill down into dimensions in any order. As a result, it's a valuable tool for exploration and conducting root cause analysis. As an AI visual, a decomposition tree provides a guided exploration experience that helps by finding the next dimension for consumers to drill down into.
