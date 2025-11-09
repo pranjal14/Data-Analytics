@@ -16,3 +16,6 @@ Decomposition tree
 The Decomposition Tree visual helps report consumers visualize data across multiple dimensions. It automatically aggregates data and enables consumers to drill down into dimensions in any order. As a result, it's a valuable tool for exploration and conducting root cause analysis. As an AI visual, a decomposition tree provides a guided exploration experience that helps by finding the next dimension for consumers to drill down into.
 In the following example, a Decomposition Tree visual helps report consumers to understand the breakdown of sales opportunity revenue.
 For a demonstration of the Decomposition Tree visual, watch the following video. The lock icon next to the Prod Category split means that the report author added the split and set it so that it can't be removed. Additionally, the light bulb icon next to the Region split means that the report consumer used an AI split to discover the best split.
+
+Q&A
+The Q&A visual allows report consumers to ask questions of their data and receive responses as data visualizations. Similar to how web search engines parse and understand complex search requests, report consumers can write natural language questions (in English).
