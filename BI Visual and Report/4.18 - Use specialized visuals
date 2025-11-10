@@ -21,3 +21,6 @@ Q&A
 The Q&A visual allows report consumers to ask questions of their data and receive responses as data visualizations. Similar to how web search engines parse and understand complex search requests, report consumers can write natural language questions (in English).
 Tip
 To optimize the Q&A experience, ensure that the data field names are user-friendly. You can also enhance the semantic model with synonyms and terms. Additionally, you can hide fields, such as fields that are used in model relationships, to restrict their use in Q&A. You can also add suggested questions that become prompts in the Q&A visual.
+
+Summary
+In this module, you learned about the emerging power of advanced analytics and discovered how the advanced analytics capabilities of Power BI can bring value the decision making and strategy formulation of your organization.
