@@ -1,4 +1,6 @@
 You've likely had the chance to load and transform data from numerous sources, build visuals, create measures, and even publish a report or two to Microsoft Power BI. The next step on your data analysis journey is to share these reports with a wider audience in your organization. This is where the Power BI service comes into play.
 What is the Power BI service?
 In a typical Power BI workflow, you begin by building a report in Power BI Desktop, then publishing it to the Power BI service. It's the Software as a Service (SaaS) part of Power BI and can be accessed through a web browser (https://app.powerbi.com). The Power BI service lets you consume and interact with reports, as well as individual visual elements found in those reports, right from your browser.
+The Power BI service is composed of many building blocks, including workspaces, reports, semantic models, dashboards, and apps. Each of these components play a unique role in the Power BI ecosystem.
+
 
