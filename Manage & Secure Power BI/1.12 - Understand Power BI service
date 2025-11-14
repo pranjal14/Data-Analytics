@@ -3,4 +3,6 @@ What is the Power BI service?
 In a typical Power BI workflow, you begin by building a report in Power BI Desktop, then publishing it to the Power BI service. It's the Software as a Service (SaaS) part of Power BI and can be accessed through a web browser (https://app.powerbi.com). The Power BI service lets you consume and interact with reports, as well as individual visual elements found in those reports, right from your browser.
 The Power BI service is composed of many building blocks, including workspaces, reports, semantic models, dashboards, and apps. Each of these components play a unique role in the Power BI ecosystem.
 
-
+Workspaces
+Workspaces are spaces for your Power BI content. They allow you to organize and manage your reports, semantic models, and dashboards. Workspaces can be created for different teams or projects within your organization, enabling collaboration and sharing of Power BI content.
+Depending on the license mode, workspaces offer different levels of sharing, performance, and advanced features such as AI capabilities and higher refresh rates.
