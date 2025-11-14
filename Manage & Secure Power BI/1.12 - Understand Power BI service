@@ -6,3 +6,7 @@ The Power BI service is composed of many building blocks, including workspaces, 
 Workspaces
 Workspaces are spaces for your Power BI content. They allow you to organize and manage your reports, semantic models, and dashboards. Workspaces can be created for different teams or projects within your organization, enabling collaboration and sharing of Power BI content.
 Depending on the license mode, workspaces offer different levels of sharing, performance, and advanced features such as AI capabilities and higher refresh rates.
+
+Reports
+Once a report designer publishes a report to a Power BI workspace, the report becomes available to other users in that workspace. Users can then view it in their browser and interact with the visuals, and create their own reports based on the same semantic model.
+A report has one or more pages, each containing one or more visuals. Presenting data as visuals makes it easier to grasp the meaning of what you're seeing. And, the visuals aren't static. You interact with the visuals and filters as you dig into the data to discover insights and find answers.
