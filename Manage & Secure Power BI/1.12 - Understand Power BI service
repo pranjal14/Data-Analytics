@@ -14,3 +14,6 @@ A report has one or more pages, each containing one or more visuals. Presenting 
 Semantic models
 Power BI semantic models represent a source of data that's ready for reporting and visualization. When publishing a report from Power BI Desktop, the semantic model is included in the report. The semantic model is a collection of tables, relationships, and measures that define how data is structured and how it can be used in reports.
 If you have access to a Power BI semantic model, you can create new reports based on that model. It's a great way to reuse existing content and save time. Semantic models can be promoted or even certified in order to help users find the right data for their reports. The Browse experience in the Power BI service is a great place to find semantic models that are available to you, regardless of where they're located.
+
+Dashboards
+Dashboards and reports in Power BI might look similar, but they have key differences. Dashboards are single-page visual summaries that can pull data from multiple reports and models, while reports can have multiple pages and use only one semantic model. Reports offer more interactive features like filtering, drilling down, and viewing data tables, while dashboards focus on quick insights. Both allow subscriptions, favorites, and natural language queries, but only dashboards support alerts on certain tiles.
