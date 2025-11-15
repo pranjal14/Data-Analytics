@@ -10,3 +10,7 @@ Depending on the license mode, workspaces offer different levels of sharing, per
 Reports
 Once a report designer publishes a report to a Power BI workspace, the report becomes available to other users in that workspace. Users can then view it in their browser and interact with the visuals, and create their own reports based on the same semantic model.
 A report has one or more pages, each containing one or more visuals. Presenting data as visuals makes it easier to grasp the meaning of what you're seeing. And, the visuals aren't static. You interact with the visuals and filters as you dig into the data to discover insights and find answers.
+
+Semantic models
+Power BI semantic models represent a source of data that's ready for reporting and visualization. When publishing a report from Power BI Desktop, the semantic model is included in the report. The semantic model is a collection of tables, relationships, and measures that define how data is structured and how it can be used in reports.
+If you have access to a Power BI semantic model, you can create new reports based on that model. It's a great way to reuse existing content and save time. Semantic models can be promoted or even certified in order to help users find the right data for their reports. The Browse experience in the Power BI service is a great place to find semantic models that are available to you, regardless of where they're located.
