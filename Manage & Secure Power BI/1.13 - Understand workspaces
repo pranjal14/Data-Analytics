@@ -1,3 +1,4 @@
 A Power BI workspace is a collaborative environment within Power BI service where users can create, manage, and share reports, dashboards, and datasets. It acts as a container for Power BI content, allowing teams to work together on analytics projects.
 
 Types of Workspaces
+There are two types of workspaces: My Workspace, which is private to an individual user, and Shared workspaces, which can be accessed by multiple users with assigned roles. Workspaces allow you to organize your content, apply role-based access control, and create Power BI apps.
