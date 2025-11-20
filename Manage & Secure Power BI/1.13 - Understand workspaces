@@ -9,3 +9,9 @@ When you create a workspace, you have to choose a unique name for it. You can al
 Choose a license mode for your workspace
 You also have to choose a license mode for the workspace. The license mode determines how the content in the workspace can be shared and consumed.
 A Power BI Pro license allows users to create workspaces and share content, but all users who access the workspace must also have a Pro license. It's suitable for small to medium teams needing collaboration within Power BI service. However, it doesn't support advanced features like larger model sizes or AI capabilities.
+A Premium Per User (PPU) license provides all Pro features plus advanced capabilities such as more scheduled refreshes per day, AI-powered features, and larger semantic model sizes. Unlike Pro, PPU workspaces can only be accessed by other PPU-licensed users, making it less flexible for broad sharing. It's ideal for individuals or teams needing Premium features without committing to full Fabric Capacity.
+A Fabric Capacity license provides enterprise-grade performance and scalability by allocating dedicated cloud resources (a capacity). This option supports all advanced features, including real-time streaming, larger semantic models, and enhanced AI capabilities. Users can create dataflows, pipelines, data warehouses, and other Fabric content.
+Once a workspace has been created, the diamond icon  identifies Fabric workspaces. Premium Per User workspaces are identified by this diamond icon  .
+
+Note
+In this learn module, we won't cover Fabric topics. For more information about Fabric, see Microsoft Fabric concepts and licenses.
