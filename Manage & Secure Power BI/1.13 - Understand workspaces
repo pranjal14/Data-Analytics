@@ -5,3 +5,7 @@ There are two types of workspaces: My Workspace, which is private to an individu
 
 Create a workspace
 When you create a workspace, you have to choose a unique name for it. You can also enter an optional description to help others understand the purpose of the workspace. A workspace image can be uploaded as a .png or .jpg file. The name, description, and icon are important for identifying the workspace and its content. The Contact list allows you to identify the people who are responsible for the workspace.
+
+Choose a license mode for your workspace
+You also have to choose a license mode for the workspace. The license mode determines how the content in the workspace can be shared and consumed.
+A Power BI Pro license allows users to create workspaces and share content, but all users who access the workspace must also have a Pro license. It's suitable for small to medium teams needing collaboration within Power BI service. However, it doesn't support advanced features like larger model sizes or AI capabilities.
