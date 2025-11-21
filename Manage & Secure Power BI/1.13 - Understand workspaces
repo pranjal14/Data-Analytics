@@ -15,3 +15,6 @@ Once a workspace has been created, the diamond icon  identifies Fabric workspace
 
 Note
 In this learn module, we won't cover Fabric topics. For more information about Fabric, see Microsoft Fabric concepts and licenses.
+
+Grant access to a workspace
+Roles let you manage who can do what in a workspace, so teams can collaborate. Workspaces allow you to assign roles to individuals, and also to user groups such as security groups, Microsoft 365 groups, and distribution lists.
