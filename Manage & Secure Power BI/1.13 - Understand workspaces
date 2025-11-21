@@ -18,3 +18,9 @@ In this learn module, we won't cover Fabric topics. For more information about F
 
 Grant access to a workspace
 Roles let you manage who can do what in a workspace, so teams can collaborate. Workspaces allow you to assign roles to individuals, and also to user groups such as security groups, Microsoft 365 groups, and distribution lists.
+Viewers has read-only access, allowing them to view and interact with reports and dashboards without making changes.
+Contributors can create, edit, and delete content but lacks control over app publishing, sharing, and workspace settings.
+Members can manage content, publish and update apps, share items, and modify data settings but can't delete the workspace or manage Admin roles.
+Admins have full control, including managing workspace settings, updating or deleting the workspace, adding or removing users, and controlling app publishing.
+
+Select the Manage access option to add people or groups to the workspace. You can also remove people or groups from the workspace.
