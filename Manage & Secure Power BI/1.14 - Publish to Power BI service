@@ -1,1 +1,3 @@
+Imagine you have created a report in the Power BI Desktop and now you want to share it to your colleagues. Sending the .pbix file via email isn't the best option, as the file might be too large, and it can be difficult to keep track of the latest version. Also, your colleagues might not have the same version of Power BI Desktop installed, which could lead to compatibility issues.
+Instead, you can publish the report to the Power BI service, where your colleagues can access it online. This process is called publishing.
 
