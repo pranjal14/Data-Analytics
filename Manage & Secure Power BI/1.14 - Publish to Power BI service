@@ -7,3 +7,7 @@ If you aren't signed in yet with your Microsoft Entra ID (work or school account
 When publishing is complete, you receive a link to your report. You can also find the report in the Power BI service by navigating to the workspace you selected during the publish process.
 Notice the semantic model is also published with the report. This means that the data model, including tables, relationships, and measures, is now available in the Power BI service. You can use this semantic model to create new reports or dashboards based on the same data.
 When you make a change to a report in Power BI Desktop and then republish it, a message shows you how many workspaces, reports, and dashboards are potentially impacted by the change. Power BI then asks you to confirm that you want to replace the currently published semantic model with the one you modified.
+
+Upload a Power BI report
+There's another way to add a report to a workspace. You can upload a Power BI report (.pbix file) directly to the workspace. This is useful if you have a report that was created in Power BI Desktop and you want to add it to the workspace without publishing it from Power BI Desktop. The following image shows the menu options.
+
