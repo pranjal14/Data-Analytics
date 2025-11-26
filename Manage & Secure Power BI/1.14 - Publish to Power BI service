@@ -12,3 +12,6 @@ Upload a Power BI report
 There's another way to add a report to a workspace. You can upload a Power BI report (.pbix file) directly to the workspace. This is useful if you have a report that was created in Power BI Desktop and you want to add it to the workspace without publishing it from Power BI Desktop. The following image shows the menu options.
 ou can use the dropdown menu to connect to files stored in OneDrive for work or school or any SharePoint site to which you have access, or you can upload them from your computer through the Browse menu option.
 If you use the OneDrive for work or school or SharePoint option, the Power BI service creates a connection to the file and as you make changes to the file in SharePoint, Power BI can automatically sync those changes approximately each hour.
+
+Organize items in folders (preview)
+Folders are organizational units inside a workspace that enable users to efficiently organize and manage artifacts in the workspace. Select the New folder and assign it a name.
