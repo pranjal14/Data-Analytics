@@ -17,3 +17,5 @@ Organize items in folders (preview)
 Folders are organizational units inside a workspace that enable users to efficiently organize and manage artifacts in the workspace. Select the New folder and assign it a name.
 You can create nested subfolders in a folder in the same way, up to 10 levels deep. You can also move a single or multiple items to folders and subfolders.
 To publish reports from Power BI Desktop to specific folders in the service, make sure that the Publish dialogs support folder selection setting is enabled in the Preview features tab in the options menu.
+
+Summary 
