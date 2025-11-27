@@ -19,3 +19,5 @@ You can create nested subfolders in a folder in the same way, up to 10 levels de
 To publish reports from Power BI Desktop to specific folders in the service, make sure that the Publish dialogs support folder selection setting is enabled in the Preview features tab in the options menu.
 
 Summary 
+In this module, you learned about the Power BI service and how it enables seamless sharing and collaboration on reports, dashboards, and semantic models. You explored key components such as workspaces, where users organize and manage Power BI content, and apps, which provide a streamlined way to share multiple reports and dashboards with larger audiences.
+Additionally, you learned how to publish reports from Power BI Desktop, manage role-based access to workspaces, and utilize dashboards for high-level insights.
