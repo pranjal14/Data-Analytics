@@ -1,10 +1,1 @@
-Introduction
-
-Imagine you're part of a growing analytics team in your organization. You spent weeks building a detailed sales performance report in Power BI Desktop, filled with interactive visuals and valuable insights. Now, your leadership team wants to have access to this report, and your colleagues from different departments need to collaborate on the data. However, sharing a static Power BI (.pbix) file through email isn’t a scalable solution — it creates version control issues, risks data inconsistency, and makes collaboration difficult.
-
-Additionally, some stakeholders only need to see high-level trends, while others need the ability to drill down into the raw data. The IT team wants to ensure that sensitive financial data remains secure, while executives need a streamlined way to access reports without navigating complex folders or multiple files.
-
-This is where the Power BI service comes in. By publishing your report to the Power BI service, you can create a centralized, web-based environment where users can securely view, interact with, and collaborate on reports. With workspaces, dashboards, and apps, you can control access levels, ensure everyone sees the most up-to-date data, and streamline report distribution across your organization.
-
-By the end of this module, you'll have the skills to effectively publish and share your Power BI reports using the Power BI service. This enables you to collaborate seamlessly with your colleagues, ensuring that everyone has access to the latest insights and data models, regardless of their location or device.
 
