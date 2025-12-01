@@ -2,3 +2,5 @@ A Power BI Gateway is a bridge that connects on-premises data sources to Power B
 Two types of on-premises gateways are:
 Standard mode - Allows multiple users to connect to multiple on-premises data sources and is suitable for complex scenarios.
 Personal mode - Allows one user to connect to data sources. This type of gateway can only be used with Power BI. It can't be shared with other users, making it suitable for situations where you're the sole report creator in your organization. You'll install the gateway on your local computer, which needs to stay online for the gateway to work.
+Note
+We won't cover virtual network (VNet) data gateways in this module. VNet data gateways are used to connect to Azure Virtual Networks and are typically used in more complex scenarios.
