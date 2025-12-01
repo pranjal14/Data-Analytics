@@ -1,1 +1,3 @@
+A Power BI Gateway is a bridge that connects on-premises data sources to Power BI, Power Automate, Power Apps, and other Microsoft cloud services. On-premises data sources are those that aren't stored in the cloud. It enables secure data transfer between on-premises systems and Microsoft cloud services without moving the data to the cloud.
+
 
