@@ -4,3 +4,7 @@ Standard mode - Allows multiple users to connect to multiple on-premises data so
 Personal mode - Allows one user to connect to data sources. This type of gateway can only be used with Power BI. It can't be shared with other users, making it suitable for situations where you're the sole report creator in your organization. You'll install the gateway on your local computer, which needs to stay online for the gateway to work.
 Note
 We won't cover virtual network (VNet) data gateways in this module. VNet data gateways are used to connect to Azure Virtual Networks and are typically used in more complex scenarios.
+
+Use an on-premises gateway
+Before you can connect to your on-premises data source, you need to install the on-premises data gateway, and then configure it to suit your organizational needs. An admin in your organization usually completes this task.
+When the on-premises gateway is installed and configured on a server, the admin starts the gateway and then signs in using a Microsoft 365 organization account.
