@@ -8,3 +8,11 @@ We won't cover virtual network (VNet) data gateways in this module. VNet data ga
 Use an on-premises gateway
 Before you can connect to your on-premises data source, you need to install the on-premises data gateway, and then configure it to suit your organizational needs. An admin in your organization usually completes this task.
 When the on-premises gateway is installed and configured on a server, the admin starts the gateway and then signs in using a Microsoft 365 organization account.
+When you're working in the cloud and interacting with an element that is connected to an on-premises data source, the following actions occur:
+
+The cloud service creates a query and the encrypted credentials for the on-premises data source. The query and credentials are sent to the gateway queue for processing.
+The gateway cloud service analyzes the query and pushes the request to Microsoft Azure Service Bus.
+Service Bus sends the pending requests to the gateway.
+The gateway gets the query, decrypts the credentials, and then connects to one or more data sources with those credentials.
+The gateway sends the query to the data source to be run.
+The results are sent from the data source back to the gateway and then to the cloud service. The service then uses the results.
