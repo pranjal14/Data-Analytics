@@ -16,3 +16,7 @@ Service Bus sends the pending requests to the gateway.
 The gateway gets the query, decrypts the credentials, and then connects to one or more data sources with those credentials.
 The gateway sends the query to the data source to be run.
 The results are sent from the data source back to the gateway and then to the cloud service. The service then uses the results.
+
+Add a data source to a gateway
+Before you can set up scheduled refreshes for your reports which require access to on-premises data sources, you need to add the data source to the gateway. This is usually done by the admin in your organization.
+In the Power BI Service, select the Settings Settings gear icon icon, and then select Manage connections and gateways.
