@@ -20,3 +20,4 @@ The results are sent from the data source back to the gateway and then to the cl
 Add a data source to a gateway
 Before you can set up scheduled refreshes for your reports which require access to on-premises data sources, you need to add the data source to the gateway. This is usually done by the admin in your organization.
 In the Power BI Service, select the Settings Settings gear icon icon, and then select Manage connections and gateways.
+Then, you can create a new data source or edit an existing one. Provide the name of the gateway cluster, a name for the connection and a connection type (for example: SQL Server). You'll also need to provide the server name and database name, and the authentication method. The authentication method can be either Basic, Windows, OAuth 2.0, or Service Principal.
