@@ -23,3 +23,5 @@ In the Power BI Service, select the Settings Settings gear icon icon, and then s
 Then, you can create a new data source or edit an existing one. Provide the name of the gateway cluster, a name for the connection and a connection type (for example: SQL Server). You'll also need to provide the server name and database name, and the authentication method. The authentication method can be either Basic, Windows, OAuth 2.0, or Service Principal.
 
 Troubleshoot service connectivity
+Cloud services, such as SharePoint, do not require a gateway because the data is already in the cloud. You only need to provide your authorization credentials to set up a data source connection.
+If your report fails to refresh, ensure that your data source credentials are up to date.
