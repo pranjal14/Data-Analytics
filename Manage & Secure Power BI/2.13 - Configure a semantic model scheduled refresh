@@ -1,3 +1,9 @@
 The Scheduled refresh feature in Power BI allows you to define the frequency and time slots to refresh a particular dataset. Scheduling the refresh of your data will save you time because you don't have to manually refresh the data. It also ensures that users can access the most up-to-date data.
 In this example, you are creating a report, but then realize that the version of the employee data that you're using isn't the most up to date. You check the refresh status and notice that it was last refreshed some time ago, and no refresh is scheduled to take place.
 Considering how important it is to have accurate data, you need to find a solution. Usually, the data is updated weekly, but you don't want to return to the report every week to manually refresh the semantic model, and you know that you occasionally forget to do so. Therefore, you decide to use the Scheduled refresh functionality in Power BI Service to solve this problem.
+
+Set up a refresh schedule
+Before you can set up a refresh schedule, you need to have created a gateway connection.
+To set up a refresh schedule for your semantic model, follow these steps:
+Go to the workspace where the report and semantic model are located.
+Hover over the semantic model for which you want to set up the schedule and then select the Schedule refresh icon.
