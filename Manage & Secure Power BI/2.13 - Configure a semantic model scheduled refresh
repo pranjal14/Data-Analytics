@@ -14,3 +14,6 @@ When you have finished configuring the scheduled refresh, select Apply.
 
 Note
 While you can set a time for the refresh, be aware that the refresh might not take place at that exact time. Power BI starts scheduled refreshes on a best effort basis. The goal is to initiate the refresh within 15 minutes of the scheduled time slot, but a delay of up to one hour can occur if the service can't allocate the required resources sooner.
+
+Perform an on-demand refresh
+In addition to the scheduled refreshes, you can refresh a semantic model at any time by performing an on-demand refresh. This type of refresh doesn't affect the next scheduled refresh time.
