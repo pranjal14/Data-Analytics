@@ -19,3 +19,6 @@ Perform an on-demand refresh
 In addition to the scheduled refreshes, you can refresh a semantic model at any time by performing an on-demand refresh. This type of refresh doesn't affect the next scheduled refresh time.
 For example, you might want to refresh now because you need to view the most recent data and can't wait for the next refresh time, or you might want to test your gateway and data source configuration.
 To perform an on-demand refresh, hover over the semantic model that you want to refresh and then select the Refresh now icon.
+
+Check the refresh status and history
+You can check the refresh status and history at any time. This feature is useful if you want to find out when the last refresh occurred and when the next one is scheduled. It is also good practice to check the status of your semantic models occasionally to check if refresh errors have occurred.
