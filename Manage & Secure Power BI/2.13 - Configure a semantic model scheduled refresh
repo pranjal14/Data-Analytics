@@ -22,3 +22,6 @@ To perform an on-demand refresh, hover over the semantic model that you want to 
 
 Check the refresh status and history
 You can check the refresh status and history at any time. This feature is useful if you want to find out when the last refresh occurred and when the next one is scheduled. It is also good practice to check the status of your semantic models occasionally to check if refresh errors have occurred.
+A quick way to check the refresh status is to view the list of semantic models in a workspace.
+If a semantic model displays a small warning icon, you'll know that the semantic model is currently experiencing an issue. Select the warning icon to get more information.
+You should also check the refresh history occasionally to review the success or failure status of past synchronization cycles. To view the refresh history, open the semantic model's settings page and then select Refresh history.
