@@ -25,3 +25,6 @@ You can check the refresh status and history at any time. This feature is useful
 A quick way to check the refresh status is to view the list of semantic models in a workspace.
 If a semantic model displays a small warning icon, you'll know that the semantic model is currently experiencing an issue. Select the warning icon to get more information.
 You should also check the refresh history occasionally to review the success or failure status of past synchronization cycles. To view the refresh history, open the semantic model's settings page and then select Refresh history.
+
+Note
+If no user visits the report or any dashboard built on the semantic model, Power BI disables the refresh schedule after two months of inactivity. The refresh schedule is also disabled after four consecutive failures or when the service detects an unrecoverable error that requires a configuration update, such as invalid or expired credentials. It is not possible to change the consecutive failures threshold.
