@@ -1,3 +1,6 @@
 The Incremental refresh feature in Power BI is a popular feature because it allows you to refresh large semantic models quickly and as often as you need, without having to reload historical data each time.
 Traditionally, complex code was required for running incremental refreshes, but you can now define a refresh policy within Power BI Desktop. The refresh policy is applied when you publish to Power BI service, which then does the work of managing partitions for optimized data loads, resulting in the following benefits:
+Quicker refreshes - Only data that needs to be changed gets refreshed. For example, if you have five years' worth of data, and you only need to refresh the last 10 days because that is the only data that has changed, the incremental refresh will refresh only those 10 days of data. Undoubtedly, the time it takes to refresh 10 days of data is much shorter than five years of data.
+More reliable refreshes - You no longer need to keep your long-running data connections open to schedule a refresh.
+Reduced resource consumption - Because you only need to refresh the smaller the amount of data, the overall consumption of memory and other resources is reduced.
 
