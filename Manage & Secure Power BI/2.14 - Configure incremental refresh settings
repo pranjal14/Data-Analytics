@@ -16,3 +16,8 @@ Publish changes to Power BI service.
 
 Define filter parameters
 Whether you are using incremental refresh or not, large semantic models are commonly filtered when they are imported into Power BI Desktop because the PBIX file is limited by the memory resources that are available on the desktop computer. For incremental refresh, the semantic models are filtered by two date/time parameters: RangeStart and RangeEnd. These parameters have a dual purpose. In Power BI Desktop, they are the filtering window because they restrict the used data to the range that is listed in the start and end dates. After they have been published to the service, the parameters are taken over to be the sliding window to determine what data to pull in.
+To define the parameters for the incremental refresh, follow these steps:
+Open your semantic model in Power Query Editor.
+On the Home tab, select Manage Parameters.
+On the Parameters window that displays, add two new parameters, RangeStart and RangeEnd, ensuring that for both parameters, the Type is set to Date/Time and the Suggested Value is set to Any value.
+Regarding the Current Value, for the RangeStart parameter, enter the date on which you want to begin the import, and for the RangeEnd parameter, enter the date on which you want the import to end. Think of it like this: you are importing data on your desktop computer, and you want to import a limited range of data, but not all of it.
