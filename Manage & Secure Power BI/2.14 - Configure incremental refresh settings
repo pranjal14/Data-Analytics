@@ -21,3 +21,6 @@ Open your semantic model in Power Query Editor.
 On the Home tab, select Manage Parameters.
 On the Parameters window that displays, add two new parameters, RangeStart and RangeEnd, ensuring that for both parameters, the Type is set to Date/Time and the Suggested Value is set to Any value.
 Regarding the Current Value, for the RangeStart parameter, enter the date on which you want to begin the import, and for the RangeEnd parameter, enter the date on which you want the import to end. Think of it like this: you are importing data on your desktop computer, and you want to import a limited range of data, but not all of it.
+
+Apply the filter
+When you have defined the new parameters, you can apply the filter by following these steps:
