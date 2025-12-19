@@ -24,3 +24,7 @@ Regarding the Current Value, for the RangeStart parameter, enter the date on whi
 
 Apply the filter
 When you have defined the new parameters, you can apply the filter by following these steps:
+Go to the applicable Date column and then right-click that column and select Custom Filter.
+In the Filter Rows window that displays, to avoid the double counting of rows, make sure that you keep rows where OrderDate is after or equal to the RangeStart parameter and before the RangeEnd parameter.
+Select Close and Apply from the Power Query Editor.
+You should now see a subset of the semantic model in Power BI Desktop.
