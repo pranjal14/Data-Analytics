@@ -28,3 +28,7 @@ Go to the applicable Date column and then right-click that column and select Cus
 In the Filter Rows window that displays, to avoid the double counting of rows, make sure that you keep rows where OrderDate is after or equal to the RangeStart parameter and before the RangeEnd parameter.
 Select Close and Apply from the Power Query Editor.
 You should now see a subset of the semantic model in Power BI Desktop.
+
+Define the incremental refresh policy
+When you have filtered the data, you can define the incremental refresh policy for the data table, which sets up the refresh process.
+Right-click the applicable table and then select Incremental refresh.
