@@ -34,3 +34,5 @@ When you have filtered the data, you can define the incremental refresh policy f
 Right-click the applicable table and then select Incremental refresh.
 On the Incremental refresh window that displays, turn on the Incremental refresh option. Then, configure the refresh as required. In this example, you will define a refresh policy to store data for five full calendar years, plus data for the current year up to the current date, and incrementally refresh 10 days of data.
 The first refresh operation in Power BI service will load the historical data for the last five years. The subsequent refresh operations are incremental, and they will refresh the data that was changed in the last 10 days up to the current date. The incremental refreshes will also remove calendar years that are older than five years prior to the current date.
+
+Publish to Power BI service
