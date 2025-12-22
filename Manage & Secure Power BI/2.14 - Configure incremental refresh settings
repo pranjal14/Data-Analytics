@@ -36,3 +36,4 @@ On the Incremental refresh window that displays, turn on the Incremental refresh
 The first refresh operation in Power BI service will load the historical data for the last five years. The subsequent refresh operations are incremental, and they will refresh the data that was changed in the last 10 days up to the current date. The incremental refreshes will also remove calendar years that are older than five years prior to the current date.
 
 Publish to Power BI service
+When you have defined the incremental refresh policy in Power BI Desktop, to apply that refresh policy, you need to publish the report to Power BI service.
