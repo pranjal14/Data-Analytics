@@ -10,3 +10,7 @@ Master data - Being labeled as master data means that the data item is regarded 
 In this example, you and the other teams are using a workspace in Power BI service to organize all your reports and dashboards. However, you begin to receive emails from confused users who expected to see a sales report and are now looking at a product report instead. You need to make some changes to direct your users to the semantic models that they should be accessing, and you can accomplish this task with the endorsing capability in Power BI.
 In this example, the certification type of endorsement is best suited for the Sales team because it will require users to have special access before they can view the Sales dashboards. By implementing the certification, you'll lead your users to the most appropriate reports and dashboards, avoiding the inevitable confusion that might arise with building and sharing a diversity of reports.
 Though you'll soon learn how to certify the semantic model, you'll first learn how to promote a semantic model, in case you prefer to use that method.
+
+Promote a semantic model
+To promote content, you must have write permissions on the workspace where the content you want to promote is located.
+To promote a semantic model, go to the workspace in Power BI service, and then open the settings page for the semantic model that you want to promote. In this example, you want to promote the Sales semantic model.
