@@ -17,3 +17,6 @@ To promote a semantic model, go to the workspace in Power BI service, and then o
 Select the Endorsement setting.
 In the Endorsement settings, select the Promoted option, and then select Apply.
 When you return to your workspace, a badge in the Endorsement column for that semantic model will appear, indicating that it's ready for viewing by all of your users.
+
+Certify a semantic model
+Content certification is a big responsibility, and only authorized users can certify content. Other users can request content certification.
