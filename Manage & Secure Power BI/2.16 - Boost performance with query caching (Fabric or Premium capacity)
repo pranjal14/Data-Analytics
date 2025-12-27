@@ -3,3 +3,9 @@ Building on the scenario, you notice that some of your semantic models are causi
 
 Query caching
 Query Caching is a feature that maintains cache results on a user and report basis. Query caching reduces load time and increases query speed, especially for semantic models that aren't refreshed often and are accessed frequently. This service is only available to users with Microsoft Fabric, Power BI Premium or Power BI Embedded.
+The caching is performed the first time a user opens the report. The service only does query caching for the initial page that they land on. In other words, queries aren't cached when you interact with the report. Several benefits to using query caching include:
+Improvement of the performance of reports, dashboards, and dashboard tiles.
+It respects bookmarks and default filters.
+Cached query results are specific to the user.
+All security labels are followed.
+It reduces the load on your dedicated capacity.
