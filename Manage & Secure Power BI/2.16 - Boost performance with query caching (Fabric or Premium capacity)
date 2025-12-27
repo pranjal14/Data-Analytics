@@ -1,3 +1,5 @@
 With the Query Caching feature, you can use the local caching services of Power BI to process query results. Instead of relying on the semantic model to calculate queries, you use cloud resources on your Fabric or Premium capacities in the Power BI service to load your report. Query caching ensures constant performance instead of overloading the semantic model resources.
 Building on the scenario, you notice that some of your semantic models are causing the reports to load more slowly than before, an issue that is starting to annoy your users. The Sales team wants to know how they can improve performance and make these reports load faster. You decide to use Query Caching to solve this problem.
 
+Query caching
+Query Caching is a feature that maintains cache results on a user and report basis. Query caching reduces load time and increases query speed, especially for semantic models that aren't refreshed often and are accessed frequently. This service is only available to users with Microsoft Fabric, Power BI Premium or Power BI Embedded.
