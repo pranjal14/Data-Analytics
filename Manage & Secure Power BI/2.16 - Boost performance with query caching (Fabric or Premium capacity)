@@ -17,3 +17,6 @@ On the Query Caching page, choose one of the available options. The default opti
 
 Note
 Switching from On to Off clears all previously saved query results. When turning off query caching (either through the default or the Off option), a small delay occurs in query loading because the report queries are running against the semantic model and it does not have saved queries to fall back on.
+
+Warning
+If many semantic models have query caching enabled, and a refresh occurs, a reduction in performance might occur because a large number of queries are being processed at once.
