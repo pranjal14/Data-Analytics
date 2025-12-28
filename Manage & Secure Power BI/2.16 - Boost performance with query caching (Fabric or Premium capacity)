@@ -15,3 +15,5 @@ Go to a semantic model in your workspace and open its Settings page. In this exa
 Select the semantic models tab and expand the Query Caching options, as shown in the following image.
 On the Query Caching page, choose one of the available options. The default option is that query caching is turned off; however, you can also select Off, which turns off query caching for the specific semantic model in question. If you select On, query caching is turned on for this specific semantic model only. For this example, you'll select On for your semantic model because you want to apply query caching to your specific semantic model.
 
+Note
+Switching from On to Off clears all previously saved query results. When turning off query caching (either through the default or the Off option), a small delay occurs in query loading because the report queries are running against the semantic model and it does not have saved queries to fall back on.
