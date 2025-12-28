@@ -9,3 +9,9 @@ It respects bookmarks and default filters.
 Cached query results are specific to the user.
 All security labels are followed.
 It reduces the load on your dedicated capacity.
+
+To access and configure query caching, follow these steps:
+Go to a semantic model in your workspace and open its Settings page. In this example, you enable query caching for SalesModel.
+Select the semantic models tab and expand the Query Caching options, as shown in the following image.
+On the Query Caching page, choose one of the available options. The default option is that query caching is turned off; however, you can also select Off, which turns off query caching for the specific semantic model in question. If you select On, query caching is turned on for this specific semantic model only. For this example, you'll select On for your semantic model because you want to apply query caching to your specific semantic model.
+
