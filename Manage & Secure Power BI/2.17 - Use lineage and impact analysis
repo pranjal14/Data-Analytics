@@ -1,1 +1,1 @@
-
+Understanding the flow of data from the data source to its destination can be a challenge. Questions like "What happens if I move this data?" or "Why isn't this report up to date?" can be hard to answer. They might require a team of experts or deep investigation to understand. Power BI's data lineage view helps you answer these questions
