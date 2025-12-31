@@ -2,3 +2,6 @@ Understanding the flow of data from the data source to its destination can be a 
 Explore lineage view
 In lineage view, you see the lineage relationships between all the artifacts in a workspace
 Every workspace automatically has a lineage view. You need at least a Contributor role in the workspace to view it. In this view, you see all the workspace artifacts and how the data flows from one artifact to another.
+You see the data sources from which the semantic models get their data. If a data source is connected via an on-premises gateway, the gateway information is added to the data source card.
+
+On semantic models, you see the last refresh time, and if the semantic model is certified or promoted.
