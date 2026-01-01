@@ -10,3 +10,7 @@ Perform semantic model impact analysis
 When you make changes to a semantic model, or are considering making changes, it's important to be able to assess the potential impact of those changes on downstream reports and dashboards that depend on that semantic model
 Performing this impact analysis is useful for semantic models that are shared across workspaces, where it's complicated to get a clear picture of downstream dependencies.
 To perform semantic model impact analysis, select the impact analysis button on the semantic model card. The following screenshot demonstrates there's an additional report that depends on the semantic model. The report is in a different workspace, and the semantic model is shared with that workspace.
+
+Perform data source impact analysis
+Data source impact analysis helps you see where your data source is being used throughout your organization. This can be useful when the data source is temporarily or permanently taken offline, and you want to get an idea about who is impacted.
+Similar to semantic model impact analysis, you can select the impact analysis button on the data source card.
