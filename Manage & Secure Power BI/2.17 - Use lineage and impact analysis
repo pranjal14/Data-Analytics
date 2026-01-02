@@ -14,3 +14,7 @@ To perform semantic model impact analysis, select the impact analysis button on 
 Perform data source impact analysis
 Data source impact analysis helps you see where your data source is being used throughout your organization. This can be useful when the data source is temporarily or permanently taken offline, and you want to get an idea about who is impacted.
 Similar to semantic model impact analysis, you can select the impact analysis button on the data source card.
+
+Summary
+This module allowed you to take advantage of the following features of Power BI to help you manage your semantic models:
+
