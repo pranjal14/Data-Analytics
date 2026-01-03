@@ -1,0 +1,6 @@
+Introduction
+Power BI provides powerful tools to share and distribute insights across your organization, ensuring the right people have access to the right data at the right time.
+Imagine you're a business analyst responsible for delivering actionable insights to various teams in your organization. You’ve created a set of reports and dashboards that are critical for decision-making, but you’re unsure of the best way to share them securely and effectively. Should you use workspace roles, item-level sharing, or Power BI Apps? How do you ensure your content adheres to governance policies while tracking its usage and performance?
+In this module, you'll explore the different sharing models available in Power BI, including workspace roles, item-level sharing, and Power BI Apps. You'll learn how to create, update, and manage Power BI Apps, configure audiences, and apply data governance principles such as endorsing content and applying sensitivity labels. Additionally, you'll discover how to track reports and dashboards by subscribing to them, and monitoring usage metrics.
+By the end of this module, you'll be able to confidently choose the right content distribution method in Power BI, ensuring secure, effective, and governed sharing of insights across your organization.
+
