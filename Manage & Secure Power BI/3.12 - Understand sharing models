@@ -2,3 +2,4 @@ Data analysts often need to share Power BI content with different audiences whil
 In this unit, you'll explore how sharing in Power BI Service can help you manage access to reports, dashboards, and semantic models effectively. For example, a retail company might use workspace roles to collaborate internally, share specific reports with external partners through item-level sharing, and distribute curated content to a broader audience in the company using Power BI Apps.
 
 Workspace roles
+Power BI Service provides four distinct workspace roles: Viewer, Contributor, Member, and Admin. These roles determine the level of access and permissions a user has within a workspace. It's important to note that workspace roles operate on an all-or-nothing basis, meaning that users with access to a workspace can view or interact with all the reports, dashboards, and semantic models within it. You cannot selectively exclude specific items from being shared when using this approach.
