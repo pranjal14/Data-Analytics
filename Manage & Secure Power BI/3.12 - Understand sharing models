@@ -3,3 +3,6 @@ In this unit, you'll explore how sharing in Power BI Service can help you manage
 
 Workspace roles
 Power BI Service provides four distinct workspace roles: Viewer, Contributor, Member, and Admin. These roles determine the level of access and permissions a user has within a workspace. It's important to note that workspace roles operate on an all-or-nothing basis, meaning that users with access to a workspace can view or interact with all the reports, dashboards, and semantic models within it. You cannot selectively exclude specific items from being shared when using this approach.
+
+Viewer
+The Viewer role is the most restrictive role in a workspace. Users with this role can only view and interact with the content, such as reports and dashboards, but cannot make any changes. This role is ideal for stakeholders who need to consume data without modifying it.
