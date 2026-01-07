@@ -7,3 +7,5 @@ Power BI Service provides four distinct workspace roles: Viewer, Contributor, Me
 Viewer
 The Viewer role is the most restrictive role in a workspace. Users with this role can only view and interact with the content, such as reports and dashboards, but cannot make any changes. This role is ideal for stakeholders who need to consume data without modifying it.
 This is also the only role where Row-Level Security (RLS) will be enforced. RLS ensures that users can only view the data they are authorized to see, based on the security rules defined in the dataset. This makes the Viewer role particularly useful for scenarios where sensitive or restricted data needs to be shared securely.
+
+Contributor
