@@ -9,3 +9,4 @@ The Viewer role is the most restrictive role in a workspace. Users with this rol
 This is also the only role where Row-Level Security (RLS) will be enforced. RLS ensures that users can only view the data they are authorized to see, based on the security rules defined in the dataset. This makes the Viewer role particularly useful for scenarios where sensitive or restricted data needs to be shared securely.
 
 Contributor
+The Contributor role allows users to create, edit, and delete content within the workspace, such as reports and semantic models. However, Contributors cannot manage workspace settings or assign roles to others. This role is suitable for team members who actively develop and maintain Power BI content.
