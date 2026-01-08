@@ -10,3 +10,7 @@ This is also the only role where Row-Level Security (RLS) will be enforced. RLS 
 
 Contributor
 The Contributor role allows users to create, edit, and delete content within the workspace, such as reports and semantic models. However, Contributors cannot manage workspace settings or assign roles to others. This role is suitable for team members who actively develop and maintain Power BI content.
+
+Member
+The Member role provides all the permissions of a Contributor, with the added ability to manage workspace settings and assign roles to others. Members can also publish apps from the workspace, making this role ideal for team leads or power users who need more control over the workspace.
+
