@@ -17,3 +17,7 @@ The Member role provides all the permissions of a Contributor, with the added ab
 Admin
 The Admin role grants full control over the workspace. Admins can perform all actions, including managing permissions, deleting the workspace, and assigning roles. This role is typically reserved for workspace owners or IT administrators who oversee the workspace's overall management.
 Workspace roles can be assigned to individuals, security groups, Microsoft 365 groups, and distribution lists, making it easy to manage access for large teams or organizations.
+
+Item level sharing
+Item-level sharing in Power BI Service provides a more granular approach to sharing content compared to workspace roles. While workspace roles grant access to all items within a workspace, item-level sharing allows you to share specific reports or dashboards with selected individuals or groups. This method is particularly useful when you want to maintain tighter control over who can access sensitive or restricted content.
+When you share a report or dashboard, recipients can view and interact with the content but cannot edit it. Additionally, they gain access to the underlying semantic model unless Row-Level Security (RLS) is applied. RLS ensures that users only see the data they are authorized to view, adding an extra layer of security for sensitive datasets.
