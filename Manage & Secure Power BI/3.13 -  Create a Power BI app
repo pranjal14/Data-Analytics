@@ -3,3 +3,7 @@ Here, you'll explore the steps to create and publish Power BI apps, update or de
 
 Create, update, delete
 To create, update, or unpublish a Power BI app, follow these steps:
+Create a Power BI App
+Set up the app: In the workspace, select Create app. Provide a name, description, and optional theme color. Add a support site link and contact information if needed.
+Add content: On the Content tab, select Add content to include dashboards, reports, or other items from the workspace. Arrange the content in the desired order.
+Publish the app: Once the setup and content are finalized, click Publish app. A shareable link will be generated for distribution.
