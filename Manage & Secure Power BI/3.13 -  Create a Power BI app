@@ -1,3 +1,5 @@
 Organizations often rely on Power BI apps to distribute insights securely and efficiently to various teams. Imagine you're part of a team responsible for delivering data insights to both the sales and marketing departments. Each department requires access to specific dashboards and reports relevant to their goals. By mastering app management and audience customization, you'll ensure that every team gets the right data while maintaining control over access and visibility.
 Here, you'll explore the steps to create and publish Power BI apps, update or delete existing apps, and configure multiple audiences to streamline content distribution.
 
+Create, update, delete
+To create, update, or unpublish a Power BI app, follow these steps:
