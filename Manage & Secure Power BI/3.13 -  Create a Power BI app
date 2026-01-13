@@ -12,3 +12,8 @@ Update a Power BI App
 Open the workspace: Navigate to the workspace associated with the app. Select the Edit app pencil icon.
 Make changes: Modify the app's content, setup, or other settings as needed. Changes remain in the workspace until republished.
 Republish the app: Select Update app to apply the changes. Users with access will automatically see the updated version.
+
+Unpublish a Power BI App
+Unpublish the app: In the workspace, select More options (...) > Unpublish app.
+Note:
+Impact of unpublishing: This action removes the app from all users and deletes their customizations, such as bookmarks and comments. The workspace and its contents remain intact.
