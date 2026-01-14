@@ -20,3 +20,6 @@ Impact of unpublishing: This action removes the app from all users and deletes t
 
 Audiences
 Audiences in Power BI apps allow you to tailor the content visibility and access for different groups of users within your organization. This feature is particularly useful when you need to distribute specific dashboards, reports, or other content to distinct teams or departments while maintaining centralized control over permissions and visibility.
+
+What is an Audience in Power BI Apps?
+An audience in Power BI apps is a defined group of users who have access to a specific subset of content within an app. By creating multiple audiences, you can customize which content is visible to each group, ensuring that users only see the data relevant to their roles or responsibilities. For example, you might create separate audiences for sales, marketing, and finance teams, each with access to different reports and dashboards.
