@@ -17,3 +17,6 @@ Unpublish a Power BI App
 Unpublish the app: In the workspace, select More options (...) > Unpublish app.
 Note:
 Impact of unpublishing: This action removes the app from all users and deletes their customizations, such as bookmarks and comments. The workspace and its contents remain intact.
+
+Audiences
+Audiences in Power BI apps allow you to tailor the content visibility and access for different groups of users within your organization. This feature is particularly useful when you need to distribute specific dashboards, reports, or other content to distinct teams or departments while maintaining centralized control over permissions and visibility.
