@@ -34,3 +34,8 @@ Create an Audience Group: On the Audience tab during app creation or editing, se
 Customize Content Visibility: Use the hide/show icons next to each item in the workspace to determine what content is visible to the audience. Hidden content won't appear in the app for that audience unless explicitly allowed via advanced settings.
 Assign Users or Groups: In the Manage audience access pane, specify the users or groups who should belong to the audience. You can also configure advanced permissions, such as allowing users to share or build content with semantic models.
 Publish the App: Once the audiences and their content visibility are configured, publish the app. Users will see only the content assigned to their respective audience groups.
+
+Note
+To create or update an app, you need a Power BI Pro or Premium Per User (PPU) license. For app users:
+If the workspace for this app is not in a Power BI Premium capacity, all users need Power BI Pro or PPU licenses to view the app.
+If the workspace is in a Power BI Premium capacity (F64 or higher Fabric capacity), users without Pro or PPU licenses can view the app content, but they cannot copy reports or create reports based on the underlying semantic models.
