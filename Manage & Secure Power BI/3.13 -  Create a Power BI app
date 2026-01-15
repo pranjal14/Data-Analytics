@@ -26,3 +26,11 @@ An audience in Power BI apps is a defined group of users who have access to a sp
 
 Why Use Audiences?
 Using audiences simplifies content management and enhances security. Instead of creating multiple apps or workspaces for different teams, you can manage all content within a single app and control visibility at the audience level.
+
+How to Use Audiences
+To set up audiences in a Power BI app:
+
+Create an Audience Group: On the Audience tab during app creation or editing, select New Audience and name the group.
+Customize Content Visibility: Use the hide/show icons next to each item in the workspace to determine what content is visible to the audience. Hidden content won't appear in the app for that audience unless explicitly allowed via advanced settings.
+Assign Users or Groups: In the Manage audience access pane, specify the users or groups who should belong to the audience. You can also configure advanced permissions, such as allowing users to share or build content with semantic models.
+Publish the App: Once the audiences and their content visibility are configured, publish the app. Users will see only the content assigned to their respective audience groups.
