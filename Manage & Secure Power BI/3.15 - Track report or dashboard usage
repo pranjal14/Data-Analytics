@@ -9,3 +9,6 @@ Monitoring and tracking usage metrics and performance in Power BI is essential f
 Usage metrics reports provide detailed information about report views, unique viewers, and performance trends. For example, you can track how often a report is accessed, the number of unique users interacting with it, and the typical time it takes to load. These metrics help you identify high-performing reports and pinpoint potential bottlenecks or areas for improvement. Additionally, slicing the data by distribution method or platform can reveal how users are accessing your content, whether through the Power BI service, mobile devices, or embedded applications.
 
 Performance metrics are equally important, as they highlight the user experience when interacting with your reports. By analyzing opening times and performance trends, you can detect issues such as slow load times or browser-specific challenges. Addressing these issues ensures a smoother experience for your users, which can lead to increased adoption
+
+
+Summary
