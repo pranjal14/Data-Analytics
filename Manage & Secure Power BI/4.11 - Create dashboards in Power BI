@@ -6,3 +6,6 @@ Dashboards vs. reports
 The Power BI dashboard is similar to a dashboard in a car - you want to have the most important information for the consumer to see immediately. For additional insights, consumers can follow through to the corresponding report.
 Dashboards are often the next step after building your reports in Power BI Desktop. Consider the following differences when deciding how to create reports and dashboards:
 
+Get started with dashboards
+Dashboards are created by pinning report visuals, and are then called tiles within reports. When you make changes to the visuals in the report, and then republish to Power BI Service, changes are reflected on the dashboard.
+First log into the Power BI service and navigate to a workspace with reports. Open a report and in the visual header, select the Pin Visual icon. You can choose to pin this visual to a new or existing dashboard.
