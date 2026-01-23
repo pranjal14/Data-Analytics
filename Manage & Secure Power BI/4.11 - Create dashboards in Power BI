@@ -11,3 +11,5 @@ Dashboards are created by pinning report visuals, and are then called tiles with
 First log into the Power BI service and navigate to a workspace with reports. Open a report and in the visual header, select the Pin Visual icon. You can choose to pin this visual to a new or existing dashboard.
 
 Pin a tile from a different report
+One of biggest benefits of a dashboard is being able to pin a visual that is sourced from a different semantic model. In the following image, we show two separate tiles pinned from different reports.
+
