@@ -9,3 +9,5 @@ Dashboards are often the next step after building your reports in Power BI Deskt
 Get started with dashboards
 Dashboards are created by pinning report visuals, and are then called tiles within reports. When you make changes to the visuals in the report, and then republish to Power BI Service, changes are reflected on the dashboard.
 First log into the Power BI service and navigate to a workspace with reports. Open a report and in the visual header, select the Pin Visual icon. You can choose to pin this visual to a new or existing dashboard.
+
+Pin a tile from a different report
