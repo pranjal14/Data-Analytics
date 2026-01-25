@@ -1,2 +1,6 @@
 Configuring data alerts is a simple process to complete for a dashboard in Power BI. Data alerts can notify you or a user that a specific data point is above, below, or at a specific threshold that you can set.
 
+Configure alerts
+These alerts are features that are only available on Power BI service and they're available on such report elements such as KPI visuals, gauges, and cards.
+After you have uploaded your reports to Power BI service and have pinned your chosen visuals to a dashboard, select the ellipsis (...) in the corner of the tile you want to set an alert for and then select Manage Alerts.
+
