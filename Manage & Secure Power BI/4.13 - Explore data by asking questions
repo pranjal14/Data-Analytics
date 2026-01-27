@@ -1,3 +1,7 @@
 Power BI dashboards are about having a user-friendly experience. When users first interact with data, they often have additional questions and reach out to you. A few questions might be manageable to answer, but this isn't sustainable.
 
 Power BI solves this problem with the Q&A visual. From the dashboard view, users can use the Ask a question about your data feature, which increases engagement between users and the dashboard.
+
+Q&A feature
+The Q&A feature is a tool within Power BI Desktop that allows you to ask natural-language questions about the data.
+To locate the Q&A feature, go to your dashboard in Power BI service. Along the top ribbon is the Ask a question about your data search box. Some prompts are also available to help get you started.
