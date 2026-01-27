@@ -5,3 +5,11 @@ Power BI solves this problem with the Q&A visual. From the dashboard view, users
 Q&A feature
 The Q&A feature is a tool within Power BI Desktop that allows you to ask natural-language questions about the data.
 To locate the Q&A feature, go to your dashboard in Power BI service. Along the top ribbon is the Ask a question about your data search box. Some prompts are also available to help get you started.
+
+The Q&A visual consists of three main elements:
+
+Question box: Use natural language to ask questions about the data. Example: What were the average sales amount by category?
+
+Pre-populated suggestion tiles: Questions to help users consider how to phrase their questions. Example, top product category names by march sales tile results as a bar chart with category name and March sales.
+
+Pin visual: Pin the visual created with Q&A to a new or existing dashboard.
