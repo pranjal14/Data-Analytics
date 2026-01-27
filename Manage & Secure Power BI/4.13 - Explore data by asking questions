@@ -13,3 +13,5 @@ Question box: Use natural language to ask questions about the data. Example: Wha
 Pre-populated suggestion tiles: Questions to help users consider how to phrase their questions. Example, top product category names by march sales tile results as a bar chart with category name and March sales.
 
 Pin visual: Pin the visual created with Q&A to a new or existing dashboard.
+
+With the Q&A feature, users can interact directly with the visual to ask their data questions, which will increase their interactions with the visual and save time.
