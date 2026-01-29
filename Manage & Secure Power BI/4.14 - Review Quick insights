@@ -4,4 +4,6 @@ This feature is available in the Power BI service only. Also, this feature doesn
 
 Get quick insights on your semantic model
 To get quick insights on your semantic model, open your Power BI service and workspace, locate your report, and select the ... > Quick insights.
+Power BI uses various algorithms to search for trends in your semantic model. This process might take a few seconds, but you receive a pop-up message when the insights are ready.
 
+Select View insights to open the Quick Insights page for the selected semantic model, and then view the insights that Power BI has found for you. The Quick Insights page contains up to 40 separate insight cards, and each card has a chart or graph plus a short description.
