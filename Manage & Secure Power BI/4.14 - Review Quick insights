@@ -1,3 +1,7 @@
 The Quick insights feature in Power BI uses machine learning algorithms to go over your entire semantic model and produce insights (results) for you quickly. This feature is a great way to build dashboards when you don't know where to start. It also helps you find insights you might have missed when building your reports. From the insights that Power BI discovers, you can generate appealing, interactive visualizations.
 Note
 This feature is available in the Power BI service only. Also, this feature doesn't work with DirectQuery; it only works with data that is imported to Power BI.
+
+Get quick insights on your semantic model
+To get quick insights on your semantic model, open your Power BI service and workspace, locate your report, and select the ... > Quick insights.
+
