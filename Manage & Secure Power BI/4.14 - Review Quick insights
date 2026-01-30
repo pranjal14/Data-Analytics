@@ -13,3 +13,12 @@ If you see a compelling insight card, you can even pin it to your dashboard.
 
 To take a closer look at a particular insight card on the Quick Insights page, select an insight card to open. The insight screen opens in Focus mode.
 
+You can then perform the following actions:
+
+Filter the visualization by using the available options in the Filters panel.
+
+Pin the insight card to a dashboard by selecting Pin visual.
+
+Run insights on the card (scoped insights) by selecting Get insights in the upper-right corner. The scoped insights allow you to drill into your data.
+
+Return to the original insights canvas by selecting Exit Focus mode in the upper-left corner.
