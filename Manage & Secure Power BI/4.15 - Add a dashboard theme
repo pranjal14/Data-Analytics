@@ -1,3 +1,6 @@
 When building dashboards, you can create a cohesive picture by applying the same theme as in your reports. Or apply a specific theme to reports and dashboards so that all report elements or tiles are uniform.
 
 This consideration is important when you're building multiple dashboards. Power BI provides options to apply a theme directly to a dashboard as well as all visuals of a report.
+
+Themes in Power BI
+Various themes are available for use in Power BI service. Go to a dashboard, select the edit dropdown arrow, and then select Dashboard theme.
