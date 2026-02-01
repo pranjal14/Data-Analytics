@@ -4,3 +4,4 @@ This consideration is important when you're building multiple dashboards. Power 
 
 Themes in Power BI
 Various themes are available for use in Power BI service. Go to a dashboard, select the edit dropdown arrow, and then select Dashboard theme.
+This selection will open a window, where you can choose from various themes, including Light (the default theme), Dark, Color-blind friendly, and Custom, where you can create your own theme. You can also upload your own JSON theme or download the current theme.
