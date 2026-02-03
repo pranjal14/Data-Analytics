@@ -11,3 +11,6 @@ Any changes that you make to the underlying report automatically show on the das
 To pin an entire page, select the ellipsis (...) on the navigation bar of the report and then select Pin to a dashboard > (Select dashboard) > Pin live.
 
 
+Tip
+
+Dashboards are intended to be a collection from various sources, not just as a "launching pad" for reports. We recommend that you pin at the tile level first and foremost, and if needed, the entire report page can also be pinned. Seeing an entire report page in a dashboard tile can be difficult.
