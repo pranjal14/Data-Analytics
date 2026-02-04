@@ -1,1 +1,3 @@
+Power BI reports are built in Power BI Desktop and then deployed to Power BI service, where they can be viewed and shared. However, if you're building dashboards for your organization and need reports and dashboards viewable on mobile devices, Power BI offers a mobile layout configuration to meet your needs.
 
+To navigate to mobile view in Power BI Desktop, select View on the ribbon and then select Mobile Layout, which will redirect you to the mobile view, as shown in the following figure.
