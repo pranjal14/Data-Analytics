@@ -4,3 +4,4 @@ To navigate to mobile view in Power BI Desktop, select View on the ribbon and th
 n the mobile view in Power BI Desktop, you're able to accomplish several tasks. The mobile view shows you how it will look to users in the Power BI Mobile app. You can add visuals, resize them, and change the formatting. Use the grid view to orient your visuals with more ease and overlay visuals on top of each other. This feature can be useful if you want to insert a visual on top of an image.
 
 Alternatively, you can also optimize your dashboards for mobile view in Power BI service. To see a dashboard in mobile view, select the Edit drop down arrow on the home ribbon and select Mobile layout. Then you can choose which tiles that you want to see on the mobile view.
+ou can also resize and reorient the tiles and visuals in whichever order you want. When you're satisfied with the phone dashboard layout, switch back to web view by selecting Web layout in the top menu.
