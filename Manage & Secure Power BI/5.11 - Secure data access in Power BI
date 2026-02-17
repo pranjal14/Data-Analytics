@@ -1,1 +1,9 @@
+Introduction
 
+Imagine you work for Tailspin Traders, a company that maintains a database of sales, products, and employee information. You want to create a single report where employees in a specific department can only view the sales data relevant to their department.
+
+Instead of creating and managing separate reports for each department, you can use Row Level Security (RLS) in Power BI. RLS allows you to control access to data at the row level, ensuring that users only see data pertinent to their role. This approach not only simplifies report management but also enhances data security and compliance.
+
+There are several ways to implement RLS in Power BI. The Static method is suitable for a small number of roles that rarely change. The Dynamic method is better for a large number of roles that change frequently. Alternatively, you can use single sign-on (SSO) for some data sources that use Direct Query, enforcing data permissions at the data source level.
+
+Additionally, you can use Object-level security (OLS) to restrict access to specific tables and columns like employee salaries or personal information. This method is useful when you need to restrict access to sensitive data at the object level.
