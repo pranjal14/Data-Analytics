@@ -1,1 +1,11 @@
+As a data modeler, you set up RLS by creating one or more roles. A role has a unique name in the model, and it usually includes one or more rules. Rules enforce filters on model tables by using Data Analysis Expressions (DAX) filter expressions.
 
+The static method in row-level security (RLS) uses a fixed value in the DAX filter, while the dynamic method uses a DAX function.
+
+ Note
+
+By default, a data model has no roles. A data model without roles means that users (who have permission to query the data model) have access to all model data.
+
+It's possible to define a role that includes no rules. In this case, the role provides access to all rows of all model tables. This role set up would be suitable for an admin user who is allowed to view all data.
+
+RLS involves several configuration steps. Begin by creating a report in Microsoft Power BI Desktop, which includes importing data, applying star schema design principles, and creating report visuals. Then, set up RLS roles using DAX and test them within Power BI Desktop. Once the roles are configured, deploy the report to Microsoft Power BI service, add members to the roles, and conduct final testing in the Power BI service.
