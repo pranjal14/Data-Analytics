@@ -14,3 +14,4 @@ Create a report in Power BI Desktop
 Follow the typical steps to create a report in Power BI Desktop. Use Microsoft Power Query to retrieve and clean the data. Then, confirm that the relationships exists between the tables by using the Modeling tab. We recommend you apply star schema design principles to produce a model comprising dimension and fact tables. It’s common to set up Power BI to enforce rules that filter dimension tables, allowing model relationships to efficiently propagate those filters to fact tables.
 
 Your next step is to create a Power BI report.
+Notice how the preceding table has rows for all sales, including all departments. You will be limiting visibility so that only employees of a specific department can see their own sales.
