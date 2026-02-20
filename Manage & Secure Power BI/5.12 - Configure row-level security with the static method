@@ -15,3 +15,10 @@ Follow the typical steps to create a report in Power BI Desktop. Use Microsoft P
 
 Your next step is to create a Power BI report.
 Notice how the preceding table has rows for all sales, including all departments. You will be limiting visibility so that only employees of a specific department can see their own sales.
+
+Create RLS roles in Power BI Desktop
+Power BI row-level security (RLS) uses DAX to control who can see which data. Consider it as always adding another filter to the appropriate users, regardless of the filters, slicers, or interactions that the users choose on a Power BI report.
+
+To create RLS roles in Power BI Desktop, select the Modeling tab, and then select Manage Roles. On the Manage security roles page, create a role for each department, and then add a filter or DAX expression to it. For instance, you can create a role called Game and then add the filter or DAX expression [Department] = "Game". Then, whenever a member of that role interacts with the report, Power BI will add that filter to their interactions, thus limiting what they see.
+
+A fixed value is used in the filter on the right side of the equal sign (in this case, "Game"). The intention is that, if you ever need to add a category, you will need to create a new role with a new value in the DAX expression.
