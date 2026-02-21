@@ -23,3 +23,6 @@ To create RLS roles in Power BI Desktop, select the Modeling tab, and then selec
 
 A fixed value is used in the filter on the right side of the equal sign (in this case, "Game"). The intention is that, if you ever need to add a category, you will need to create a new role with a new value in the DAX expression.
 The DAX filter is applied to every interaction, slicer, and filter that the user applies. If you have a DAX filter that performs poorly, the user experience will be negatively impacted. Therefore, keep the DAX filter as simple as possible.
+
+est the roles in Power BI Desktop
+You can validate that the filter is working by selecting the Modeling tab and then selecting View as Roles.
