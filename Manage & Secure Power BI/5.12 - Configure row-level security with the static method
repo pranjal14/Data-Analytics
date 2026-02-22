@@ -30,3 +30,6 @@ You can validate that the filter is working by selecting the Modeling tab and th
 In the View as roles window, select the Game role. The report now renders as if you were in that role, and you will only see the records that are included in the Game department.
 
 You can undo this filter by selecting View as roles again and then selecting None.
+
+Deploy the report to Power BI service
+You can deploy the report to Power BI service by selecting the Publish button on the Home tab and then selecting a workspace.
