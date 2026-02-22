@@ -33,3 +33,9 @@ You can undo this filter by selecting View as roles again and then selecting Non
 
 Deploy the report to Power BI service
 You can deploy the report to Power BI service by selecting the Publish button on the Home tab and then selecting a workspace.
+
+Add members to the role in Power BI service
+To add members to the role in Power BI service, go to your workspace in Power BI service. Find the semantic model that you created with the same name as your report. Select the ellipsis (...) button and then select Security.
+
+In the Row-Level Security screen, you can add Microsoft Entra ID users and security groups to the security role. When members are added to this role, the DAX filter that you previously defined will be applied to them. If members are not added to the role, but they have access to the report, RLS will not apply to them. You can add the three people in the Game department to the Game role. Now, when those members sign in, they will only see the report with data that applies to them.
+
