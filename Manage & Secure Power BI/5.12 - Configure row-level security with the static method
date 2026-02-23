@@ -42,3 +42,7 @@ In the Row-Level Security screen, you can add Microsoft Entra ID users and secur
 Note
 
 RLS only applies to viewers in a workspace. Workspace members assigned Admin, Member, or Contributor roles have edit permissions for the semantic model, and therefore, RLS does not apply to them
+
+Tip
+
+When possible, it’s a good practice to map roles to security groups. That way, there will be fewer mappings, and you can delegate the group membership management to the network administrators.
