@@ -46,3 +46,8 @@ RLS only applies to viewers in a workspace. Workspace members assigned Admin, Me
 Tip
 
 When possible, it’s a good practice to map roles to security groups. That way, there will be fewer mappings, and you can delegate the group membership management to the network administrators.
+
+Test the roles in Power BI service
+Testing roles in Power BI service allows you to simulate and verify that the row-level security (RLS) configurations are working as intended. Select the ellipsis (...) next to the Game role on the Row-Level Security screen and then selecting Test as role.
+
+This selection will display the report as if you were a member of the role in Power BI service.
