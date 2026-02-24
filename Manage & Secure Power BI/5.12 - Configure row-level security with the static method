@@ -51,3 +51,4 @@ Test the roles in Power BI service
 Testing roles in Power BI service allows you to simulate and verify that the row-level security (RLS) configurations are working as intended. Select the ellipsis (...) next to the Game role on the Row-Level Security screen and then selecting Test as role.
 
 This selection will display the report as if you were a member of the role in Power BI service.
+Now that you understand how to configure RLS with the static method, let’s explore how to do it dynamically.
