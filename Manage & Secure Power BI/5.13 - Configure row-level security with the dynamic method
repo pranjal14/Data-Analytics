@@ -1,1 +1,9 @@
+Defining static rules is simple and effective. However, be aware of disadvantages: setting up static rules can involve significant effort to create and set up. It would also require you to update and republish the dataset when new regions or departments are onboarded.
+
+If there are many rules to set up and you anticipate adding new rules in the future, consider creating dynamic rules instead, without the need to continue maintaining it dynamically.
+
+Defining dynamic rules is simple and effective when a model table stores username or email address values. They allow you to enforce a data-driven RLS design. For example, when salespeople are added to, or removed from, the Employees table (or are assigned to different regions), this design approach just works.
+
+As the admin at Tailwind Traders, you want Power BI row-level security to only show sales to the person who made them. In this example, Russel King has made four sales. When viewing your report, Russel should only see the sales that he's responsible for and no other sales. You can configure row-level security exactly the way you configured it previously, with only a single change. Instead of creating four roles, you only need to create one role. The DAX filter for that role would look similar to the following image.
+
 
