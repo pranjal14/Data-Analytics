@@ -7,3 +7,10 @@ Defining dynamic rules is simple and effective when a model table stores usernam
 As the admin at Tailwind Traders, you want Power BI row-level security to only show sales to the person who made them. In this example, Russel King has made four sales. When viewing your report, Russel should only see the sales that he's responsible for and no other sales. You can configure row-level security exactly the way you configured it previously, with only a single change. Instead of creating four roles, you only need to create one role. The DAX filter for that role would look similar to the following image.
 
 
+Notice that instead of the fixed string, such as Game or Clothing, this uses a DAX function in the row-level security filter. The userprincipalname() function will compare the email address from the Employees table with the email that the user entered when signing in to Power BI service. If Russel King uses the email address russel@tailwindtraders.com to sign in to Power BI service, the system will compare that value to the email address in the Employees table. Assuming that a relationship has been created between Employees and Sales, Russel will only see his four sales.
+
+There are three specific DAX functions:
+
+USERNAME or USERPRINCIPALNAME – Returns the Power BI authenticated user as a text value.
+
+CUSTOMDATA - Returns the CustomData property passed in the connection string. Non-Power BI reporting tools that connect to the dataset by using a connection string can set this property, like Microsoft Excel.
