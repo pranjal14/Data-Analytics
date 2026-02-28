@@ -14,3 +14,7 @@ There are three specific DAX functions:
 USERNAME or USERPRINCIPALNAME – Returns the Power BI authenticated user as a text value.
 
 CUSTOMDATA - Returns the CustomData property passed in the connection string. Non-Power BI reporting tools that connect to the dataset by using a connection string can set this property, like Microsoft Excel.
+
+Note
+
+Be aware that the USERNAME function returns the user in the format of DOMAIN\username when used in Power BI Desktop. However, when used in the Power BI service, it returns the format of the user's User Principal Name (UPN), like username@adventureworks.com. Alternatively, you can use the USERPRINCIPALNAME function, which always returns the user in the user principal name format.
