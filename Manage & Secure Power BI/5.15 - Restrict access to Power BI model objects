@@ -2,3 +2,11 @@
 As a data modeler, you can consider restricting user access to Power BI model objects. Object-level security (OLS) can restrict access to specific tables and columns, and their metadata. Typically, you apply OLS to secure objects that store sensitive data, like employee personal data.
 
 Consider an example at Tailspin Traders. This organization has a data warehouse dimension table named DimEmployee. The table includes columns that store employee name, phone, email address, and salary. While general report consumers can see employee name and contact details, they must not be able to see salary values. Only senior Human Resources staff are permitted to see salary values. So, the data modeler used OLS to grant access to the salary column only to specific Human Resources staff.
+
+Set up OLS
+To set up OLS, you start by creating roles. You can create roles in Power BI Desktop in the same way you do when setting up RLS. Next, you need to add OLS rules to the roles. This capability isn’t supported by Power BI Desktop, so you’ll need to take a different approach, for example by using the TMDL view for Power BI Desktop (currently in preview). This feature lets you script, modify, and apply changes using Tabular Model Definition Language (TMDL), providing an alternative experience to semantic modeling using code, instead of a graphical user interface such as Model view.
+
+To turn on this public preview feature, go to File > Options and settings > Options > Preview features and check the box next to TMDL View.
+
+Once the preview feature is enabled, the TMDL view tab will appear on the left side of the Power BI Desktop window:
+
