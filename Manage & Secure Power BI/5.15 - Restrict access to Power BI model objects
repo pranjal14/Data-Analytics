@@ -11,3 +11,6 @@ To turn on this public preview feature, go to File > Options and settings > Opti
 Once the preview feature is enabled, the TMDL view tab will appear on the left side of the Power BI Desktop window:
 
 When first opening TMDL view, the code editor will be empty, you can script any semantic model object such as table, measure, column or role by selecting the objects from the Data pane (you can find the Role in the Model view) and dragging them into the code editor.
+
+
+By default, all model tables and columns aren’t restricted. You can set them to None or Read. When set to None, users associated with the role can’t access the object. When set to Read, users associated with the role can access the object. When you’re restricting specific columns, ensure the table isn’t set to None.
