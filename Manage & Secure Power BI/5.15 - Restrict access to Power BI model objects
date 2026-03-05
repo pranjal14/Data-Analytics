@@ -14,3 +14,6 @@ When first opening TMDL view, the code editor will be empty, you can script any 
 
 
 By default, all model tables and columns aren’t restricted. You can set them to None or Read. When set to None, users associated with the role can’t access the object. When set to Read, users associated with the role can access the object. When you’re restricting specific columns, ensure the table isn’t set to None.
+When you’re ready, you can select the Apply button to execute the TMDL script against the semantic model and have your TMDL code changes applied in a single step.
+
+Once you’ve added the OLS rules, you can publish the model to the Power BI service. Use the same process for RLS to map accounts and security groups to the roles.
