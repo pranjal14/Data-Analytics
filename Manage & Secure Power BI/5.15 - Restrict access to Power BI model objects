@@ -17,3 +17,6 @@ By default, all model tables and columns aren’t restricted. You can set them t
 When you’re ready, you can select the Apply button to execute the TMDL script against the semantic model and have your TMDL code changes applied in a single step.
 
 Once you’ve added the OLS rules, you can publish the model to the Power BI service. Use the same process for RLS to map accounts and security groups to the roles.
+
+Considerations
+In a Power BI report, when a user doesn’t have permission to access a table or column, they'll receive an error message. The message will inform them that the object doesn’t exist.
