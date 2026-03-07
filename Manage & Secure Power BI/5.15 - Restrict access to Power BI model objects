@@ -21,3 +21,8 @@ Once you’ve added the OLS rules, you can publish the model to the Power BI ser
 Considerations
 In a Power BI report, when a user doesn’t have permission to access a table or column, they'll receive an error message. The message will inform them that the object doesn’t exist.
 Consider carefully whether OLS is the right solution for your project. When a user opens a Power BI report that queries a restricted object (for them), the error message could be confusing and will result in a negative experience. To them, it looks like the report is broken. A better approach might be to create a separate set of models or reports for the different report consumer requirements.
+
+Restrictions
+There are restrictions to be aware of when implementing OLS.
+
+Row-level security and object-level security cannot be combined from different roles because it could introduce unintended access to secured data. Also, you can’t set table-level security if it breaks a relationship chain. For example, if there are relationships between tables A and B, and B and C, you can't secure table B. If table B is secured, a query on table A can't transit the relationships between table A and B, and B and C. In this case, you could set up a separate relationship between tables A and C.
