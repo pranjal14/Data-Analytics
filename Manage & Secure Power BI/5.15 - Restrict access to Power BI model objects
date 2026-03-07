@@ -26,3 +26,7 @@ Restrictions
 There are restrictions to be aware of when implementing OLS.
 
 Row-level security and object-level security cannot be combined from different roles because it could introduce unintended access to secured data. Also, you can’t set table-level security if it breaks a relationship chain. For example, if there are relationships between tables A and B, and B and C, you can't secure table B. If table B is secured, a query on table A can't transit the relationships between table A and B, and B and C. In this case, you could set up a separate relationship between tables A and C.
+However, model relationships that reference a secured column will work, providing that the column’s table isn’t secured.
+
+Lastly, while it isn’t possible to secure measures, a measure that references secured objects is automatically restricted.
+
