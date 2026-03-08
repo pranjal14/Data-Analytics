@@ -33,3 +33,10 @@ Lastly, while it isn’t possible to secure measures, a measure that references 
 Summary
 
 This module described row-level security (RLS), the ability in Power BI to limit what a user sees on a specific report. RLS targets the data to a specific user, for instance, only allowing a manager to see the salary of their direct reports. RLS is implemented with a combination of Power BI Desktop and Power BI service.
+To implement RLS, you can create a DAX formula that restricts their data access, which makes RLS versatile. You can use DAX to indicate that someone can only see records in the United States or sales transactions that are below a certain dollar amount. This programmatic approach means that RLS can be used in a variety of solutions.
+
+After you have created the DAX formula in a specific security role, you can deploy the report and then add users to that role.
+
+When you develop a DirectQuery model for data sources that support SSO, Power BI can leverage the data source RLS. In this case, as a data modeler, you don’t need to create model roles.
+
+RLS is an effortlessly implemented, powerful security feature of Power BI.
